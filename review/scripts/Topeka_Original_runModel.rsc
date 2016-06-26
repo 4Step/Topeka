@@ -176,6 +176,8 @@ year = 10
      Opts.Global.[Expression Text] = "[Shortest].[[1]]* [[Travel Time] (Skim)]"
      Opts.Global.[Formula Labels] = {"Shortest"}
      Opts.Global.[Force Missing] = "Yes"
+     ret_value = RunMacro("TCB Run Operation", 1, "Fill Matrices", Opts)
+     if !ret_value then goto quit
 */
      Opts = null
      Opts.Input.[Matrix Currency] = {ProjectPath+"\\SPMAT.mtx", "[Travel Time]", "External", "External"}
@@ -184,14 +186,10 @@ year = 10
      Opts.Global.[Cell Range] = 2
      Opts.Global.[Matrix Range] = 1
      Opts.Global.[Matrix List] = {"[Travel Time]", "[Travel Time] (Skim)"}
-
-     ret_value = RunMacro("TCB Run Operation", "Fill Matrices", Opts, &Ret)
-
+     ret_value = RunMacro("TCB Run Operation", "Fill Matrices", Opts)
      if !ret_value then goto quit
 
-     ret_value = RunMacro("TCB Run Operation", 1, "Fill Matrices", Opts)
 
-     if !ret_value then goto quit
 
 
 // STEP 1: Gravity
