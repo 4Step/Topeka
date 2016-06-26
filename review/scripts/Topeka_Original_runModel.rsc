@@ -120,7 +120,7 @@ year = 10
      Opts.Input.Database = ProjectPath+"\\Topeka Network.DBD"
      Opts.Input.Network = ProjectPath+"\\Highway_Network.net"
      Opts.Input.[Centroids Set] = {ProjectPath+"\\Topeka Network.DBD|Endpoints", "Endpoints", "Selection", "Select * where ZONE>0"}
-     Opts.Input.[Spc Turn Pen Table] = {ProjectPath+"\\35ModelTurnPenalties.bin"}
+     Opts.Input.[Spc Turn Pen Table] = {ProjectPath+"\\TURNPEN.DBF"}
      Opts.Global.[Global Turn Penalties] = {0, 0, 0, -1}
 
 
