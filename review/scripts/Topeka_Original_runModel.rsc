@@ -155,8 +155,20 @@ year = 10
 
      if !ret_value then goto quit
 
-// STEP 3: Zero Out E-E
+
+// STEP 3A: Add Matrix Index
      Opts = null
+     Opts.Input.[Current Matrix] = ProjectPath+"\\SPMAT.mtx"
+     Opts.Input.[Index Type] = "Both"
+     Opts.Input.[View Set] = {ProjectPath+"\\Topeka Network.DBD|Endpoints", "Endpoints", "External Stations", "Select * where [Node Type] = 'External Station'"}
+     Opts.Input.[Old ID Field] = {ProjectPath+"\\Topeka Network.DBD|Endpoints", "ID"}
+     Opts.Input.[New ID Field] = {{ProjectPath+"\\Topeka Network.DBD|Endpoints", "ID"}
+     Opts.Output.[New Index] = "External"
+     ret_value = RunMacro("TCB Run Operation", "Add Matrix Index", Opts)
+     if !ret_value then goto quit
+
+// STEP 3B: Zero Out E-E
+/*     Opts = null
      Opts.Input.[Matrix Currency] = {ProjectPath+"\\SPMAT.mtx", "[Travel Time] (Skim)", , }
      Opts.Input.[Formula Currencies] = {{ProjectPath+"\\SPMAT-Ext.mtx", "[1]", "Origin", "Destination"}}
      Opts.Global.Method = 11
@@ -164,6 +176,18 @@ year = 10
      Opts.Global.[Expression Text] = "[Shortest].[[1]]* [[Travel Time] (Skim)]"
      Opts.Global.[Formula Labels] = {"Shortest"}
      Opts.Global.[Force Missing] = "Yes"
+*/
+     Opts = null
+     Opts.Input.[Matrix Currency] = {ProjectPath+"\\SPMAT.mtx", "[Travel Time]", "External", "External"}
+     Opts.Global.Method = 1
+     Opts.Global.Value = 0
+     Opts.Global.[Cell Range] = 2
+     Opts.Global.[Matrix Range] = 1
+     Opts.Global.[Matrix List] = {"[Travel Time]", "[Travel Time] (Skim)"}
+
+     ret_value = RunMacro("TCB Run Operation", "Fill Matrices", Opts, &Ret)
+
+     if !ret_value then goto quit
 
      ret_value = RunMacro("TCB Run Operation", 1, "Fill Matrices", Opts)
 
