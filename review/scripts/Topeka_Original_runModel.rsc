@@ -291,7 +291,7 @@ year = 10
      ret_value = RunMacro("TCB Run Operation", 1, "Highway Network Setting", Opts)
 
      if !ret_value then goto quit
-
+/*
 // STEP 2: Assignment
      Opts = null
      Opts.Input.Database = ProjectPath+"\\Topeka Network.DBD"
@@ -309,7 +309,37 @@ year = 10
      ret_value = RunMacro("TCB Run Procedure", 2, "Assignment", Opts)
 
      if !ret_value then goto quit
+*/
 
+// TCAD 7 Assignment Method
+    input_path = ProjectPath+"\\"
+    output_path = ProjectPath+"\\"
+    
+    Opts = null
+    Opts.Input.Network = input_path + "Highway_Network.net"
+    Opts.Input.Database = input_path + "Topeka Network.DBD"
+    Opts.Global.[Link to Link Penalty Method] = "Internal"
+    ok = RunMacro("TCB Run Operation", "Network Settings", Opts)
+    if !ok then goto quit
+      
+//  Assignment
+    Opts = null
+    Opts.Input.Database = input_path + "Topeka Network.DBD"
+    Opts.Input.Network = input_path + "Highway_Network.net"
+    Opts.Input.[OD Matrix Currency] = {input_path + "PA2OD.mtx", "Total", , }
+    Opts.Field.[VDF Fld Names] = {"[Travel Time]", "[[AB Capacity] / [BA Capacity]]", "Alpha", "Beta", "None"}
+    Opts.Global.[Load Method] = "CUE"
+    Opts.Global.[Loading Multiplier] = 1
+    Opts.Global.[N Conjugate] = 2
+    Opts.Global.Convergence = 0.0001
+    Opts.Global.Iterations = 500
+    Opts.Global.[VDF DLL] = "bpr.vdf"
+    Opts.Global.[VDF Defaults] = {, , 0.15, 4, 0}
+    Opts.Output.[Flow Table] = output_path + "ASN_LinkFlow.bin"
+    Opts.Output.[Iteration Log] = output_path + "IterationLog.bin"
+    ok = RunMacro("TCB Run Procedure", "Assignment", Opts)
+    if !ok then goto quit
+      
 // Add assignment fields to hwy network
      hwy_bin =  ProjectPath+"\\Topeka Network.bin"
      hwy_vw = OpenTable("hwy","FFB",{hwy_bin,})
