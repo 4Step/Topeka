@@ -250,7 +250,7 @@ year = 10
      Opts.Input.[Current Matrix] = ProjectPath+"\\PA2OD.mtx"
      Opts.Input.[Index Type] = "Both"
      Opts.Input.[View Set] = {ProjectPath+"\\Topeka Network.DBD|Endpoints", "Endpoints", "External Stations", "Select * where [Node Type] = 'External Station'"}
-     Opts.Input.[Old ID Field] = {ProjectPath+"\\Topceka Network.DBD|Endpoints", "ID"}
+     Opts.Input.[Old ID Field] = {ProjectPath+"\\Topeka Network.DBD|Endpoints", "ID"}
      Opts.Input.[New ID Field] = {ProjectPath+"\\Topeka Network.DBD|Endpoints", "ID"}
      Opts.Output.[New Index] = "External"
      ret_value = RunMacro("TCB Run Operation", "Add Matrix Index", Opts)
@@ -260,7 +260,7 @@ year = 10
      m = OpenMatrix(ProjectPath+"\\PA2OD.mtx",)
      AddMatrixCore(m, "Total")
      mc_Total = CreateMatrixCurrency(m,"Total", "External", "External" ,)
-     mc_QuickSum = CreateMatrixCurrency(m,"QuickSum", , ,)
+     mc_QuickSum = CreateMatrixCurrency(m,"QuickSum","External", "External" ,)
       
      m_EE = OpenMatrix(ProjectPath+"\\External_External.mtx",)
      mc_ee= CreateMatrixCurrency(m_EE,"Matrix 1", , ,)
@@ -272,42 +272,14 @@ year = 10
      mc_Total = Null
      m = Null
      m_EE = Null
- /*    
-     Opts = null
-     Opts.Input.[Matrix Currency] = {ProjectPath+"\\External_External.mtx", "QuickSum", "Rows", "Columns"}
-     Opts.Input.[Formula Currencies] = {{ProjectPath+"\\PA2OD.mtx", "HBW (0-24)", "Rows", "Cols"}}
-     Opts.Global.Method = 11
-     Opts.Global.[Cell Range] = 2
-     Opts.Global.[Expression Text] = "[PA to OD].[HBW (0-24)]+ [PA to OD].[HBNW (0-24)]+ [PA to OD].[NHB (0-24)]"
-     Opts.Global.[Formula Labels] = {"PA to OD"}
-     Opts.Global.[Force Missing] = "Yes"
-
-
-     ret_value = RunMacro("TCB Run Operation", 1, "Fill Matrices", Opts)
-
-     if !ret_value then goto quit
-
-// STEP 3: Fill Matrices
-     Opts = null
-     Opts.Input.[Matrix Currency] = {ProjectPath+"\\External_External.mtx", "Total", "Rows", "Columns"}
-     Opts.Global.Method = 11
-     Opts.Global.[Cell Range] = 2
-     Opts.Global.[Expression Text] = "[Matrix 1]+ [QuickSum]"
-     Opts.Global.[Force Missing] = "Yes"
-
-
-     ret_value = RunMacro("TCB Run Operation", 2, "Fill Matrices", Opts)
-
-     if !ret_value then goto quit
-*/
-
+ 
 //---------------------------------------------------ASSIGNMENT-----------------------------------------------------------
 
 // STEP 1: Highway Network Setting
      Opts = null
      Opts.Input.Database = ProjectPath+"\\Topeka Network.DBD"
      Opts.Input.Network = ProjectPath+"\\Highway_Network.net"
-     Opts.Input.[Spc Turn Pen Table] = {ProjectPath+"\\35MODELTURNPENALTIES.BIN"}
+     Opts.Input.[Spc Turn Pen Table] = {ProjectPath+"\\TURNPEN.DBF"}
      Opts.Global.[Global Turn Penalties] = {0, 0, 0, -1}
      Opts.Flag.[Centroids in Network] = 1
 
@@ -320,7 +292,7 @@ year = 10
      Opts = null
      Opts.Input.Database = ProjectPath+"\\Topeka Network.DBD"
      Opts.Input.Network = ProjectPath+"\\Highway_Network.net"
-     Opts.Input.[OD Matrix Currency] = {ProjectPath+"\\PA2OD_Sum.mtx", "Total", "Rows", "Columns"}
+     Opts.Input.[OD Matrix Currency] = {ProjectPath+"\\PA2OD.mtx", "Total", "Rows", "Columns"}
      Opts.Field.[FF Time] = "[Travel Time]"
      Opts.Field.Capacity = "[[AB Capacity] / [BA Capacity]]"
      Opts.Field.Alpha = "Alpha"
