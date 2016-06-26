@@ -54,9 +54,61 @@ year = 10
      Opts.Global.[Network Options].[Turn Penalties] = "Yes"
      Opts.Global.[Network Options].[Keep Duplicate Links] = "FALSE"
      Opts.Global.[Network Options].[Ignore Link Direction] = "FALSE"
-     Opts.Global.[Link Options] = {{"Length", "[Highways/Streets].Length", "[Highways/Streets].Length"}, {"ID", "[Highways/Streets].ID", "[Highways/Streets].ID"}, {"Length", "[Highways/Streets].Length", "[Highways/Streets].Length"}, {"Dir", "[Highways/Streets].Dir", "[Highways/Streets].Dir"}, {"[1998 Count]", "[Highways/Streets].[1998 Count]", "[Highways/Streets].[1998 Count]"}, {"[2004 Count]", "[Highways/Streets].[2004 Count]", "[Highways/Streets].[2004 Count]"}, {"[Daily Capacity]", "[Highways/Streets].[Daily Capacity]", "[Highways/Streets].[Daily Capacity]"}, {"[[AB Capacity] / [BA Capacity]]", "[Highways/Streets].[AB Capacity]", "[Highways/Streets].[BA Capacity]"}, {"[Facility Type]", "[Highways/Streets].[Facility Type]", "[Highways/Streets].[Facility Type]"}, {"[FF SPEED]", "[Highways/Streets].[FF SPEED]", "[Highways/Streets].[FF SPEED]"}, {"[Congested SPEED]", "[Highways/Streets].[Congested SPEED]", "[Highways/Streets].[Congested SPEED]"}, {"Alpha", "[Highways/Streets].Alpha", "[Highways/Streets].Alpha"}, {"Beta", "[Highways/Streets].Beta", "[Highways/Streets].Beta"}, {"Screenline", "[Highways/Streets].Screenline", "[Highways/Streets].Screenline"}, {"[2034 Assignment]", "[Highways/Streets].[2034 Assignment]", "[Highways/Streets].[2034 Assignment]"}, {"[Travel Time]", "[Highways/Streets].[Travel Time]", "[Highways/Streets].[Travel Time]"}, {"[Congested Travel Time]", "[Highways/Streets].[Congested Travel Time]", "[Highways/Streets].[Congested Travel Time]"}}
-     Opts.Global.[Node Options] = {{"ID", "Endpoints.ID"}, {"Longitude", "Endpoints.Longitude"}, {"Latitude", "Endpoints.Latitude"}, {"District", "Endpoints.District"}, {"ZONE", "Endpoints.ZONE"}, {"TOT_EMLOY", "Endpoints.TOT_EMLOY"}, {"RET", "Endpoints.RET"}, {"NON_RET", "Endpoints.NON_RET"}, {"HH", "Endpoints.HH"}, {"HH_POP", "Endpoints.HH_POP"}, {"INCOME", "Endpoints.INCOME"}, {"SPECIAL", "Endpoints.SPECIAL"}, {"HBW_P", "Endpoints.HBW_P"}, {"HBNW_P", "Endpoints.HBNW_P"}, {"NHB_P", "Endpoints.NHB_P"}, {"HBW_A", "Endpoints.HBW_A"}, {"HBNW_A", "Endpoints.HBNW_A"}, {"NHB_A", "Endpoints.NHB_A"}, {"S_HBW_P", "Endpoints.S_HBW_P"}, {"S_HBNW_P", "Endpoints.S_HBNW_P"}, {"S_NHB_P", "Endpoints.S_NHB_P"}, {"S_HBW_A", "Endpoints.S_HBW_A"}, {"S_HBNW_A", "Endpoints.S_HBNW_A"}, {"S_NHB_A", "Endpoints.S_NHB_A"}, {"[Through Adjustment]", "Endpoints.[Through Adjustment]"}, {"[Left Adjustment]", "Endpoints.[Left Adjustment]"}, {"[Immediate Right Adjustment]", "Endpoints.[Immediate Right Adjustment]"}, {"[Other Movements Adjustment]", "Endpoints.[Other Movements Adjustment]"}, {"[Cycle Length]", "Endpoints.[Cycle Length]"}, {"[Minimum Unsignalized Capacity]", "Endpoints.[Minimum Unsignalized Capacity]"}, {"[U-Turns Allowed (0=no, 1=yes)]", "Endpoints.[U-Turns Allowed (0=no, 1=yes)]"}, {"[Intrazonal Travel Time]", "Endpoints.[Intrazonal Travel Time]"}, {"[INTRAZONAL TRIPS ==>:1]", "Endpoints.[INTRAZONAL TRIPS ==>:1]"}, {"[Average Autos/Household]", "Endpoints.[Average Autos/Household]"}, {"[Intrazonal Travel Time:1]", "Endpoints.[Intrazonal Travel Time:1]"}, {"[INTRAZONAL TRIPS ==>]", "Endpoints.[INTRAZONAL TRIPS ==>]"}, {"[TOTAL INCOME]", "Endpoints.[TOTAL INCOME]"}}
-     Opts.Output.[Network File] = ProjectPath+"\\2034_Network.net"
+     Opts.Global.[Link Options] = {{"Length", "[Highways/Streets].Length", "[Highways/Streets].Length"},
+          {"ID", "[Highways/Streets].ID", "[Highways/Streets].ID"},
+          {"Length", "[Highways/Streets].Length", "[Highways/Streets].Length"},
+          {"Dir", "[Highways/Streets].Dir", "[Highways/Streets].Dir"},
+          {"[2010 Count]", "[Highways/Streets].[2010 Count]", "[Highways/Streets].[2010 Count]"},
+          {"[2004 Count]", "[Highways/Streets].[2004 Count]", "[Highways/Streets].[2004 Count]"},
+          // {"[Daily Capacity]", "[Highways/Streets].[Daily Capacity]", "[Highways/Streets].[Daily Capacity]"},
+          {"[[AB Capacity] / [BA Capacity]]", "[Highways/Streets].[AB_CAP]", "[Highways/Streets].[BA_CAP]"},
+          {"[Facility Type]", "[Highways/Streets].[FT]", "[Highways/Streets].[FT]"},
+          {"[FF SPEED]", "[Highways/Streets].[FF_SPEED]", "[Highways/Streets].[FF_SPEED]"},
+          {"[Congested SPEED]", "[Highways/Streets].[PK_SPEED]", "[Highways/Streets].[PK_SPEED]"},
+          {"Alpha", "[Highways/Streets].Alpha", "[Highways/Streets].Alpha"},
+          {"Beta", "[Highways/Streets].Beta", "[Highways/Streets].Beta"},
+          {"Screenline", "[Highways/Streets].Screenline", "[Highways/Streets].Screenline"},
+          {"[2004 Assignment]", "[Highways/Streets].[2004 Assignment]", "[Highways/Streets].[2004 Assignment]"},
+          {"[Travel Time]", "[Highways/Streets].[FF_TT]", "[Highways/Streets].[FF_TT]"},
+          {"[Congested Travel Time]", "[Highways/Streets].[PK_TT]", "[Highways/Streets].[PK_TT]"}}
+     Opts.Global.[Node Options] = {{"ID", "Endpoints.ID"}, 
+          {"Longitude", "Endpoints.Longitude"}, 
+          {"Latitude", "Endpoints.Latitude"}, 
+          {"District", "Endpoints.District"}, 
+          {"ZONE", "Endpoints.ZONE"}, 
+          {"TOT_EMLOY", "Endpoints.TOT_EMPLOY"+String(year)}, 
+          {"RET", "Endpoints.RETAIL"+String(year)}, 
+          {"NON_RET", "Endpoints.NON_RETAIL"+String(year)}, 
+          {"HH", "Endpoints.HH"+String(year)}, 
+         // {"HH_POP", "Endpoints.HH_POP"+String(year)}, 
+          {"INCOME", "Endpoints.INCOME"+String(year)}, 
+          {"SPECIAL", "Endpoints.SPECIAL"}, 
+          {"HBW_P", "Endpoints.HBW_P"}, 
+          {"HBNW_P", "Endpoints.HBNW_P"}, 
+          {"NHB_P", "Endpoints.NHB_P"}, 
+          {"HBW_A", "Endpoints.HBW_A"}, 
+          {"HBNW_A", "Endpoints.HBNW_A"}, 
+          {"NHB_A", "Endpoints.NHB_A"}, 
+          {"S_HBW_P", "Endpoints.S_HBW_P"}, 
+          {"S_HBNW_P", "Endpoints.S_HBNW_P"}, 
+          {"S_NHB_P", "Endpoints.S_NHB_P"}, 
+          {"S_HBW_A", "Endpoints.S_HBW_A"}, 
+          {"S_HBNW_A", "Endpoints.S_HBNW_A"}, 
+          {"S_NHB_A", "Endpoints.S_NHB_A"} /*, 
+          {"[Through Adjustment]", "Endpoints.[Through Adjustment]"}, 
+          {"[Left Adjustment]", "Endpoints.[Left Adjustment]"}, 
+          {"[Immediate Right Adjustment]", "Endpoints.[Immediate Right Adjustment]"}, 
+          {"[Other Movements Adjustment]", "Endpoints.[Other Movements Adjustment]"}, 
+          {"[Cycle Length]", "Endpoints.[Cycle Length]"}, 
+          {"[Minimum Unsignalized Capacity]", "Endpoints.[Minimum Unsignalized Capacity]"}, 
+          {"[U-Turns Allowed (0=no, 1=yes)]", "Endpoints.[U-Turns Allowed (0=no, 1=yes)]"}, 
+          {"[Intrazonal Travel Time]", "Endpoints.[Intrazonal Travel Time]"}, 
+          {"[INTRAZONAL TRIPS ==>:1]", "Endpoints.[INTRAZONAL TRIPS ==>:1]"}, 
+          {"[Average Autos/Household]", "Endpoints.[Average Autos/Household]"}, 
+          {"[Intrazonal Travel Time:1]", "Endpoints.[Intrazonal Travel Time:1]"}, 
+          {"[INTRAZONAL TRIPS ==>]", "Endpoints.[INTRAZONAL TRIPS ==>]"}, 
+          {"[TOTAL INCOME]", "Endpoints.[TOTAL INCOME]"} */ }
+     Opts.Output.[Network File] = ProjectPath+"\\Highway_Network.net"
 
 
      ret_value = RunMacro("TCB Run Operation", 1, "Build Highway Network", Opts)
@@ -66,7 +118,7 @@ year = 10
 // STEP 2: Highway Network Setting
      Opts = null
      Opts.Input.Database = ProjectPath+"\\Topeka Network.DBD"
-     Opts.Input.Network = ProjectPath+"\\2034_Network.net"
+     Opts.Input.Network = ProjectPath+"\\Highway_Network.net"
      Opts.Input.[Centroids Set] = {ProjectPath+"\\Topeka Network.DBD|Endpoints", "Endpoints", "Selection", "Select * where ZONE>0"}
      Opts.Input.[Spc Turn Pen Table] = {ProjectPath+"\\35ModelTurnPenalties.bin"}
      Opts.Global.[Global Turn Penalties] = {0, 0, 0, -1}
@@ -80,7 +132,7 @@ year = 10
 
 // STEP 1: TCSPMAT
      Opts = null
-     Opts.Input.Network = ProjectPath+"\\2034_NETWORK.NET"
+     Opts.Input.Network = ProjectPath+"\\Highway_Network.NET"
      Opts.Input.[Origin Set] = {ProjectPath+"\\Topeka Network.DBD|Endpoints", "Endpoints", "Selection", "Select * where ZONE>0"}
      Opts.Input.[Destination Set] = {ProjectPath+"\\Topeka Network.DBD|Endpoints", "Endpoints", "Selection"}
      Opts.Input.[Via Set] = {ProjectPath+"\\Topeka Network.DBD|Endpoints", "Endpoints"}
@@ -203,7 +255,7 @@ year = 10
 // STEP 1: Highway Network Setting
      Opts = null
      Opts.Input.Database = ProjectPath+"\\Topeka Network.DBD"
-     Opts.Input.Network = ProjectPath+"\\2034_Network.net"
+     Opts.Input.Network = ProjectPath+"\\Highway_Network.net"
      Opts.Input.[Spc Turn Pen Table] = {ProjectPath+"\\35MODELTURNPENALTIES.BIN"}
      Opts.Global.[Global Turn Penalties] = {0, 0, 0, -1}
      Opts.Flag.[Centroids in Network] = 1
@@ -216,7 +268,7 @@ year = 10
 // STEP 2: Assignment
      Opts = null
      Opts.Input.Database = ProjectPath+"\\Topeka Network.DBD"
-     Opts.Input.Network = ProjectPath+"\\2034_Network.net"
+     Opts.Input.Network = ProjectPath+"\\Highway_Network.net"
      Opts.Input.[OD Matrix Currency] = {ProjectPath+"\\PA2OD_Sum.mtx", "Total", "Rows", "Columns"}
      Opts.Field.[FF Time] = "[Travel Time]"
      Opts.Field.Capacity = "[[AB Capacity] / [BA Capacity]]"
