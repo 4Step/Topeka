@@ -162,7 +162,7 @@ year = 10
      Opts.Input.[Index Type] = "Both"
      Opts.Input.[View Set] = {ProjectPath+"\\Topeka Network.DBD|Endpoints", "Endpoints", "External Stations", "Select * where [Node Type] = 'External Station'"}
      Opts.Input.[Old ID Field] = {ProjectPath+"\\Topeka Network.DBD|Endpoints", "ID"}
-     Opts.Input.[New ID Field] = {{ProjectPath+"\\Topeka Network.DBD|Endpoints", "ID"}
+     Opts.Input.[New ID Field] = {ProjectPath+"\\Topeka Network.DBD|Endpoints", "ID"}
      Opts.Output.[New Index] = "External"
      ret_value = RunMacro("TCB Run Operation", "Add Matrix Index", Opts)
      if !ret_value then goto quit
