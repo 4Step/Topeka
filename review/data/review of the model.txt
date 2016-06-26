@@ -1,0 +1,27 @@
+Original Script:
+1) No GUI, straight from script
+2) File names need to be changed at multiple locations
+3) Specified files not among the model files (ex:2034 Topeka Network.DBD)
+4) Generic list of model files
+
+
+Network File:
+1) How are speeds coded (Freeflow and PK?): how are these adjusted from Speedlimits?
+2) Capacities and BPR curve parameters (alpha n beta).
+3) Planning LOS: is this input (expcted LOS to meet) or representation of modeled output
+4) LOS definition: just VOC or time or combination of both?
+5) Screenlines: A few don't have counts, maybe ok (will review network in detail).
+
+SE Data:
+6) SE data coded directly onto Hwy node layer
+7) 500 zones, 31 external stns & 3 special generators
+8) 3 purposes: HBW, HBNW (HBO? - different from HBNW?) and NHB
+9) Whats is current base year (2009?). What will be the proposed base year
+
+Trip Gen: 
+9) PROD_TGP file: Looks like it used Inc/HH for QMR. Do we want to go with this?
+10) Do we need to review these rates? any corss-checks as trips per household etc?
+11) ATTR_TGP: HHS are used in place of Dwelling units. Is this ok?
+
+Skimming:
+12) Travel time: whats the starting point.
