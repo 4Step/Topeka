@@ -1,5 +1,5 @@
 
-248
+264
 "ID",I,1,4,0,4,0,,"","",,"Blank",
 "Label",C,5,30,0,30,0,,"","",,"Blank",
 "Link Type",C,35,30,0,30,0,,"","",,"Blank",
@@ -29,3 +29,5 @@
 "Planning_LOS",C,213,16,0,16,0,,"","",,"Blank",
 "Description",C,229,16,0,16,0,,"","",,"Blank",
 "CCSTYLE",I,245,4,0,12,0,,"","",,"Blank",
+"Assignment Volume",R,249,8,0,10,3,,"","",,"Blank",
+"Congested Travel Time",R,257,8,0,10,3,,"","",,"Blank",

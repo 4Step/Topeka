@@ -259,6 +259,10 @@ year = 10
 // STEP 3: Add E-E Trips to OD
      m = OpenMatrix(ProjectPath+"\\PA2OD.mtx",)
      AddMatrixCore(m, "Total")
+     mc_Total = CreateMatrixCurrency(m,"Total", ,  ,)
+     mc_QuickSum = CreateMatrixCurrency(m,"QuickSum", , ,)
+     mc_Total := mc_QuickSum
+        
      mc_Total = CreateMatrixCurrency(m,"Total", "External", "External" ,)
      mc_QuickSum = CreateMatrixCurrency(m,"QuickSum","External", "External" ,)
       
@@ -292,7 +296,7 @@ year = 10
      Opts = null
      Opts.Input.Database = ProjectPath+"\\Topeka Network.DBD"
      Opts.Input.Network = ProjectPath+"\\Highway_Network.net"
-     Opts.Input.[OD Matrix Currency] = {ProjectPath+"\\PA2OD.mtx", "Total", "Rows", "Columns"}
+     Opts.Input.[OD Matrix Currency] = {ProjectPath+"\\PA2OD.mtx", "Total", , }
      Opts.Field.[FF Time] = "[Travel Time]"
      Opts.Field.Capacity = "[[AB Capacity] / [BA Capacity]]"
      Opts.Field.Alpha = "Alpha"
@@ -306,12 +310,25 @@ year = 10
 
      if !ret_value then goto quit
 
+// Add assignment fields to hwy network
+     hwy_bin =  ProjectPath+"\\Topeka Network.bin"
+     hwy_vw = OpenTable("hwy","FFB",{hwy_bin,})
+       
+     newFields ={{ "[Assignment Volume]", "Real", 10, 3},
+                 { "[Congested Travel Time]", "Real", 10, 3}}
+     RunMacro("TCB Add View Fields",{hwy_vw,newFields}) 
+     CloseView(hwy_vw)
+          
+     // asgn_bin = ProjectPath+"\\ASN_LinkFlow.bin"
+     // asgn_vw = OpenTable("asignment","FFB",{asgn_bin,})
+     
+
 // STEP 3: Fill Dataview
      Opts = null
      Opts.Input.[Dataview Set] = {{ProjectPath+"\\Topeka Network.dbd|Highways/Streets", ProjectPath+"\\ASN_LinkFlow.bin", "ID", "ID1"}, "Highways/Streets+ASN_LinkFlow"}
-     Opts.Global.Fields = {"[2034 Assignment]"}
+     Opts.Global.Fields = {"[Assignment Volume]"}
      Opts.Global.Method = "Formula"
-     Opts.Global.Parameter = "TOT_Flow"
+     Opts.Global.Parameter = "TOT_Flow" 
 
 
      ret_value = RunMacro("TCB Run Operation", 1, "Fill Dataview", Opts)
