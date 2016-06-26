@@ -150,14 +150,14 @@ year = 10
 
 // STEP 2: Intrazonal
      Opts = null
-     Opts.Input.[Matrix Currency] = {ProjectPath+"\\SPMAT.mtx", "[Travel Time] (Skim)", "RCIndex", "RCIndex"}
+     Opts.Input.[Matrix Currency] = {ProjectPath+"\\SPMAT.mtx", "[Travel Time] (Skim)", , }
      ret_value = RunMacro("TCB Run Procedure", 1, "Intrazonal", Opts)
 
      if !ret_value then goto quit
 
 // STEP 3: Zero Out E-E
      Opts = null
-     Opts.Input.[Matrix Currency] = {ProjectPath+"\\SPMAT.mtx", "[Travel Time] (Skim)", "RCIndex", "RCIndex"}
+     Opts.Input.[Matrix Currency] = {ProjectPath+"\\SPMAT.mtx", "[Travel Time] (Skim)", , }
      Opts.Input.[Formula Currencies] = {{ProjectPath+"\\SPMAT-Ext.mtx", "[1]", "Origin", "Destination"}}
      Opts.Global.Method = 11
      Opts.Global.[Cell Range] = 2
@@ -173,9 +173,9 @@ year = 10
 // STEP 1: Gravity
      Opts = null
      Opts.Input.[PA View Set] = {{ProjectPath+"\\Topeka Network.dbd|Endpoints", ProjectPath+"\\QRM_ALL.bin", "ID", "ID1"}, "Endpoints+QRM_ALL", "Selection", "Select * where zone>0"}
-     Opts.Input.[FF Matrix Currencies] = {{ProjectPath+"\\SPMAT.mtx", "[Travel Time]", "RCIndex", "RCIndex"}, {ProjectPath+"\\SPMAT.mtx", "[Travel Time]", "RCIndex", "RCIndex"}, {ProjectPath+"\\SPMAT.mtx", "[Travel Time]", "RCIndex", "RCIndex"}}
-     Opts.Input.[Imp Matrix Currencies] = {{ProjectPath+"\\SPMAT.mtx", "[Travel Time] (Skim)", "RCIndex", "RCIndex"}, {ProjectPath+"\\SPMAT.mtx", "[Travel Time] (Skim)", "RCIndex", "RCIndex"}, {ProjectPath+"\\SPMAT.mtx", "[Travel Time] (Skim)", "RCIndex", "RCIndex"}}
-     Opts.Input.[KF Matrix Currencies] = {{ProjectPath+"\\SPMAT.mtx", "[Travel Time]", "RCIndex", "RCIndex"}, {ProjectPath+"\\SPMAT.mtx", "[Travel Time]", "RCIndex", "RCIndex"}, {ProjectPath+"\\K_Factors.mtx", "Matrix 1", "NetworkNodes+QRM_ALL (Selection)", "NetworkNodes+QRM_ALL (Selection)"}}
+     Opts.Input.[FF Matrix Currencies] = {{ProjectPath+"\\SPMAT.mtx", "[Travel Time]", , }, {ProjectPath+"\\SPMAT.mtx", "[Travel Time]", , }, {ProjectPath+"\\SPMAT.mtx", "[Travel Time]", , }}
+     Opts.Input.[Imp Matrix Currencies] = {{ProjectPath+"\\SPMAT.mtx", "[Travel Time] (Skim)", , }, {ProjectPath+"\\SPMAT.mtx", "[Travel Time] (Skim)", , }, {ProjectPath+"\\SPMAT.mtx", "[Travel Time] (Skim)", , }}
+     Opts.Input.[KF Matrix Currencies] = {{ProjectPath+"\\SPMAT.mtx", "[Travel Time]", , }, {ProjectPath+"\\SPMAT.mtx", "[Travel Time]", , }, {ProjectPath+"\\K_Factors.mtx", "Matrix 1", "NetworkNodes+QRM_ALL (Selection)", "NetworkNodes+QRM_ALL (Selection)"}}
      Opts.Field.[Prod Fields] = {"[Endpoints+QRM_ALL].QRM_ALL.HBW_P", "[Endpoints+QRM_ALL].QRM_ALL.HBNW_P", "[Endpoints+QRM_ALL].QRM_ALL.NHB_P"}
      Opts.Field.[Attr Fields] = {"[Endpoints+QRM_ALL].QRM_ALL.HBW_A", "[Endpoints+QRM_ALL].QRM_ALL.HBNW_A", "[Endpoints+QRM_ALL].QRM_ALL.NHB_A"}
      Opts.Global.[Purpose Names] = {"HBW", "HBNW", "NHB"}
