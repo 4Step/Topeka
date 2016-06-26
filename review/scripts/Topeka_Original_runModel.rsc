@@ -1,6 +1,6 @@
 Macro "Batch Macro"
     RunMacro("TCB Init")
-ProjectPath="C:\\projects\\Topeka\\review\\Base"
+ProjectPath="C:\\projects\\git_versions\\Topeka\\review\\Base"
 year = 10
 //---------------------------------------------------TRIP GENERATION-----------------------------------------------------------
 // STEP 1: QRM All
@@ -9,7 +9,7 @@ year = 10
      Opts.Input.[Zone Set] = {ProjectPath+"\\Topeka Network.DBD|Endpoints", "Endpoints", "Selection", "Select * where ZONE>0"}
      Opts.Input.[Production Table] = {ProjectPath+"\\prod_tgp.dbf"}
      Opts.Inzsput.[Attraction Table] = {ProjectPath+"\\attr_tgp.dbf"}
-     Opts.Field.[Total HH] = "Endpoints.HH10"+String(year)
+     Opts.Field.[Total HH] = "Endpoints.HH"+String(year)
      Opts.Field.Dwelling = "Endpoints.HH"+String(year)
      Opts.Field.[Retail Employment] = "Endpoints.RETAIL"+String(year)
      Opts.Field.[Non-Ret Employment] = "Endpoints.NON_RETAIL"+String(year)
