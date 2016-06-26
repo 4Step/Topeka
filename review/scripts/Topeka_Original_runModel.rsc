@@ -1,6 +1,7 @@
 Macro "Batch Macro"
     RunMacro("TCB Init")
-ProjectPath="C:\\projects\\Topeka\\review\\Base_testRun"
+ProjectPath="C:\\projects\\Topeka\\review\\Base"
+year = 10
 //---------------------------------------------------TRIP GENERATION-----------------------------------------------------------
 // STEP 1: QRM All
      Opts = null
@@ -8,11 +9,11 @@ ProjectPath="C:\\projects\\Topeka\\review\\Base_testRun"
      Opts.Input.[Zone Set] = {ProjectPath+"\\Topeka Network.DBD|Endpoints", "Endpoints", "Selection", "Select * where ZONE>0"}
      Opts.Input.[Production Table] = {ProjectPath+"\\prod_tgp.dbf"}
      Opts.Inzsput.[Attraction Table] = {ProjectPath+"\\attr_tgp.dbf"}
-     Opts.Field.[Total HH] = "Endpoints.HH09"
-     Opts.Field.Dwelling = "Endpoints.HH09"
-     Opts.Field.[Retail Employment] = "Endpoints.RET"
-     Opts.Field.[Non-Ret Employment] = "Endpoints.NON_RET"
-     Opts.Field.Income = "Endpoints.INCOME"
+     Opts.Field.[Total HH] = "Endpoints.HH10"+String(year)
+     Opts.Field.Dwelling = "Endpoints.HH"+String(year)
+     Opts.Field.[Retail Employment] = "Endpoints.RETAIL"+String(year)
+     Opts.Field.[Non-Ret Employment] = "Endpoints.NON_RETAIL"+String(year)
+     Opts.Field.Income = "Endpoints.INCOME"+String(year)
      Opts.Field.[Ext Productions] = {"Endpoints.HBW_P", "Endpoints.HBNW_P", "None", "Endpoints.NHB_P"}
      Opts.Field.[Ext Attractions] = {"Endpoints.HBW_A", "Endpoints.HBNW_A", "None", "Endpoints.NHB_A"}
      Opts.Field.[Zone Type] = "Endpoints.SPECIAL"
@@ -259,4 +260,3 @@ ProjectPath="C:\\projects\\Topeka\\review\\Base_testRun"
     quit:
          Return( RunMacro("TCB Closing", ret_value, True ) )
 endMacro
-
