@@ -220,7 +220,7 @@ year = 10
 //---------------------------------------------------PA TO OD-----------------------------------------------------------
 
 // STEP 1: PA2OD
-/*   Opts = null
+     Opts = null
      Opts.Input.[PA Matrix Currency] = {ProjectPath+"\\cgrav.mtx", "HBW", ,}
      Opts.Field.[Matrix Cores] = {1, 2, 3}
      Opts.Field.[Adjust Fields] = {, , }
@@ -236,39 +236,45 @@ year = 10
      Opts.Output.[Output Matrix].Label = "PA to OD"
      Opts.Output.[Output Matrix].Compression = 1
      Opts.Output.[Output Matrix].[File Name] = ProjectPath+"\\PA2OD.mtx"
-*/
-
-     Opts = null
-     Opts.Input.[PA Matrix Currency] = {ProjectPath+"\\cgrav.mtx", "HBW", , }
-     Opts.Input.[Lookup Set] = {"C:\\Program Files (x86)\\TransCAD2015\\tab\\hourly.bin", "HOURLY"}
-     Opts.Field.[Matrix Cores] = {1, 2, 3}
-     Opts.Field.[Adjust Fields] = {, , }
-     Opts.Field.[Peak Hour Field] = {, , }
-     Opts.Field.[Hourly AB Field] = {"HOUR", "HOUR", "HOUR"}
-     Opts.Field.[Hourly BA Field] = {"HOUR", "HOUR", "HOUR"}
-     Opts.Global.[Method Type] = "PA to OD"
-     Opts.Global.[Start Hour] = 0
-     Opts.Global.[End Hour] = 23
-     Opts.Global.[Cache Size] = 500000
-     Opts.Global.[Average Occupancies] = {1.1, 1.7, 1.8}
-     Opts.Global.[Adjust Occupancies] = {"No", "No", "No"}
-     Opts.Global.[Peak Hour Factor] = {1, 1, 1}
-     Opts.Flag.[Separate Matrices] = "Yes"
-     Opts.Flag.[Convert to Vehicles] = {"Yes", "Yes", "Yes"}
-     Opts.Flag.[Include PHF] = {"No", "No", "No"}
-     Opts.Flag.[Adjust Peak Hour] = {"No", "No", "No"}
-     Opts.Output.[Output Matrix].Label = "PA to OD"
-     Opts.Output.[Output Matrix].[File Name] = ProjectPath+"\\PA2OD.mtx"
-
-
-
      ret_value = RunMacro("TCB Run Procedure", 1, "PA2OD", Opts)
-
+     if !ret_value then goto quit
+      
+// STEP 1 : Quick sum matrix
+     Opts = null
+     Opts.Input.[Input Currency] = {ProjectPath+"\\PA2OD.mtx", "HBW (0-24)", ,}
+     ret_value = RunMacro("TCB Run Operation", "Matrix QuickSum", Opts)
      if !ret_value then goto quit
 
-// STEP 2: Add E-E Trips to OD
+// STEP 2: Add External Index
      Opts = null
-     Opts.Input.[Matrix Currency] = {ProjectPath+"\\PA2OD_Sum.mtx", "QuickSum", "Rows", "Columns"}
+     Opts.Input.[Current Matrix] = ProjectPath+"\\PA2OD.mtx"
+     Opts.Input.[Index Type] = "Both"
+     Opts.Input.[View Set] = {ProjectPath+"\\Topeka Network.DBD|Endpoints", "Endpoints", "External Stations", "Select * where [Node Type] = 'External Station'"}
+     Opts.Input.[Old ID Field] = {ProjectPath+"\\Topceka Network.DBD|Endpoints", "ID"}
+     Opts.Input.[New ID Field] = {ProjectPath+"\\Topeka Network.DBD|Endpoints", "ID"}
+     Opts.Output.[New Index] = "External"
+     ret_value = RunMacro("TCB Run Operation", "Add Matrix Index", Opts)
+     if !ret_value then goto quit
+
+// STEP 3: Add E-E Trips to OD
+     m = OpenMatrix(ProjectPath+"\\PA2OD.mtx",)
+     AddMatrixCore(m, "Total")
+     mc_Total = CreateMatrixCurrency(m,"Total", "External", "External" ,)
+     mc_QuickSum = CreateMatrixCurrency(m,"QuickSum", , ,)
+      
+     m_EE = OpenMatrix(ProjectPath+"\\External_External.mtx",)
+     mc_ee= CreateMatrixCurrency(m_EE,"Matrix 1", , ,)
+     
+     mc_Total := mc_QuickSum + mc_ee
+     
+     mc_ee = Null
+     mc_QuickSum = Null
+     mc_Total = Null
+     m = Null
+     m_EE = Null
+ /*    
+     Opts = null
+     Opts.Input.[Matrix Currency] = {ProjectPath+"\\External_External.mtx", "QuickSum", "Rows", "Columns"}
      Opts.Input.[Formula Currencies] = {{ProjectPath+"\\PA2OD.mtx", "HBW (0-24)", "Rows", "Cols"}}
      Opts.Global.Method = 11
      Opts.Global.[Cell Range] = 2
@@ -283,7 +289,7 @@ year = 10
 
 // STEP 3: Fill Matrices
      Opts = null
-     Opts.Input.[Matrix Currency] = {ProjectPath+"\\PA2OD_Sum.mtx", "Total", "Rows", "Columns"}
+     Opts.Input.[Matrix Currency] = {ProjectPath+"\\External_External.mtx", "Total", "Rows", "Columns"}
      Opts.Global.Method = 11
      Opts.Global.[Cell Range] = 2
      Opts.Global.[Expression Text] = "[Matrix 1]+ [QuickSum]"
@@ -293,7 +299,7 @@ year = 10
      ret_value = RunMacro("TCB Run Operation", 2, "Fill Matrices", Opts)
 
      if !ret_value then goto quit
-
+*/
 
 //---------------------------------------------------ASSIGNMENT-----------------------------------------------------------
 
