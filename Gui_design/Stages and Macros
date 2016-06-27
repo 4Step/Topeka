@@ -1,0 +1,42 @@
+
+1-NETWORK Preparation
+2-BUILD NETWORK & SKIMS
+3-TRIP GENERATION
+4-TRIP DISTRIBUTION
+5-PA TO OD
+6-ASSIGNMENT
+7-MAP 
+8-REPORT
+
+
+AreaType and Facility Type
+FreeFlow and Congested Speed
+Capacity 
+Alpha and Beta
+
+
+Build Highway Network
+Highway Network Setting
+STEP 1: TCSPMAT
+Intrazonal
+External Index
+Zero Out EE (Time)
+
+STEP 1: QRM All
+NHB (Fill Dataview)
+
+STEP 1: Gravity
+
+PA2OD
+Daily Trips Quick sum matrix
+External Index
+Add EE Trips to OD
+
+
+Highway Network Setting
+Assignment Method
+Add assignment fields to hwy network
+ 
+Map (FT)
+
+Report
