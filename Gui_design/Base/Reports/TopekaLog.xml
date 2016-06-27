@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet href="log.xsl" type="text/xsl"?>
+
+<TCLog version="2" created="Mon Jun 27 16:22:20 2016">
+<section name="Batch Routine Errors  (6/27/2016 4:23:47 PM)" string="">
+<line indent="3" string="CloseView returned an error."/>
+</section>
+<section name="Batch Routine Errors  (6/27/2016 4:41:11 PM)" string="">
+<line indent="3" string="Cannot find resource TCB Fill Dataview Defaults."/>
+</section>
+<section name="Batch Routine Errors  (6/27/2016 4:41:41 PM)" string="">
+<line indent="3" string="Cannot find resource TCB Fill Dataview Defaults."/>
+</section>
+<section name="Batch Routine Errors  (6/27/2016 4:43:59 PM)" string="">
+<line indent="3" string="Cannot find resource TCB Fill Dataview Defaults."/>
+</section>
+<section name="Batch Routine Errors  (6/27/2016 4:46:06 PM)" string="">
+<line indent="3" string="Cannot find resource TCB Fill Dataview Defaults."/>
+</section>
+</TCLog>

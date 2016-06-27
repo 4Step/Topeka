@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet href="report.xsl" type="text/xsl"?>
+
+<TCLog version="2" created="Mon Jun 27 16:22:20 2016">
+<section name="6 input files are missing" string="">
+<table title="Missing Input Files:">
+<col name="Scenario" bold="true"/>
+<col name="Stage" bold="true"/>
+<col name="Title" bold="true"/>
+<col name="Path" bold="true"/>
+<col name="Description" bold="true"/>
+</table>
+<row><val>Base</val><val>Network Preparation</val><val>ACCESS Capacity Lookup</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\input\LookupTables\LOOKUP.ACCDB</val><val>Capacity lookup</val></row>
+<row><val>Base</val><val>Network Preparation</val><val>turndb</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\input\LookupTables\turnpen.bin</val><val>Turning Prohibitions</val></row>
+<row><val>Base</val><val>Network Preparation</val><val>rs_file</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\input\transit\Transit.rts</val><val>Transit Route System</val></row>
+<row><val>Base</val><val>Network Preparation</val><val>modetabf</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\input\transit\ModeTable.bin</val><val>Mode definition table for transit skims</val></row>
+<row><val>Base</val><val>Network Preparation</val><val>curv_tb</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\input\LookupTables\curvdef.bin</val><val>Highway/transit speed curve definitions</val></row>
+<row><val>Base</val><val>Network Preparation</val><val>tspd_tb</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\input\LookupTables\transitspeed.bin</val><val>Transit speed curve selector by AT/FT/Mode</val></row>
+</section>
+<section name="1 output folder has been created" string="">
+<table title="Output Files with Newly Added Folder:">
+<col name="Scenario" bold="true"/>
+<col name="Stage" bold="true"/>
+<col name="Title" bold="true"/>
+<col name="Path" bold="true"/>
+<col name="Description" bold="true"/>
+</table>
+<row><val>Base</val><val>Network Preparation</val><val>tnet_dlb_off</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\output\trn\dlb_OFF.tnw</val><val>Off peak drive-bus transit net</val></row>
+</section>
+<section name="Batch Routine Report  (6/27/2016 4:22:22 PM)" string="">
+<table title=" " indent="2">
+<col name="Step" width="70%"/>
+<col name="Time" width="30%"/>
+</table>
+<row><val>Operation Fill Dataview</val><val>00:00:00.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:00.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:00.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:00.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:00.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:01.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:01.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:01.00</val></row>
+<line indent="2" string="Total Running Time: 00:01:24.00"/>
+</section>
+<section name="4 input files are missing" string="">
+<table title="Missing Input Files:">
+<col name="Scenario" bold="true"/>
+<col name="Stage" bold="true"/>
+<col name="Title" bold="true"/>
+<col name="Path" bold="true"/>
+<col name="Description" bold="true"/>
+</table>
+<row><val>Base</val><val>Network Preparation</val><val>ACCESS Capacity Lookup</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\input\LookupTables\LOOKUP.ACCDB</val><val>Capacity lookup</val></row>
+<row><val>Base</val><val>Network Preparation</val><val>turndb</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\input\hwy\turnpen.bin</val><val>Turning Prohibitions</val></row>
+<row><val>Base</val><val>Network Preparation</val><val>Asgn link</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\Asgn\ASN_LinkFlow.bin</val><val>Highway/transit speed curve definitions</val></row>
+<row><val>Base</val><val>Network Preparation</val><val>PA MAT</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\tripGen\cgrav.mtx</val><val>Transit speed curve selector by AT/FT/Mode</val></row>
+</section>
+<section name="4 output folders have been created " string="">
+<table title="Output Files with Newly Added Folder:">
+<col name="Scenario" bold="true"/>
+<col name="Stage" bold="true"/>
+<col name="Title" bold="true"/>
+<col name="Path" bold="true"/>
+<col name="Description" bold="true"/>
+</table>
+<row><val>Base</val><val>Network Preparation</val><val>Highway DB</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\output\hwy\highway_Network.dbd</val><val>Output Highway File</val></row>
+<row><val>Base</val><val>Network Preparation</val><val>TAZ DB</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\output\taz\zones.dbd</val><val>TAZ Polygons and data</val></row>
+<row><val>Base</val><val>Network Preparation</val><val>OD MAT</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\tripGen\PA2OD.mtx</val><val>Peak drive-bus transit net</val></row>
+<row><val>Base</val><val>Network Preparation</val><val>HWY SKIM</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\skims\SPMAT.mtx</val><val>Peak walk-bus transit net</val></row>
+</section>
+<section name="Batch Routine Report  (6/27/2016 4:41:08 PM)" string="">
+<table title=" " indent="2">
+<col name="Step" width="70%"/>
+<col name="Time" width="30%"/>
+</table>
+<row><val>Operation Fill Dataview</val><val>00:00:01.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:01.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:01.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<line indent="2" string="Total Running Time: 00:00:02.00"/>
+</section>
+<section name="4 input files are missing" string="">
+<table title="Missing Input Files:">
+<col name="Scenario" bold="true"/>
+<col name="Stage" bold="true"/>
+<col name="Title" bold="true"/>
+<col name="Path" bold="true"/>
+<col name="Description" bold="true"/>
+</table>
+<row><val>Base</val><val>Network Preparation</val><val>ACCESS Capacity Lookup</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\input\LookupTables\LOOKUP.ACCDB</val><val>Capacity lookup</val></row>
+<row><val>Base</val><val>Network Preparation</val><val>turndb</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\input\hwy\turnpen.bin</val><val>Turning Prohibitions</val></row>
+<row><val>Base</val><val>Network Preparation</val><val>Asgn link</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\Asgn\ASN_LinkFlow.bin</val><val>Highway/transit speed curve definitions</val></row>
+<row><val>Base</val><val>Network Preparation</val><val>PA MAT</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\tripGen\cgrav.mtx</val><val>Transit speed curve selector by AT/FT/Mode</val></row>
+</section>
+<section name="Batch Routine Report  (6/27/2016 4:41:38 PM)" string="">
+<table title=" " indent="2">
+<col name="Step" width="70%"/>
+<col name="Time" width="30%"/>
+</table>
+<row><val>Operation Fill Dataview</val><val>00:00:01.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:01.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:01.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<line indent="2" string="Total Running Time: 00:00:02.00"/>
+</section>
+<section name="4 input files are missing" string="">
+<table title="Missing Input Files:">
+<col name="Scenario" bold="true"/>
+<col name="Stage" bold="true"/>
+<col name="Title" bold="true"/>
+<col name="Path" bold="true"/>
+<col name="Description" bold="true"/>
+</table>
+<row><val>Base</val><val>Network Preparation</val><val>ACCESS Capacity Lookup</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\input\LookupTables\LOOKUP.ACCDB</val><val>Capacity lookup</val></row>
+<row><val>Base</val><val>Network Preparation</val><val>turndb</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\input\hwy\turnpen.bin</val><val>Turning Prohibitions</val></row>
+<row><val>Base</val><val>Network Preparation</val><val>Asgn link</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\Asgn\ASN_LinkFlow.bin</val><val>Highway/transit speed curve definitions</val></row>
+<row><val>Base</val><val>Network Preparation</val><val>PA MAT</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\tripGen\cgrav.mtx</val><val>Transit speed curve selector by AT/FT/Mode</val></row>
+</section>
+<section name="Batch Routine Report  (6/27/2016 4:43:56 PM)" string="">
+<table title=" " indent="2">
+<col name="Step" width="70%"/>
+<col name="Time" width="30%"/>
+</table>
+<row><val>Operation Fill Dataview</val><val>00:00:01.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:01.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<line indent="2" string="Total Running Time: 00:00:02.00"/>
+</section>
+<section name="4 input files are missing" string="">
+<table title="Missing Input Files:">
+<col name="Scenario" bold="true"/>
+<col name="Stage" bold="true"/>
+<col name="Title" bold="true"/>
+<col name="Path" bold="true"/>
+<col name="Description" bold="true"/>
+</table>
+<row><val>Base</val><val>Network Preparation</val><val>ACCESS Capacity Lookup</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\input\LookupTables\LOOKUP.ACCDB</val><val>Capacity lookup</val></row>
+<row><val>Base</val><val>Network Preparation</val><val>turndb</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\input\hwy\turnpen.bin</val><val>Turning Prohibitions</val></row>
+<row><val>Base</val><val>Network Preparation</val><val>Asgn link</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\Asgn\ASN_LinkFlow.bin</val><val>Highway/transit speed curve definitions</val></row>
+<row><val>Base</val><val>Network Preparation</val><val>PA MAT</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\tripGen\cgrav.mtx</val><val>Transit speed curve selector by AT/FT/Mode</val></row>
+</section>
+<section name="Batch Routine Report  (6/27/2016 4:46:03 PM)" string="">
+<table title=" " indent="2">
+<col name="Step" width="70%"/>
+<col name="Time" width="30%"/>
+</table>
+<row><val>Operation Fill Dataview</val><val>00:00:01.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:01.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:01.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<line indent="2" string="Total Running Time: 00:00:02.00"/>
+</section>
+</TCLog>
