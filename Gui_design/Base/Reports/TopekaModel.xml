@@ -866,4 +866,109 @@
 <row><val>Loop 1</val><val>Trip Distribution</val><val>Gravity Model</val><val>00:00:01</val></row>
 <line indent="2" string="Total Running Time: 00:00:01.00"/>
 </section>
+<section string="Procedure PA2OD on June 28, 2016 (02:31 AM)">
+<table title="Inputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Start Hour</val><val>0</val></row>
+<row><val>End Hour</val><val>23</val></row>
+<row><val>Report By Hour</val><val>No</val></row>
+<row><val>PA Matrix File</val><val>C:\PROJECTS\GIT_VERSIONS\TOPEKA\GUI_DESIGN\BASE\OUTPUT\TRIPGEN\CGRAV.MTX</val></row>
+<row><val>Number of Models</val><val>3</val></row>
+<row><val>Matrix</val><val>0</val></row>
+<row><val>Vehicle Occupancy</val><val>  1.100</val></row>
+<row><val>Matrix</val><val>1</val></row>
+<row><val>Vehicle Occupancy</val><val>  1.800</val></row>
+<row><val>Matrix</val><val>2</val></row>
+<row><val>Vehicle Occupancy</val><val>  1.700</val></row>
+<table title="Outputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Output matrix file</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\tripGen\PA2OD.mtx</val></row>
+<table indent="2">
+<col name="Total Running Time 0.253 seconds."/>
+</table>
+</section>
+<section name="Batch Routine Report  (6/28/2016 2:31:57 AM)" string="">
+<table title=" " indent="2">
+<col name="Step" width="70%"/>
+<col name="Time" width="30%"/>
+</table>
+<row><val>Procedure PA2OD</val><val>00:00:00.00</val></row>
+<line indent="2" string="Total Running Time: 00:00:00.00"/>
+</section>
+<section string="Procedure PA2OD on June 28, 2016 (02:33 AM)">
+<table title="Inputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Start Hour</val><val>0</val></row>
+<row><val>End Hour</val><val>23</val></row>
+<row><val>Report By Hour</val><val>No</val></row>
+<row><val>PA Matrix File</val><val>C:\PROJECTS\GIT_VERSIONS\TOPEKA\GUI_DESIGN\BASE\OUTPUT\TRIPGEN\CGRAV.MTX</val></row>
+<row><val>Number of Models</val><val>3</val></row>
+<row><val>Matrix</val><val>0</val></row>
+<row><val>Vehicle Occupancy</val><val>  1.100</val></row>
+<row><val>Matrix</val><val>1</val></row>
+<row><val>Vehicle Occupancy</val><val>  1.800</val></row>
+<row><val>Matrix</val><val>2</val></row>
+<row><val>Vehicle Occupancy</val><val>  1.700</val></row>
+<table title="Outputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Output matrix file</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\tripGen\PA2OD.mtx</val></row>
+<table indent="2">
+<col name="Total Running Time 0.268 seconds."/>
+</table>
+</section>
+<section name="Batch Routine Report  (6/28/2016 2:33:04 AM)" string="">
+<table title=" " indent="2">
+<col name="Step" width="70%"/>
+<col name="Time" width="30%"/>
+</table>
+<row><val>Procedure PA2OD</val><val>00:00:00.00</val></row>
+<row><val>Operation Matrix QuickSum</val><val>00:00:00.00</val></row>
+<line indent="2" string="Total Running Time: 00:00:00.00"/>
+</section>
+<section string="Procedure PA2OD on June 28, 2016 (02:33 AM)">
+<table title="Inputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Start Hour</val><val>0</val></row>
+<row><val>End Hour</val><val>23</val></row>
+<row><val>Report By Hour</val><val>No</val></row>
+<row><val>PA Matrix File</val><val>C:\PROJECTS\GIT_VERSIONS\TOPEKA\GUI_DESIGN\BASE\OUTPUT\TRIPGEN\CGRAV.MTX</val></row>
+<row><val>Number of Models</val><val>3</val></row>
+<row><val>Matrix</val><val>0</val></row>
+<row><val>Vehicle Occupancy</val><val>  1.100</val></row>
+<row><val>Matrix</val><val>1</val></row>
+<row><val>Vehicle Occupancy</val><val>  1.800</val></row>
+<row><val>Matrix</val><val>2</val></row>
+<row><val>Vehicle Occupancy</val><val>  1.700</val></row>
+<table title="Outputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Output matrix file</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\tripGen\PA2OD.mtx</val></row>
+<table indent="2">
+<col name="Total Running Time 0.260 seconds."/>
+</table>
+</section>
+<section name="Batch Routine Report  (6/28/2016 2:33:57 AM)" string="">
+<table title=" " indent="2">
+<col name="Loop" width="15%"/>
+<col name="Stage" width="20%"/>
+<col name="Step" width="45%"/>
+<col name="Time" width="20%"/>
+</table>
+<row><val>Loop 1</val><val>Pa To Od</val><val>PA2OD</val><val>00:00:00</val></row>
+<row><val> </val><val> </val><val>Daily Internal OD</val><val>00:00:00</val></row>
+<row><val> </val><val> </val><val>OD External Index</val><val>00:00:00</val></row>
+<row><val> </val><val> </val><val>Add EE Trips to OD</val><val>00:00:00</val></row>
+<line indent="2" string="Total Running Time: 00:00:00.00"/>
+</section>
 </TCLog>

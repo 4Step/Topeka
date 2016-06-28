@@ -778,4 +778,16 @@
 <line indent="3" string="Production for record 1023 missing or negative for matrix HBNW. Will be treated as zero."/>
 <line indent="3" string="Additional unlisted errors present (too numerous to list)."/>
 </section>
+<section string="Procedure PA2OD on June 28, 2016 (02:31 AM)">
+</section>
+<section name="Batch Routine Errors  (6/28/2016 2:31:57 AM)" string="">
+<line indent="3" string="Cannot find resource PA2OD Remove Defaults."/>
+</section>
+<section string="Procedure PA2OD on June 28, 2016 (02:33 AM)">
+</section>
+<section name="Batch Routine Errors  (6/28/2016 2:33:05 AM)" string="">
+<line indent="3" string="Cannot find resource TCB Matrix QuickSum Defaults."/>
+</section>
+<section string="Procedure PA2OD on June 28, 2016 (02:33 AM)">
+</section>
 </TCLog>
