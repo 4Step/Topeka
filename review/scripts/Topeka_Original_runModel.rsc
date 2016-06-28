@@ -1,7 +1,9 @@
 Macro "Batch Macro"
     RunMacro("TCB Init")
-ProjectPath="C:\\projects\\git_versions\\Topeka\\review\\Base"
-year = 10
+    ProjectPath="C:\\projects\\git_versions\\Topeka\\review\\Base"
+    year = 10
+    
+    
 //---------------------------------------------------TRIP GENERATION-----------------------------------------------------------
 // STEP 1: QRM All
      Opts = null

@@ -1,0 +1,1135 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet href="log.xsl" type="text/xsl"?>
+
+<TCLog version="2" created="Mon Jun 27 16:22:20 2016">
+<section name="Batch Routine Errors  (6/27/2016 4:23:47 PM)" string="">
+<line indent="3" string="CloseView returned an error."/>
+</section>
+<section name="Batch Routine Errors  (6/27/2016 4:41:11 PM)" string="">
+<line indent="3" string="Cannot find resource TCB Fill Dataview Defaults."/>
+</section>
+<section name="Batch Routine Errors  (6/27/2016 4:41:41 PM)" string="">
+<line indent="3" string="Cannot find resource TCB Fill Dataview Defaults."/>
+</section>
+<section name="Batch Routine Errors  (6/27/2016 4:43:59 PM)" string="">
+<line indent="3" string="Cannot find resource TCB Fill Dataview Defaults."/>
+</section>
+<section name="Batch Routine Errors  (6/27/2016 4:46:06 PM)" string="">
+<line indent="3" string="Cannot find resource TCB Fill Dataview Defaults."/>
+</section>
+<section name="Batch Routine Errors  (6/27/2016 11:42:46 PM)" string="">
+<line indent="3" string="Cannot find resource TCB Fill Dataview Defaults."/>
+</section>
+<section name="Batch Routine Errors  (6/28/2016 12:24:48 AM)" string="">
+<line indent="3" string="Error Opening Table: Cannot find file C:\projects\git_versions\Topeka\Gui_design\Base\input\hwy\turnpen.bin."/>
+<line indent="3" string="Incorrect Definition for option Value &apos;Spc Turn Pen Table&apos;"/>
+</section>
+<section string="Procedure TCSPMAT on June 28, 2016 (12:26 AM)">
+</section>
+<section string="Procedure Intrazonal on June 28, 2016 (12:26 AM)">
+</section>
+<section name="Batch Routine Errors  (6/28/2016 12:40:21 AM)" string="">
+<line indent="3" string="Incorrect Attraction Table file name "/>
+<line indent="3" string="Incorrect Definition for option Value &apos;Attraction Table&apos;"/>
+</section>
+<section string="Procedure QRM All on June 28, 2016 (12:43 AM)">
+</section>
+<section name="Batch Routine Errors  (6/28/2016 12:43:00 AM)" string="">
+<line indent="3" string="Invalid value for option &apos;HH&apos;."/>
+</section>
+<section string="Procedure QRM All on June 28, 2016 (12:46 AM)">
+</section>
+<section name="Batch Routine Errors  (6/28/2016 12:46:37 AM)" string="">
+<line indent="3" string="Invalid value for option &apos;HH10&apos;."/>
+</section>
+<section string="Procedure QRM All on June 28, 2016 (12:55 AM)">
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 639. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1001. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1001. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1001. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1002. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1002. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1002. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1003. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1003. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1003. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1004. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1004. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1004. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1005. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1005. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1005. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1006. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1006. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1006. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1007. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1007. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1007. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1008. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1008. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1008. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1009. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1009. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1009. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1010. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1010. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1010. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1011. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1011. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1011. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1012. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1012. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1012. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1013. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1013. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1013. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1014. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1014. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1014. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1015. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1015. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1015. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1016. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1016. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1016. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1017. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1017. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1017. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1018. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1018. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1018. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1019. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1019. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1019. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1020. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1020. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1020. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1021. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1021. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1021. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1022. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1022. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1022. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1023. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1023. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1023. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1024. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1024. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1024. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1025. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1025. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1025. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1026. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1026. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1026. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1027. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1027. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1027. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1028. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1028. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1028. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1029. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1029. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1029. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1030. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1030. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1030. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1031. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1031. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1031. Will be treated as zero."/>
+</section>
+<section name="Batch Routine Errors  (6/28/2016 12:55:42 AM)" string="">
+<line indent="3" string="Cannot find resource QRM All Remove Defaults."/>
+</section>
+<section string="Procedure QRM All on June 28, 2016 (12:59 AM)">
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 639. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1001. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1001. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1001. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1002. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1002. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1002. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1003. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1003. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1003. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1004. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1004. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1004. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1005. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1005. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1005. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1006. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1006. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1006. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1007. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1007. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1007. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1008. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1008. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1008. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1009. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1009. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1009. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1010. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1010. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1010. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1011. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1011. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1011. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1012. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1012. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1012. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1013. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1013. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1013. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1014. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1014. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1014. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1015. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1015. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1015. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1016. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1016. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1016. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1017. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1017. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1017. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1018. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1018. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1018. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1019. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1019. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1019. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1020. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1020. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1020. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1021. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1021. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1021. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1022. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1022. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1022. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1023. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1023. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1023. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1024. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1024. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1024. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1025. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1025. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1025. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1026. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1026. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1026. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1027. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1027. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1027. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1028. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1028. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1028. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1029. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1029. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1029. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1030. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1030. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1030. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1031. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1031. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1031. Will be treated as zero."/>
+</section>
+<section name="Batch Routine Errors  (6/28/2016 12:59:22 AM)" string="">
+<line indent="3" string="Cannot find resource QRM All Remove Defaults."/>
+</section>
+<section string="Procedure QRM All on June 28, 2016 (01:26 AM)">
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 639. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1001. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1001. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1001. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1002. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1002. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1002. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1003. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1003. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1003. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1004. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1004. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1004. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1005. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1005. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1005. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1006. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1006. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1006. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1007. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1007. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1007. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1008. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1008. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1008. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1009. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1009. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1009. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1010. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1010. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1010. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1011. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1011. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1011. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1012. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1012. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1012. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1013. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1013. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1013. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1014. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1014. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1014. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1015. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1015. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1015. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1016. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1016. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1016. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1017. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1017. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1017. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1018. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1018. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1018. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1019. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1019. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1019. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1020. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1020. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1020. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1021. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1021. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1021. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1022. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1022. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1022. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1023. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1023. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1023. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1024. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1024. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1024. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1025. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1025. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1025. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1026. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1026. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1026. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1027. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1027. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1027. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1028. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1028. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1028. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1029. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1029. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1029. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1030. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1030. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1030. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1031. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1031. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1031. Will be treated as zero."/>
+</section>
+<section string="Procedure Procedure Quick Response Method on June 28, 2016 (01:42 AM)">
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 639. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1001. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1001. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1001. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1002. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1002. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1002. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1003. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1003. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1003. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1004. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1004. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1004. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1005. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1005. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1005. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1006. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1006. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1006. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1007. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1007. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1007. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1008. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1008. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1008. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1009. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1009. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1009. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1010. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1010. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1010. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1011. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1011. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1011. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1012. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1012. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1012. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1013. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1013. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1013. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1014. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1014. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1014. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1015. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1015. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1015. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1016. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1016. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1016. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1017. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1017. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1017. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1018. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1018. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1018. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1019. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1019. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1019. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1020. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1020. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1020. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1021. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1021. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1021. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1022. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1022. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1022. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1023. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1023. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1023. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1024. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1024. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1024. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1025. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1025. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1025. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1026. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1026. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1026. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1027. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1027. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1027. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1028. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1028. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1028. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1029. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1029. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1029. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1030. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1030. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1030. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1031. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1031. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (TOT_EMPLOY10) at ID 1031. Will be treated as zero."/>
+</section>
+<section string="Procedure QRM All on June 28, 2016 (01:52 AM)">
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 639. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1001. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1001. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1001. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1002. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1002. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1002. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1003. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1003. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1003. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1004. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1004. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1004. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1005. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1005. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1005. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1006. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1006. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1006. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1007. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1007. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1007. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1008. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1008. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1008. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1009. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1009. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1009. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1010. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1010. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1010. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1011. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1011. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1011. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1012. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1012. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1012. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1013. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1013. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1013. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1014. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1014. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1014. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1015. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1015. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1015. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1016. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1016. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1016. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1017. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1017. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1017. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1018. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1018. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1018. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1019. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1019. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1019. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1020. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1020. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1020. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1021. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1021. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1021. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1022. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1022. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1022. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1023. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1023. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1023. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1024. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1024. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1024. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1025. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1025. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1025. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1026. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1026. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1026. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1027. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1027. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1027. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1028. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1028. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1028. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1029. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1029. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1029. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1030. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1030. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1030. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1031. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1031. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1031. Will be treated as zero."/>
+</section>
+<section name="Batch Routine Errors  (6/28/2016 1:52:31 AM)" string="">
+<line indent="3" string="Cannot find resource QRM All Remove Defaults."/>
+</section>
+<section string="Procedure QRM All on June 28, 2016 (01:53 AM)">
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 639. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1001. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1001. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1001. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1002. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1002. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1002. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1003. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1003. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1003. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1004. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1004. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1004. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1005. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1005. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1005. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1006. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1006. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1006. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1007. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1007. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1007. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1008. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1008. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1008. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1009. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1009. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1009. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1010. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1010. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1010. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1011. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1011. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1011. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1012. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1012. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1012. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1013. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1013. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1013. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1014. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1014. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1014. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1015. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1015. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1015. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1016. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1016. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1016. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1017. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1017. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1017. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1018. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1018. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1018. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1019. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1019. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1019. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1020. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1020. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1020. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1021. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1021. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1021. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1022. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1022. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1022. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1023. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1023. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1023. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1024. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1024. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1024. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1025. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1025. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1025. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1026. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1026. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1026. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1027. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1027. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1027. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1028. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1028. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1028. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1029. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1029. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1029. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1030. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1030. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1030. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1031. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1031. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1031. Will be treated as zero."/>
+</section>
+<section name="Batch Routine Errors  (6/28/2016 1:53:35 AM)" string="">
+<line indent="3" string="Cannot find resource QRM All Remove Defaults."/>
+</section>
+<section string="Procedure QRM All on June 28, 2016 (01:55 AM)">
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 639. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1001. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1001. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1001. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1002. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1002. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1002. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1003. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1003. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1003. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1004. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1004. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1004. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1005. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1005. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1005. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1006. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1006. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1006. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1007. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1007. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1007. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1008. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1008. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1008. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1009. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1009. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1009. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1010. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1010. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1010. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1011. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1011. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1011. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1012. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1012. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1012. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1013. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1013. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1013. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1014. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1014. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1014. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1015. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1015. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1015. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1016. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1016. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1016. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1017. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1017. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1017. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1018. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1018. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1018. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1019. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1019. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1019. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1020. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1020. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1020. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1021. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1021. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1021. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1022. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1022. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1022. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1023. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1023. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1023. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1024. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1024. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1024. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1025. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1025. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1025. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1026. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1026. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1026. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1027. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1027. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1027. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1028. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1028. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1028. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1029. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1029. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1029. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1030. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1030. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1030. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1031. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1031. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1031. Will be treated as zero."/>
+</section>
+<section string="Procedure Gravity on June 28, 2016 (02:11 AM)">
+<line indent="3" string="Production for record 639 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1001 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1002 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1003 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1004 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1005 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1006 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1007 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1008 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1009 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1010 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1011 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1012 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1013 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1014 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1015 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1016 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1017 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1018 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1019 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1020 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1021 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1022 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1023 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Additional unlisted errors present (too numerous to list)."/>
+<line indent="3" string="Production for record 639 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1001 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1002 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1003 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1004 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1005 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1006 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1007 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1008 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1009 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1010 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1011 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1012 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1013 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1014 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1015 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1016 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1017 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1018 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1019 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1020 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1021 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1022 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1023 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Additional unlisted errors present (too numerous to list)."/>
+</section>
+<section string="Procedure PA2OD on June 28, 2016 (02:31 AM)">
+</section>
+<section name="Batch Routine Errors  (6/28/2016 2:31:57 AM)" string="">
+<line indent="3" string="Cannot find resource PA2OD Remove Defaults."/>
+</section>
+<section string="Procedure PA2OD on June 28, 2016 (02:33 AM)">
+</section>
+<section name="Batch Routine Errors  (6/28/2016 2:33:05 AM)" string="">
+<line indent="3" string="Cannot find resource TCB Matrix QuickSum Defaults."/>
+</section>
+<section string="Procedure PA2OD on June 28, 2016 (02:33 AM)">
+</section>
+<section string="Procedure Assignment on June 28, 2016 (02:54 AM)">
+</section>
+<section name="Batch Routine Errors  (6/28/2016 3:07:08 AM)" string="">
+<line indent="3" string="SetMap returned an error."/>
+</section>
+<section name="Batch Routine Errors  (6/28/2016 3:11:11 AM)" string="">
+<line indent="3" string="Cannot find resource Run Report."/>
+</section>
+<section name="Batch Routine Errors  (6/28/2016 3:21:04 AM)" string="">
+<line indent="3" string="Cannot find resource Run Report."/>
+</section>
+<section name="Batch Routine Errors  (6/28/2016 3:22:01 AM)" string="">
+<line indent="3" string="Cannot find resource Run Report."/>
+</section>
+<section name="Batch Routine Errors  (6/28/2016 3:23:00 AM)" string="">
+<line indent="3" string="Cannot find resource Run Report."/>
+</section>
+<section name="Batch Routine Errors  (6/28/2016 3:23:42 AM)" string="">
+<line indent="3" string="Cannot create directory C:\projects\git_versions\Topeka\Gui_design\Base\Reports."/>
+</section>
+<section string="Procedure TCSPMAT on June 28, 2016 (03:27 AM)">
+</section>
+<section string="Procedure Intrazonal on June 28, 2016 (03:27 AM)">
+</section>
+<section string="Procedure QRM All on June 28, 2016 (03:27 AM)">
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 639. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1001. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1001. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1001. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1002. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1002. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1002. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1003. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1003. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1003. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1004. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1004. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1004. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1005. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1005. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1005. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1006. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1006. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1006. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1007. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1007. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1007. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1008. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1008. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1008. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1009. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1009. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1009. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1010. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1010. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1010. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1011. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1011. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1011. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1012. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1012. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1012. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1013. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1013. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1013. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1014. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1014. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1014. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1015. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1015. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1015. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1016. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1016. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1016. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1017. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1017. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1017. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1018. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1018. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1018. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1019. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1019. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1019. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1020. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1020. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1020. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1021. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1021. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1021. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1022. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1022. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1022. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1023. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1023. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1023. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1024. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1024. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1024. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1025. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1025. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1025. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1026. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1026. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1026. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1027. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1027. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1027. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1028. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1028. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1028. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1029. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1029. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1029. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1030. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1030. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1030. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1031. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1031. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1031. Will be treated as zero."/>
+</section>
+<section string="Procedure Gravity on June 28, 2016 (03:27 AM)">
+<line indent="3" string="Production for record 639 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1001 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1002 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1003 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1004 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1005 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1006 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1007 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1008 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1009 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1010 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1011 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1012 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1013 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1014 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1015 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1016 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1017 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1018 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1019 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1020 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1021 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1022 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1023 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Additional unlisted errors present (too numerous to list)."/>
+<line indent="3" string="Production for record 639 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1001 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1002 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1003 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1004 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1005 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1006 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1007 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1008 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1009 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1010 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1011 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1012 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1013 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1014 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1015 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1016 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1017 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1018 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1019 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1020 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1021 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1022 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1023 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Additional unlisted errors present (too numerous to list)."/>
+</section>
+<section string="Procedure PA2OD on June 28, 2016 (03:27 AM)">
+</section>
+<section string="Procedure Assignment on June 28, 2016 (03:27 AM)">
+</section>
+<section string="Procedure TCSPMAT on June 28, 2016 (03:28 AM)">
+</section>
+<section string="Procedure Intrazonal on June 28, 2016 (03:28 AM)">
+</section>
+<section string="Procedure QRM All on June 28, 2016 (03:28 AM)">
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 639. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1001. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1001. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1001. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1002. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1002. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1002. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1003. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1003. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1003. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1004. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1004. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1004. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1005. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1005. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1005. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1006. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1006. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1006. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1007. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1007. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1007. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1008. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1008. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1008. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1009. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1009. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1009. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1010. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1010. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1010. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1011. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1011. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1011. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1012. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1012. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1012. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1013. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1013. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1013. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1014. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1014. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1014. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1015. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1015. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1015. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1016. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1016. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1016. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1017. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1017. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1017. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1018. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1018. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1018. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1019. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1019. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1019. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1020. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1020. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1020. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1021. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1021. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1021. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1022. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1022. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1022. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1023. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1023. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1023. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1024. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1024. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1024. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1025. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1025. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1025. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1026. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1026. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1026. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1027. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1027. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1027. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1028. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1028. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1028. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1029. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1029. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1029. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1030. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1030. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1030. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (HH10) at ID 1031. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1031. Will be treated as zero."/>
+<line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1031. Will be treated as zero."/>
+</section>
+<section string="Procedure Gravity on June 28, 2016 (03:28 AM)">
+<line indent="3" string="Production for record 639 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1001 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1002 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1003 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1004 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1005 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1006 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1007 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1008 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1009 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1010 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1011 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1012 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1013 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1014 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1015 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1016 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1017 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1018 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1019 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1020 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1021 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1022 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1023 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Additional unlisted errors present (too numerous to list)."/>
+<line indent="3" string="Production for record 639 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1001 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1002 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1003 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1004 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1005 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1006 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1007 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1008 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1009 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1010 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1011 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1012 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1013 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1014 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1015 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1016 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1017 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1018 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1019 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1020 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1021 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1022 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1023 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Additional unlisted errors present (too numerous to list)."/>
+</section>
+<section string="Procedure PA2OD on June 28, 2016 (03:28 AM)">
+</section>
+<section string="Procedure Assignment on June 28, 2016 (03:28 AM)">
+</section>
+<section string="Procedure TCSPMAT on June 28, 2016 (03:28 AM)">
+</section>
+<section string="Procedure TCSPMAT on June 28, 2016 (03:28 AM)">
+</section>
+<section string="Procedure TCSPMAT on June 28, 2016 (03:28 AM)">
+</section>
+<section string="Procedure TCSPMAT on June 28, 2016 (03:28 AM)">
+</section>
+<section string="Procedure TCSPMAT on June 28, 2016 (03:28 AM)">
+</section>
+</TCLog>

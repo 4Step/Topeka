@@ -1,0 +1,2112 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet href="report.xsl" type="text/xsl"?>
+
+<TCLog version="2" created="Mon Jun 27 16:22:20 2016">
+<section name="6 input files are missing" string="">
+<table title="Missing Input Files:">
+<col name="Scenario" bold="true"/>
+<col name="Stage" bold="true"/>
+<col name="Title" bold="true"/>
+<col name="Path" bold="true"/>
+<col name="Description" bold="true"/>
+</table>
+<row><val>Base</val><val>Network Preparation</val><val>ACCESS Capacity Lookup</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\input\LookupTables\LOOKUP.ACCDB</val><val>Capacity lookup</val></row>
+<row><val>Base</val><val>Network Preparation</val><val>turndb</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\input\LookupTables\turnpen.bin</val><val>Turning Prohibitions</val></row>
+<row><val>Base</val><val>Network Preparation</val><val>rs_file</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\input\transit\Transit.rts</val><val>Transit Route System</val></row>
+<row><val>Base</val><val>Network Preparation</val><val>modetabf</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\input\transit\ModeTable.bin</val><val>Mode definition table for transit skims</val></row>
+<row><val>Base</val><val>Network Preparation</val><val>curv_tb</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\input\LookupTables\curvdef.bin</val><val>Highway/transit speed curve definitions</val></row>
+<row><val>Base</val><val>Network Preparation</val><val>tspd_tb</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\input\LookupTables\transitspeed.bin</val><val>Transit speed curve selector by AT/FT/Mode</val></row>
+</section>
+<section name="1 output folder has been created" string="">
+<table title="Output Files with Newly Added Folder:">
+<col name="Scenario" bold="true"/>
+<col name="Stage" bold="true"/>
+<col name="Title" bold="true"/>
+<col name="Path" bold="true"/>
+<col name="Description" bold="true"/>
+</table>
+<row><val>Base</val><val>Network Preparation</val><val>tnet_dlb_off</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\output\trn\dlb_OFF.tnw</val><val>Off peak drive-bus transit net</val></row>
+</section>
+<section name="Batch Routine Report  (6/27/2016 4:22:22 PM)" string="">
+<table title=" " indent="2">
+<col name="Step" width="70%"/>
+<col name="Time" width="30%"/>
+</table>
+<row><val>Operation Fill Dataview</val><val>00:00:00.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:00.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:00.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:00.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:00.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:01.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:01.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:01.00</val></row>
+<line indent="2" string="Total Running Time: 00:01:24.00"/>
+</section>
+<section name="4 input files are missing" string="">
+<table title="Missing Input Files:">
+<col name="Scenario" bold="true"/>
+<col name="Stage" bold="true"/>
+<col name="Title" bold="true"/>
+<col name="Path" bold="true"/>
+<col name="Description" bold="true"/>
+</table>
+<row><val>Base</val><val>Network Preparation</val><val>ACCESS Capacity Lookup</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\input\LookupTables\LOOKUP.ACCDB</val><val>Capacity lookup</val></row>
+<row><val>Base</val><val>Network Preparation</val><val>turndb</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\input\hwy\turnpen.bin</val><val>Turning Prohibitions</val></row>
+<row><val>Base</val><val>Network Preparation</val><val>Asgn link</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\Asgn\ASN_LinkFlow.bin</val><val>Highway/transit speed curve definitions</val></row>
+<row><val>Base</val><val>Network Preparation</val><val>PA MAT</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\tripGen\cgrav.mtx</val><val>Transit speed curve selector by AT/FT/Mode</val></row>
+</section>
+<section name="4 output folders have been created " string="">
+<table title="Output Files with Newly Added Folder:">
+<col name="Scenario" bold="true"/>
+<col name="Stage" bold="true"/>
+<col name="Title" bold="true"/>
+<col name="Path" bold="true"/>
+<col name="Description" bold="true"/>
+</table>
+<row><val>Base</val><val>Network Preparation</val><val>Highway DB</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\output\hwy\highway_Network.dbd</val><val>Output Highway File</val></row>
+<row><val>Base</val><val>Network Preparation</val><val>TAZ DB</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\output\taz\zones.dbd</val><val>TAZ Polygons and data</val></row>
+<row><val>Base</val><val>Network Preparation</val><val>OD MAT</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\tripGen\PA2OD.mtx</val><val>Peak drive-bus transit net</val></row>
+<row><val>Base</val><val>Network Preparation</val><val>HWY SKIM</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\skims\SPMAT.mtx</val><val>Peak walk-bus transit net</val></row>
+</section>
+<section name="Batch Routine Report  (6/27/2016 4:41:08 PM)" string="">
+<table title=" " indent="2">
+<col name="Step" width="70%"/>
+<col name="Time" width="30%"/>
+</table>
+<row><val>Operation Fill Dataview</val><val>00:00:01.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:01.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:01.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<line indent="2" string="Total Running Time: 00:00:02.00"/>
+</section>
+<section name="4 input files are missing" string="">
+<table title="Missing Input Files:">
+<col name="Scenario" bold="true"/>
+<col name="Stage" bold="true"/>
+<col name="Title" bold="true"/>
+<col name="Path" bold="true"/>
+<col name="Description" bold="true"/>
+</table>
+<row><val>Base</val><val>Network Preparation</val><val>ACCESS Capacity Lookup</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\input\LookupTables\LOOKUP.ACCDB</val><val>Capacity lookup</val></row>
+<row><val>Base</val><val>Network Preparation</val><val>turndb</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\input\hwy\turnpen.bin</val><val>Turning Prohibitions</val></row>
+<row><val>Base</val><val>Network Preparation</val><val>Asgn link</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\Asgn\ASN_LinkFlow.bin</val><val>Highway/transit speed curve definitions</val></row>
+<row><val>Base</val><val>Network Preparation</val><val>PA MAT</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\tripGen\cgrav.mtx</val><val>Transit speed curve selector by AT/FT/Mode</val></row>
+</section>
+<section name="Batch Routine Report  (6/27/2016 4:41:38 PM)" string="">
+<table title=" " indent="2">
+<col name="Step" width="70%"/>
+<col name="Time" width="30%"/>
+</table>
+<row><val>Operation Fill Dataview</val><val>00:00:01.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:01.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:01.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<line indent="2" string="Total Running Time: 00:00:02.00"/>
+</section>
+<section name="4 input files are missing" string="">
+<table title="Missing Input Files:">
+<col name="Scenario" bold="true"/>
+<col name="Stage" bold="true"/>
+<col name="Title" bold="true"/>
+<col name="Path" bold="true"/>
+<col name="Description" bold="true"/>
+</table>
+<row><val>Base</val><val>Network Preparation</val><val>ACCESS Capacity Lookup</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\input\LookupTables\LOOKUP.ACCDB</val><val>Capacity lookup</val></row>
+<row><val>Base</val><val>Network Preparation</val><val>turndb</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\input\hwy\turnpen.bin</val><val>Turning Prohibitions</val></row>
+<row><val>Base</val><val>Network Preparation</val><val>Asgn link</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\Asgn\ASN_LinkFlow.bin</val><val>Highway/transit speed curve definitions</val></row>
+<row><val>Base</val><val>Network Preparation</val><val>PA MAT</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\tripGen\cgrav.mtx</val><val>Transit speed curve selector by AT/FT/Mode</val></row>
+</section>
+<section name="Batch Routine Report  (6/27/2016 4:43:56 PM)" string="">
+<table title=" " indent="2">
+<col name="Step" width="70%"/>
+<col name="Time" width="30%"/>
+</table>
+<row><val>Operation Fill Dataview</val><val>00:00:01.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:01.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<line indent="2" string="Total Running Time: 00:00:02.00"/>
+</section>
+<section name="4 input files are missing" string="">
+<table title="Missing Input Files:">
+<col name="Scenario" bold="true"/>
+<col name="Stage" bold="true"/>
+<col name="Title" bold="true"/>
+<col name="Path" bold="true"/>
+<col name="Description" bold="true"/>
+</table>
+<row><val>Base</val><val>Network Preparation</val><val>ACCESS Capacity Lookup</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\input\LookupTables\LOOKUP.ACCDB</val><val>Capacity lookup</val></row>
+<row><val>Base</val><val>Network Preparation</val><val>turndb</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\input\hwy\turnpen.bin</val><val>Turning Prohibitions</val></row>
+<row><val>Base</val><val>Network Preparation</val><val>Asgn link</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\Asgn\ASN_LinkFlow.bin</val><val>Highway/transit speed curve definitions</val></row>
+<row><val>Base</val><val>Network Preparation</val><val>PA MAT</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\tripGen\cgrav.mtx</val><val>Transit speed curve selector by AT/FT/Mode</val></row>
+</section>
+<section name="Batch Routine Report  (6/27/2016 4:46:03 PM)" string="">
+<table title=" " indent="2">
+<col name="Step" width="70%"/>
+<col name="Time" width="30%"/>
+</table>
+<row><val>Operation Fill Dataview</val><val>00:00:01.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:01.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:01.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<line indent="2" string="Total Running Time: 00:00:02.00"/>
+</section>
+<section name="4 input files are missing" string="">
+<table title="Missing Input Files:">
+<col name="Scenario" bold="true"/>
+<col name="Stage" bold="true"/>
+<col name="Title" bold="true"/>
+<col name="Path" bold="true"/>
+<col name="Description" bold="true"/>
+</table>
+<row><val>Base</val><val>Network Preparation</val><val>ACCESS Capacity Lookup</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\input\LookupTables\LOOKUP.ACCDB</val><val>Capacity lookup</val></row>
+<row><val>Base</val><val>Network Preparation</val><val>turndb</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\input\hwy\turnpen.bin</val><val>Turning Prohibitions</val></row>
+<row><val>Base</val><val>Network Preparation</val><val>Asgn link</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\Asgn\ASN_LinkFlow.bin</val><val>Highway/transit speed curve definitions</val></row>
+<row><val>Base</val><val>Network Preparation</val><val>PA MAT</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\tripGen\cgrav.mtx</val><val>Transit speed curve selector by AT/FT/Mode</val></row>
+</section>
+<section name="Batch Routine Report  (6/27/2016 11:42:43 PM)" string="">
+<table title=" " indent="2">
+<col name="Step" width="70%"/>
+<col name="Time" width="30%"/>
+</table>
+<row><val>Operation Fill Dataview</val><val>00:00:01.00</val></row>
+<row><val>Operation Fill Dataview</val><val>00:00:02.00</val></row>
+<line indent="2" string="Total Running Time: 00:00:02.00"/>
+</section>
+<section name="4 input files are missing" string="">
+<table title="Missing Input Files:">
+<col name="Scenario" bold="true"/>
+<col name="Stage" bold="true"/>
+<col name="Title" bold="true"/>
+<col name="Path" bold="true"/>
+<col name="Description" bold="true"/>
+</table>
+<row><val>Base</val><val>Network Preparation</val><val>ACCESS Capacity Lookup</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\input\LookupTables\LOOKUP.ACCDB</val><val>Capacity lookup</val></row>
+<row><val>Base</val><val>Network Preparation</val><val>turndb</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\input\hwy\turnpen.bin</val><val>Turning Prohibitions</val></row>
+<row><val>Base</val><val>Network Preparation</val><val>Asgn link</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\Asgn\ASN_LinkFlow.bin</val><val>Highway/transit speed curve definitions</val></row>
+<row><val>Base</val><val>Network Preparation</val><val>PA MAT</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\tripGen\cgrav.mtx</val><val>Transit speed curve selector by AT/FT/Mode</val></row>
+</section>
+<section name="Batch Routine Report  (6/27/2016 11:46:56 PM)" string="">
+<table title=" " indent="2">
+<col name="Loop" width="15%"/>
+<col name="Stage" width="20%"/>
+<col name="Step" width="45%"/>
+<col name="Time" width="20%"/>
+</table>
+<row><val>Loop 1</val><val>Network Preparation</val><val>Setup Output Folder</val><val>00:00:01</val></row>
+<row><val> </val><val> </val><val>Compute Hwy Attributes</val><val>00:00:01</val></row>
+<line indent="2" string="Total Running Time: 00:00:02.00"/>
+</section>
+<section name="Batch Routine Report  (6/28/2016 12:24:47 AM)" string="">
+<table title=" " indent="2">
+<col name="Step" width="70%"/>
+<col name="Time" width="30%"/>
+</table>
+<row><val>Operation Build Highway Network</val><val>00:00:00.00</val></row>
+<row><val>Operation Highway Network Setting</val><val>Failed</val></row>
+<line indent="2" string="Total Running Time: 00:00:00.00"/>
+</section>
+<section string="Procedure TCSPMAT on June 28, 2016 (12:26 AM)">
+<table title="Shortest Path Matrix" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Matrix Name</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\skims\SPMAT.mtx</val></row>
+<row><val>Network</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\hwy\Highway_Network.net</val></row>
+<row><val>Minimize</val><val>[Travel Time]</val></row>
+<row><val># Origins</val><val>546</val></row>
+<row><val># Destinations</val><val>546</val></row>
+<row><val>Origin Set</val><val>Selection</val></row>
+<row><val>Destination Set</val><val>Selection</val></row>
+<table indent="2">
+<col name="Shortest Path Matrix in file C:\projects\git_versions\Topeka\Gui_design\Base\Output\skims\SPMAT.mtx. Execution Time was  00:00:00.271"/>
+</table>
+</section>
+<section string="Procedure Intrazonal on June 28, 2016 (12:26 AM)">
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Adjacent Zones</val><val>3</val></row>
+<row><val>Factor</val><val>  1.00</val></row>
+<table indent="2">
+<col name="Total Running Time 00:00:00.094."/>
+</table>
+</section>
+<section name="Batch Routine Report  (6/28/2016 12:26:18 AM)" string="">
+<table title=" " indent="2">
+<col name="Loop" width="15%"/>
+<col name="Stage" width="20%"/>
+<col name="Step" width="45%"/>
+<col name="Time" width="20%"/>
+</table>
+<row><val>Loop 1</val><val>Build Network &amp; Skims</val><val>Build Highway Network</val><val>00:00:00</val></row>
+<row><val> </val><val> </val><val>Highway Network Setting</val><val>00:00:00</val></row>
+<row><val> </val><val> </val><val>Build Skims</val><val>00:00:00</val></row>
+<row><val> </val><val> </val><val>Intrazonal Times</val><val>00:00:00</val></row>
+<row><val> </val><val> </val><val>External Index</val><val>00:00:00</val></row>
+<row><val> </val><val> </val><val>Zero Out EE Skim Time</val><val>00:00:00</val></row>
+<line indent="2" string="Total Running Time: 00:00:01.00"/>
+</section>
+<section name="Batch Routine Report  (6/28/2016 12:40:21 AM)" string="">
+<table title=" " indent="2">
+<col name="Step" width="70%"/>
+<col name="Time" width="30%"/>
+</table>
+<row><val>Procedure QRM All</val><val>Failed</val></row>
+<line indent="2" string="Total Running Time: 00:00:00.00"/>
+</section>
+<section string="Procedure QRM All on June 28, 2016 (12:43 AM)">
+</section>
+<section name="Batch Routine Report  (6/28/2016 12:43:00 AM)" string="">
+<table title=" " indent="2">
+<col name="Step" width="70%"/>
+<col name="Time" width="30%"/>
+</table>
+<row><val>Procedure QRM All</val><val>Failed</val></row>
+<line indent="2" string="Total Running Time: 00:00:00.00"/>
+</section>
+<section string="Procedure QRM All on June 28, 2016 (12:46 AM)">
+</section>
+<section name="Batch Routine Report  (6/28/2016 12:46:37 AM)" string="">
+<table title=" " indent="2">
+<col name="Step" width="70%"/>
+<col name="Time" width="30%"/>
+</table>
+<row><val>Procedure QRM All</val><val>Failed</val></row>
+<line indent="2" string="Total Running Time: 00:00:00.00"/>
+</section>
+<section string="Procedure QRM All on June 28, 2016 (12:55 AM)">
+<table title="QRM -Trip Production and Attraction" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<table title="Inputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>View</val><val>SE_Data</val></row>
+<row><val>Selection</val><val>Selection</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Production Lookup</val><val>PROD_TGP</val></row>
+<row><val>Pop (thousands)</val><val> 100.00</val></row>
+<row><val>Classify by</val><val>Income per Households</val></row>
+<row><val>Inflation Index</val><val>   1.00</val></row>
+<row><val>Total HH</val><val>HH10</val></row>
+<row><val>Income/HH (000s)</val><val>INCOME10</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Attraction Lookup</val><val>ATTR_TGP</val></row>
+<row><val>Dwelling Units</val><val>HH10</val></row>
+<row><val>Retail Employment</val><val>RETAIL10</val></row>
+<row><val>Nonretail Emp.</val><val>NON_RETAIL10</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Balancing Method</val><val>Hold productions</val></row>
+<row><val>Use Special Zones</val><val>Yes</val></row>
+<row><val>Special Zone Code</val><val>0</val></row>
+<row><val>Zone Type Field</val><val>SPECIAL</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Number of purposes</val><val>4</val></row>
+<row><val>Purpose</val><val>HBW</val></row>
+<row><val>Special Production</val><val>HBW_P</val></row>
+<row><val>Special Attraction</val><val>HBW_A</val></row>
+<row><val>Purpose</val><val>HBNW</val></row>
+<row><val>Special Production</val><val>HBNW_P</val></row>
+<row><val>Special Attraction</val><val>HBNW_A</val></row>
+<row><val>Purpose</val><val>HBO</val></row>
+<row><val>Special Production</val><val>No</val></row>
+<row><val>Special Attraction</val><val>No</val></row>
+<row><val>Purpose</val><val>NHB</val></row>
+<row><val>Special Production</val><val>NHB_P</val></row>
+<row><val>Special Attraction</val><val>NHB_A</val></row>
+<table title="Outputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Output file</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\tripGen\QRM_ALL.bin</val></row>
+<table indent="2">
+<col name="Execution Time was  00:00:00.086"/>
+</table>
+</section>
+<section name="Batch Routine Report  (6/28/2016 12:55:42 AM)" string="">
+<table title=" " indent="2">
+<col name="Step" width="70%"/>
+<col name="Time" width="30%"/>
+</table>
+<row><val>Procedure QRM All</val><val>00:00:00.00</val></row>
+<line indent="2" string="Total Running Time: 00:00:00.00"/>
+</section>
+<section string="Procedure QRM All on June 28, 2016 (12:59 AM)">
+<table title="QRM -Trip Production and Attraction" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<table title="Inputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>View</val><val>SE_Data</val></row>
+<row><val>Selection</val><val>Selection</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Production Lookup</val><val>PROD_TGP</val></row>
+<row><val>Pop (thousands)</val><val> 100.00</val></row>
+<row><val>Classify by</val><val>Income per Households</val></row>
+<row><val>Inflation Index</val><val>   1.00</val></row>
+<row><val>Total HH</val><val>HH10</val></row>
+<row><val>Income/HH (000s)</val><val>INCOME10</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Attraction Lookup</val><val>ATTR_TGP</val></row>
+<row><val>Dwelling Units</val><val>HH10</val></row>
+<row><val>Retail Employment</val><val>RETAIL10</val></row>
+<row><val>Nonretail Emp.</val><val>NON_RETAIL10</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Balancing Method</val><val>Hold productions</val></row>
+<row><val>Use Special Zones</val><val>Yes</val></row>
+<row><val>Special Zone Code</val><val>0</val></row>
+<row><val>Zone Type Field</val><val>SPECIAL</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Number of purposes</val><val>4</val></row>
+<row><val>Purpose</val><val>HBW</val></row>
+<row><val>Special Production</val><val>HBW_P</val></row>
+<row><val>Special Attraction</val><val>HBW_A</val></row>
+<row><val>Purpose</val><val>HBNW</val></row>
+<row><val>Special Production</val><val>HBNW_P</val></row>
+<row><val>Special Attraction</val><val>HBNW_A</val></row>
+<row><val>Purpose</val><val>HBO</val></row>
+<row><val>Special Production</val><val>No</val></row>
+<row><val>Special Attraction</val><val>No</val></row>
+<row><val>Purpose</val><val>NHB</val></row>
+<row><val>Special Production</val><val>NHB_P</val></row>
+<row><val>Special Attraction</val><val>NHB_A</val></row>
+<table title="Outputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Output file</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\tripGen\QRM_ALL.bin</val></row>
+<table indent="2">
+<col name="Execution Time was  00:00:00.088"/>
+</table>
+</section>
+<section name="Batch Routine Report  (6/28/2016 12:59:22 AM)" string="">
+<table title=" " indent="2">
+<col name="Step" width="70%"/>
+<col name="Time" width="30%"/>
+</table>
+<row><val>Procedure QRM All</val><val>00:00:00.00</val></row>
+<line indent="2" string="Total Running Time: 00:00:00.00"/>
+</section>
+<section string="Procedure QRM All on June 28, 2016 (01:26 AM)">
+<table title="QRM -Trip Production and Attraction" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<table title="Inputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>View</val><val>SE_Data</val></row>
+<row><val>Selection</val><val>SE_Data</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Production Lookup</val><val>prod_tgp</val></row>
+<row><val>Pop (thousands)</val><val> 100.00</val></row>
+<row><val>Classify by</val><val>None (using average rates)</val></row>
+<row><val>Inflation Index</val><val>   1.00</val></row>
+<row><val>Total HH</val><val>HH10</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Attraction Lookup</val><val>attr_tgp</val></row>
+<row><val>Dwelling Units</val><val>HH10</val></row>
+<row><val>Retail Employment</val><val>RETAIL10</val></row>
+<row><val>Nonretail Emp.</val><val>TOT_EMPLOY10</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Balancing Method</val><val>Hold productions</val></row>
+<row><val>Use Special Zones</val><val>Yes</val></row>
+<row><val>Special Zone Code</val><val>0</val></row>
+<row><val>Zone Type Field</val><val>SPECIAL</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Number of purposes</val><val>4</val></row>
+<row><val>Purpose</val><val>HBW</val></row>
+<row><val>Special Production</val><val>HBW_P</val></row>
+<row><val>Special Attraction</val><val>HBW_A</val></row>
+<row><val>Purpose</val><val>HBNW</val></row>
+<row><val>Special Production</val><val>HBNW_P</val></row>
+<row><val>Special Attraction</val><val>HBNW_A</val></row>
+<row><val>Purpose</val><val>HBO</val></row>
+<row><val>Special Production</val><val>No</val></row>
+<row><val>Special Attraction</val><val>No</val></row>
+<row><val>Purpose</val><val>NHB</val></row>
+<row><val>Special Production</val><val>NHB_P</val></row>
+<row><val>Special Attraction</val><val>NHB_A</val></row>
+<table title="Outputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Output file</val><val>c:\projects\git_versions\topeka\gui_design\base\output\tripgen\QRM_All.bin</val></row>
+<table indent="2">
+<col name="Execution Time was  00:00:00.082"/>
+</table>
+</section>
+<section name="Batch Routine Report  (6/28/2016 1:26:55 AM)" string="">
+<table title=" " indent="2">
+<col name="Step" width="70%"/>
+<col name="Time" width="30%"/>
+</table>
+<row><val>Procedure QRM All</val><val>00:00:00.00</val></row>
+<line indent="2" string="Total Running Time: 00:00:00.00"/>
+</section>
+<section string="Procedure Procedure Quick Response Method on June 28, 2016 (01:42 AM)">
+<table title="QRM -Trip Production and Attraction" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<table title="Inputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>View</val><val>SE_Data</val></row>
+<row><val>Selection</val><val>SE_Data</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Production Lookup</val><val>PROD_TGP</val></row>
+<row><val>Pop (thousands)</val><val> 100.00</val></row>
+<row><val>Classify by</val><val>Income per Households</val></row>
+<row><val>Inflation Index</val><val>   1.00</val></row>
+<row><val>Total HH</val><val>HH10</val></row>
+<row><val>Income/HH (000s)</val><val>INCOME10</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Attraction Lookup</val><val>ATTR_TGP</val></row>
+<row><val>Dwelling Units</val><val>HH10</val></row>
+<row><val>Retail Employment</val><val>RETAIL10</val></row>
+<row><val>Nonretail Emp.</val><val>TOT_EMPLOY10</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Balancing Method</val><val>Hold productions</val></row>
+<row><val>Use Special Zones</val><val>Yes</val></row>
+<row><val>Special Zone Code</val><val>0</val></row>
+<row><val>Zone Type Field</val><val>SPECIAL</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Number of purposes</val><val>4</val></row>
+<row><val>Purpose</val><val>HBW</val></row>
+<row><val>Special Production</val><val>HBW_P</val></row>
+<row><val>Special Attraction</val><val>HBW_A</val></row>
+<row><val>Purpose</val><val>HBNW</val></row>
+<row><val>Special Production</val><val>HBNW_P</val></row>
+<row><val>Special Attraction</val><val>HBNW_A</val></row>
+<row><val>Purpose</val><val>HBO</val></row>
+<row><val>Special Production</val><val>No</val></row>
+<row><val>Special Attraction</val><val>No</val></row>
+<row><val>Purpose</val><val>NHB</val></row>
+<row><val>Special Production</val><val>NHB_P</val></row>
+<row><val>Special Attraction</val><val>NHB_A</val></row>
+<table title="Outputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Output file</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\tripgen\QRM_All.bin</val></row>
+<table indent="2">
+<col name="Execution Time was  00:00:00.096"/>
+</table>
+</section>
+<section string="Procedure QRM All on June 28, 2016 (01:52 AM)">
+<table title="QRM -Trip Production and Attraction" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<table title="Inputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>View</val><val>SE_Data</val></row>
+<row><val>Selection</val><val>SE_Data</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Production Lookup</val><val>PROD_TGP</val></row>
+<row><val>Pop (thousands)</val><val> 100.00</val></row>
+<row><val>Classify by</val><val>Income per Households</val></row>
+<row><val>Inflation Index</val><val>   1.00</val></row>
+<row><val>Total HH</val><val>HH10</val></row>
+<row><val>Income/HH (000s)</val><val>INCOME10</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Attraction Lookup</val><val>ATTR_TGP</val></row>
+<row><val>Dwelling Units</val><val>HH10</val></row>
+<row><val>Retail Employment</val><val>RETAIL10</val></row>
+<row><val>Nonretail Emp.</val><val>NON_RETAIL10</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Balancing Method</val><val>Hold productions</val></row>
+<row><val>Use Special Zones</val><val>Yes</val></row>
+<row><val>Special Zone Code</val><val>0</val></row>
+<row><val>Zone Type Field</val><val>SPECIAL</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Number of purposes</val><val>4</val></row>
+<row><val>Purpose</val><val>HBW</val></row>
+<row><val>Special Production</val><val>HBW_P</val></row>
+<row><val>Special Attraction</val><val>HBW_A</val></row>
+<row><val>Purpose</val><val>HBNW</val></row>
+<row><val>Special Production</val><val>HBNW_P</val></row>
+<row><val>Special Attraction</val><val>HBNW_A</val></row>
+<row><val>Purpose</val><val>HBO</val></row>
+<row><val>Special Production</val><val>No</val></row>
+<row><val>Special Attraction</val><val>No</val></row>
+<row><val>Purpose</val><val>NHB</val></row>
+<row><val>Special Production</val><val>NHB_P</val></row>
+<row><val>Special Attraction</val><val>NHB_A</val></row>
+<table title="Outputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Output file</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\tripGen\QRM_ALL.bin</val></row>
+<table indent="2">
+<col name="Execution Time was  00:00:00.085"/>
+</table>
+</section>
+<section name="Batch Routine Report  (6/28/2016 1:52:31 AM)" string="">
+<table title=" " indent="2">
+<col name="Step" width="70%"/>
+<col name="Time" width="30%"/>
+</table>
+<row><val>Procedure QRM All</val><val>00:00:00.00</val></row>
+<line indent="2" string="Total Running Time: 00:00:00.00"/>
+</section>
+<section string="Procedure QRM All on June 28, 2016 (01:53 AM)">
+<table title="QRM -Trip Production and Attraction" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<table title="Inputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>View</val><val>SE_Data</val></row>
+<row><val>Selection</val><val>SE_Data</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Production Lookup</val><val>PROD_TGP</val></row>
+<row><val>Pop (thousands)</val><val> 100.00</val></row>
+<row><val>Classify by</val><val>Income per Households</val></row>
+<row><val>Inflation Index</val><val>   1.00</val></row>
+<row><val>Total HH</val><val>HH10</val></row>
+<row><val>Income/HH (000s)</val><val>INCOME10</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Attraction Lookup</val><val>ATTR_TGP</val></row>
+<row><val>Dwelling Units</val><val>HH10</val></row>
+<row><val>Retail Employment</val><val>RETAIL10</val></row>
+<row><val>Nonretail Emp.</val><val>NON_RETAIL10</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Balancing Method</val><val>Hold productions</val></row>
+<row><val>Use Special Zones</val><val>Yes</val></row>
+<row><val>Special Zone Code</val><val>0</val></row>
+<row><val>Zone Type Field</val><val>SPECIAL</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Number of purposes</val><val>4</val></row>
+<row><val>Purpose</val><val>HBW</val></row>
+<row><val>Special Production</val><val>HBW_P</val></row>
+<row><val>Special Attraction</val><val>HBW_A</val></row>
+<row><val>Purpose</val><val>HBNW</val></row>
+<row><val>Special Production</val><val>HBNW_P</val></row>
+<row><val>Special Attraction</val><val>HBNW_A</val></row>
+<row><val>Purpose</val><val>HBO</val></row>
+<row><val>Special Production</val><val>No</val></row>
+<row><val>Special Attraction</val><val>No</val></row>
+<row><val>Purpose</val><val>NHB</val></row>
+<row><val>Special Production</val><val>NHB_P</val></row>
+<row><val>Special Attraction</val><val>NHB_A</val></row>
+<table title="Outputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Output file</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\tripGen\QRM_ALL.bin</val></row>
+<table indent="2">
+<col name="Execution Time was  00:00:00.088"/>
+</table>
+</section>
+<section name="Batch Routine Report  (6/28/2016 1:53:35 AM)" string="">
+<table title=" " indent="2">
+<col name="Step" width="70%"/>
+<col name="Time" width="30%"/>
+</table>
+<row><val>Procedure QRM All</val><val>00:00:00.00</val></row>
+<line indent="2" string="Total Running Time: 00:00:00.00"/>
+</section>
+<section string="Procedure QRM All on June 28, 2016 (01:55 AM)">
+<table title="QRM -Trip Production and Attraction" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<table title="Inputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>View</val><val>SE_Data</val></row>
+<row><val>Selection</val><val>SE_Data</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Production Lookup</val><val>PROD_TGP</val></row>
+<row><val>Pop (thousands)</val><val> 100.00</val></row>
+<row><val>Classify by</val><val>Income per Households</val></row>
+<row><val>Inflation Index</val><val>   1.00</val></row>
+<row><val>Total HH</val><val>HH10</val></row>
+<row><val>Income/HH (000s)</val><val>INCOME10</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Attraction Lookup</val><val>ATTR_TGP</val></row>
+<row><val>Dwelling Units</val><val>HH10</val></row>
+<row><val>Retail Employment</val><val>RETAIL10</val></row>
+<row><val>Nonretail Emp.</val><val>NON_RETAIL10</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Balancing Method</val><val>Hold productions</val></row>
+<row><val>Use Special Zones</val><val>Yes</val></row>
+<row><val>Special Zone Code</val><val>0</val></row>
+<row><val>Zone Type Field</val><val>SPECIAL</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Number of purposes</val><val>4</val></row>
+<row><val>Purpose</val><val>HBW</val></row>
+<row><val>Special Production</val><val>HBW_P</val></row>
+<row><val>Special Attraction</val><val>HBW_A</val></row>
+<row><val>Purpose</val><val>HBNW</val></row>
+<row><val>Special Production</val><val>HBNW_P</val></row>
+<row><val>Special Attraction</val><val>HBNW_A</val></row>
+<row><val>Purpose</val><val>HBO</val></row>
+<row><val>Special Production</val><val>No</val></row>
+<row><val>Special Attraction</val><val>No</val></row>
+<row><val>Purpose</val><val>NHB</val></row>
+<row><val>Special Production</val><val>NHB_P</val></row>
+<row><val>Special Attraction</val><val>NHB_A</val></row>
+<table title="Outputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Output file</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\tripGen\QRM_ALL.bin</val></row>
+<table indent="2">
+<col name="Execution Time was  00:00:00.086"/>
+</table>
+</section>
+<section name="Batch Routine Report  (6/28/2016 1:55:28 AM)" string="">
+<table title=" " indent="2">
+<col name="Loop" width="15%"/>
+<col name="Stage" width="20%"/>
+<col name="Step" width="45%"/>
+<col name="Time" width="20%"/>
+</table>
+<row><val>Loop 1</val><val>Trip Generation</val><val>Trip Generation QRM All</val><val>00:00:00</val></row>
+<row><val> </val><val> </val><val>NHB Adjust</val><val>00:00:00</val></row>
+<line indent="2" string="Total Running Time: 00:00:00.00"/>
+</section>
+<section string="Procedure Gravity on June 28, 2016 (02:11 AM)">
+<table title="Inputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>View</val><val>EndpointsQRM_ALL</val></row>
+<row><val>Selection</val><val>Selection</val></row>
+<row><val>Number of Purposes</val><val>3</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Purpose</val><val>HBW</val></row>
+<row><val>Production Field</val><val>QRM_ALL.HBW_P</val></row>
+<row><val>Attraction Field</val><val>QRM_ALL.HBW_A</val></row>
+<row><val>Constraint</val><val>Doubly (Productions and Attractions)</val></row>
+<row><val>Iterations</val><val>10</val></row>
+<row><val>Convergence</val><val>1.00e-002</val></row>
+<row><val>Friction Factor Type</val><val>Negative Exponential = exp(-c.t)</val></row>
+<row><val> </val><val>c =  -0.100000</val></row>
+<row><val>Cost Matrix</val><val>C:\PROJECTS\GIT_VERSIONS\TOPEKA\GUI_DESIGN\BASE\OUTPUT\SKIMS\SPMAT.MTX([Travel Time] (Skim))</val></row>
+<row><val>K-Factor Matrix</val><val>C:\PROJECTS\GIT_VERSIONS\TOPEKA\GUI_DESIGN\BASE\OUTPUT\SKIMS\SPMAT.MTX([Travel Time])</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Purpose</val><val>HBNW</val></row>
+<row><val>Production Field</val><val>QRM_ALL.HBNW_P</val></row>
+<row><val>Attraction Field</val><val>QRM_ALL.HBNW_A</val></row>
+<row><val>Constraint</val><val>Doubly (Productions and Attractions)</val></row>
+<row><val>Iterations</val><val>10</val></row>
+<row><val>Convergence</val><val>1.00e-002</val></row>
+<row><val>Friction Factor Type</val><val>Negative Exponential = exp(-c.t)</val></row>
+<row><val> </val><val>c =   0.040000</val></row>
+<row><val>Cost Matrix</val><val>C:\PROJECTS\GIT_VERSIONS\TOPEKA\GUI_DESIGN\BASE\OUTPUT\SKIMS\SPMAT.MTX([Travel Time] (Skim))</val></row>
+<row><val>K-Factor Matrix</val><val>C:\PROJECTS\GIT_VERSIONS\TOPEKA\GUI_DESIGN\BASE\OUTPUT\SKIMS\SPMAT.MTX([Travel Time])</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Purpose</val><val>NHB</val></row>
+<row><val>Production Field</val><val>QRM_ALL.NHB_P</val></row>
+<row><val>Attraction Field</val><val>QRM_ALL.NHB_A</val></row>
+<row><val>Constraint</val><val>Doubly (Productions and Attractions)</val></row>
+<row><val>Iterations</val><val>10</val></row>
+<row><val>Convergence</val><val>1.00e-002</val></row>
+<row><val>Friction Factor Type</val><val>Negative Exponential = exp(-c.t)</val></row>
+<row><val> </val><val>c =   0.020000</val></row>
+<row><val>Cost Matrix</val><val>C:\PROJECTS\GIT_VERSIONS\TOPEKA\GUI_DESIGN\BASE\OUTPUT\SKIMS\SPMAT.MTX([Travel Time] (Skim))</val></row>
+<row><val>K-Factor Matrix</val><val>C:\PROJECTS\GIT_VERSIONS\TOPEKA\GUI_DESIGN\BASE\INPUT\LOOKUPTABLES\K_FACTORS.MTX(K-Factors)</val></row>
+<table title="Outputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Output matrix file</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\tripGen\cgrav.mtx</val></row>
+<row><val>Results</val><val>No models have failed.</val></row>
+<row><val>HBW</val><val>Converged after 3 iterations.</val></row>
+<row><val> </val><val>K-Factor applied</val></row>
+<row><val>HBNW</val><val>Converged after 3 iterations.</val></row>
+<row><val> </val><val>K-Factor applied</val></row>
+<row><val>NHB</val><val>Converged after 4 iterations.</val></row>
+<row><val> </val><val>K-Factor applied</val></row>
+<table indent="2">
+<col name="Execution Time was  00:00:00.958"/>
+</table>
+</section>
+<section name="Batch Routine Report  (6/28/2016 2:11:14 AM)" string="">
+<table title=" " indent="2">
+<col name="Loop" width="15%"/>
+<col name="Stage" width="20%"/>
+<col name="Step" width="45%"/>
+<col name="Time" width="20%"/>
+</table>
+<row><val>Loop 1</val><val>Trip Distribution</val><val>Gravity Model</val><val>00:00:01</val></row>
+<line indent="2" string="Total Running Time: 00:00:01.00"/>
+</section>
+<section string="Procedure PA2OD on June 28, 2016 (02:31 AM)">
+<table title="Inputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Start Hour</val><val>0</val></row>
+<row><val>End Hour</val><val>23</val></row>
+<row><val>Report By Hour</val><val>No</val></row>
+<row><val>PA Matrix File</val><val>C:\PROJECTS\GIT_VERSIONS\TOPEKA\GUI_DESIGN\BASE\OUTPUT\TRIPGEN\CGRAV.MTX</val></row>
+<row><val>Number of Models</val><val>3</val></row>
+<row><val>Matrix</val><val>0</val></row>
+<row><val>Vehicle Occupancy</val><val>  1.100</val></row>
+<row><val>Matrix</val><val>1</val></row>
+<row><val>Vehicle Occupancy</val><val>  1.800</val></row>
+<row><val>Matrix</val><val>2</val></row>
+<row><val>Vehicle Occupancy</val><val>  1.700</val></row>
+<table title="Outputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Output matrix file</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\tripGen\PA2OD.mtx</val></row>
+<table indent="2">
+<col name="Total Running Time 0.253 seconds."/>
+</table>
+</section>
+<section name="Batch Routine Report  (6/28/2016 2:31:57 AM)" string="">
+<table title=" " indent="2">
+<col name="Step" width="70%"/>
+<col name="Time" width="30%"/>
+</table>
+<row><val>Procedure PA2OD</val><val>00:00:00.00</val></row>
+<line indent="2" string="Total Running Time: 00:00:00.00"/>
+</section>
+<section string="Procedure PA2OD on June 28, 2016 (02:33 AM)">
+<table title="Inputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Start Hour</val><val>0</val></row>
+<row><val>End Hour</val><val>23</val></row>
+<row><val>Report By Hour</val><val>No</val></row>
+<row><val>PA Matrix File</val><val>C:\PROJECTS\GIT_VERSIONS\TOPEKA\GUI_DESIGN\BASE\OUTPUT\TRIPGEN\CGRAV.MTX</val></row>
+<row><val>Number of Models</val><val>3</val></row>
+<row><val>Matrix</val><val>0</val></row>
+<row><val>Vehicle Occupancy</val><val>  1.100</val></row>
+<row><val>Matrix</val><val>1</val></row>
+<row><val>Vehicle Occupancy</val><val>  1.800</val></row>
+<row><val>Matrix</val><val>2</val></row>
+<row><val>Vehicle Occupancy</val><val>  1.700</val></row>
+<table title="Outputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Output matrix file</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\tripGen\PA2OD.mtx</val></row>
+<table indent="2">
+<col name="Total Running Time 0.268 seconds."/>
+</table>
+</section>
+<section name="Batch Routine Report  (6/28/2016 2:33:04 AM)" string="">
+<table title=" " indent="2">
+<col name="Step" width="70%"/>
+<col name="Time" width="30%"/>
+</table>
+<row><val>Procedure PA2OD</val><val>00:00:00.00</val></row>
+<row><val>Operation Matrix QuickSum</val><val>00:00:00.00</val></row>
+<line indent="2" string="Total Running Time: 00:00:00.00"/>
+</section>
+<section string="Procedure PA2OD on June 28, 2016 (02:33 AM)">
+<table title="Inputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Start Hour</val><val>0</val></row>
+<row><val>End Hour</val><val>23</val></row>
+<row><val>Report By Hour</val><val>No</val></row>
+<row><val>PA Matrix File</val><val>C:\PROJECTS\GIT_VERSIONS\TOPEKA\GUI_DESIGN\BASE\OUTPUT\TRIPGEN\CGRAV.MTX</val></row>
+<row><val>Number of Models</val><val>3</val></row>
+<row><val>Matrix</val><val>0</val></row>
+<row><val>Vehicle Occupancy</val><val>  1.100</val></row>
+<row><val>Matrix</val><val>1</val></row>
+<row><val>Vehicle Occupancy</val><val>  1.800</val></row>
+<row><val>Matrix</val><val>2</val></row>
+<row><val>Vehicle Occupancy</val><val>  1.700</val></row>
+<table title="Outputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Output matrix file</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\tripGen\PA2OD.mtx</val></row>
+<table indent="2">
+<col name="Total Running Time 0.260 seconds."/>
+</table>
+</section>
+<section name="Batch Routine Report  (6/28/2016 2:33:57 AM)" string="">
+<table title=" " indent="2">
+<col name="Loop" width="15%"/>
+<col name="Stage" width="20%"/>
+<col name="Step" width="45%"/>
+<col name="Time" width="20%"/>
+</table>
+<row><val>Loop 1</val><val>Pa To Od</val><val>PA2OD</val><val>00:00:00</val></row>
+<row><val> </val><val> </val><val>Daily Internal OD</val><val>00:00:00</val></row>
+<row><val> </val><val> </val><val>OD External Index</val><val>00:00:00</val></row>
+<row><val> </val><val> </val><val>Add EE Trips to OD</val><val>00:00:00</val></row>
+<line indent="2" string="Total Running Time: 00:00:00.00"/>
+</section>
+<section string="Procedure Assignment on June 28, 2016 (02:54 AM)">
+<table indent="2">
+<col name="Iteration" align="right"/>
+<col name="Obj. Func." align="right"/>
+<col name="Step" align="right"/>
+<col name="Relative Gap" align="right"/>
+<col name="AEC" align="right"/>
+<col name="Max. Flow Change" align="right"/>
+<col name="Relative VHT" align="right"/>
+<col name="RMSE" align="right"/>
+<col name="% RMSE" align="right"/>
+<col name="CPU Time" align="right"/>
+</table>
+<row><val>1</val><val>6186177.337917</val><val>0.268378</val><val>4.3343771e-001</val><val>8.3866507e+000</val><val>13477.853095</val><val></val><val>1571.25</val><val>65.11</val><val>00:00:00.280</val></row>
+<row><val>2</val><val>5665445.888158</val><val>0.322289</val><val>9.2945112e-002</val><val>1.0979324e+000</val><val>8467.805481</val><val>0.391046</val><val>864.81</val><val>35.85</val><val>00:00:00.355</val></row>
+<row><val>3</val><val>5588966.866868</val><val>0.285015</val><val>2.2475967e-002</val><val>2.4375263e-001</val><val>4253.123457</val><val>0.081925</val><val>345.01</val><val>14.31</val><val>00:00:00.425</val></row>
+<row><val>4</val><val>5577634.959834</val><val>1.000000</val><val>1.9693495e-002</val><val>2.1231645e-001</val><val>6037.187833</val><val>0.005932</val><val>572.77</val><val>23.95</val><val>00:00:00.495</val></row>
+<row><val>5</val><val>5547425.449290</val><val>0.169221</val><val>1.5546620e-002</val><val>1.6724296e-001</val><val>3482.320651</val><val>0.002025</val><val>318.84</val><val>13.35</val><val>00:00:00.561</val></row>
+<row><val>6</val><val>5539369.925607</val><val>0.457919</val><val>9.0482121e-003</val><val>9.6617088e-002</val><val>4456.710803</val><val>0.007331</val><val>411.24</val><val>17.27</val><val>00:00:00.633</val></row>
+<row><val>7</val><val>5530276.642358</val><val>1.000000</val><val>8.8586720e-003</val><val>9.4630583e-002</val><val>2640.724954</val><val>0.000203</val><val>286.36</val><val>12.05</val><val>00:00:00.702</val></row>
+<row><val>8</val><val>5522677.707378</val><val>0.116784</val><val>8.3367536e-003</val><val>8.9235035e-002</val><val>2176.594503</val><val>0.002007</val><val>187.37</val><val>7.88</val><val>00:00:00.770</val></row>
+<row><val>9</val><val>5519698.846165</val><val>0.186622</val><val>4.8077190e-003</val><val>5.1244960e-002</val><val>2801.176056</val><val>0.004166</val><val>200.31</val><val>8.42</val><val>00:00:00.838</val></row>
+<row><val>10</val><val>5517393.267361</val><val>0.337419</val><val>2.6088332e-003</val><val>2.7746941e-002</val><val>1916.914766</val><val>0.002166</val><val>182.72</val><val>7.69</val><val>00:00:00.905</val></row>
+<row><val>11</val><val>5515613.103558</val><val>1.000000</val><val>2.8559950e-003</val><val>3.0382777e-002</val><val>2152.012562</val><val>0.000294</val><val>205.74</val><val>8.68</val><val>00:00:00.967</val></row>
+<row><val>12</val><val>5512479.263060</val><val>0.076753</val><val>2.8563113e-003</val><val>3.0370938e-002</val><val>1341.338015</val><val>0.000554</val><val>97.57</val><val>4.11</val><val>00:00:01.028</val></row>
+<row><val>13</val><val>5511809.621329</val><val>0.163465</val><val>1.6251007e-003</val><val>1.7259122e-002</val><val>1345.861512</val><val>0.001132</val><val>126.17</val><val>5.32</val><val>00:00:01.092</val></row>
+<row><val>14</val><val>5511074.120158</val><val>0.210351</val><val>1.1640245e-003</val><val>1.2352385e-002</val><val>1203.694984</val><val>0.000852</val><val>88.15</val><val>3.71</val><val>00:00:01.155</val></row>
+<row><val>15</val><val>5510648.841632</val><val>0.236831</val><val>9.8202680e-004</val><val>1.0421761e-002</val><val>641.968257</val><val>0.000043</val><val>65.46</val><val>2.76</val><val>00:00:01.219</val></row>
+<row><val>16</val><val>5510380.409543</val><val>0.729504</val><val>1.0573630e-003</val><val>1.1222809e-002</val><val>2595.711636</val><val>0.000135</val><val>120.39</val><val>5.07</val><val>00:00:01.286</val></row>
+<row><val>17</val><val>5509903.347404</val><val>1.000000</val><val>1.1149375e-003</val><val>1.1833841e-002</val><val>468.076334</val><val>0.000060</val><val>34.37</val><val>1.45</val><val>00:00:01.351</val></row>
+<row><val>18</val><val>5509639.907511</val><val>0.082753</val><val>8.8128873e-004</val><val>9.3545308e-003</val><val>727.926126</val><val>0.000062</val><val>64.62</val><val>2.72</val><val>00:00:01.413</val></row>
+<row><val>19</val><val>5509430.032880</val><val>0.092599</val><val>5.8999150e-004</val><val>6.2627190e-003</val><val>805.474949</val><val>0.000012</val><val>50.02</val><val>2.11</val><val>00:00:01.474</val></row>
+<row><val>20</val><val>5509292.162281</val><val>0.146760</val><val>4.9297667e-004</val><val>5.2320613e-003</val><val>815.371081</val><val>0.000181</val><val>50.27</val><val>2.12</val><val>00:00:01.534</val></row>
+<row><val>21</val><val>5509164.001068</val><val>0.236078</val><val>4.8385126e-004</val><val>5.1349592e-003</val><val>590.458254</val><val>0.000047</val><val>57.88</val><val>2.44</val><val>00:00:01.593</val></row>
+<row><val>22</val><val>5509031.473882</val><val>0.403534</val><val>5.3826455e-004</val><val>5.7111649e-003</val><val>853.539235</val><val>0.000206</val><val>56.29</val><val>2.37</val><val>00:00:01.653</val></row>
+<row><val>23</val><val>5508896.690518</val><val>0.578763</val><val>5.3503110e-004</val><val>5.6773229e-003</val><val>654.238950</val><val>0.000085</val><val>44.49</val><val>1.88</val><val>00:00:01.728</val></row>
+<row><val>24</val><val>5508795.737017</val><val>1.000000</val><val>4.6687511e-004</val><val>4.9549186e-003</val><val>956.240633</val><val>0.000158</val><val>41.06</val><val>1.73</val><val>00:00:01.790</val></row>
+<row><val>25</val><val>5508688.813937</val><val>0.057170</val><val>3.8342477e-004</val><val>4.0682145e-003</val><val>713.538222</val><val>0.000271</val><val>39.23</val><val>1.66</val><val>00:00:01.855</val></row>
+<row><val>26</val><val>5508625.243181</val><val>0.089278</val><val>2.9105441e-004</val><val>3.0880711e-003</val><val>406.950116</val><val>0.000011</val><val>32.14</val><val>1.36</val><val>00:00:01.915</val></row>
+<row><val>27</val><val>5508570.175443</val><val>0.081554</val><val>2.9549491e-004</val><val>3.1353102e-003</val><val>397.166163</val><val>0.000049</val><val>23.57</val><val>0.99</val><val>00:00:01.976</val></row>
+<row><val>28</val><val>5508539.571083</val><val>0.150428</val><val>2.4626816e-004</val><val>2.6131033e-003</val><val>625.241436</val><val>0.000039</val><val>32.84</val><val>1.39</val><val>00:00:02.056</val></row>
+<row><val>29</val><val>5508494.410363</val><val>0.135578</val><val>2.5747539e-004</val><val>2.7320237e-003</val><val>246.177115</val><val>0.000019</val><val>23.37</val><val>0.99</val><val>00:00:02.117</val></row>
+<row><val>30</val><val>5508466.539981</val><val>0.273437</val><val>2.0982718e-004</val><val>2.2264654e-003</val><val>381.262938</val><val>0.000008</val><val>29.53</val><val>1.25</val><val>00:00:02.184</val></row>
+<row><val>31</val><val>5508427.957084</val><val>0.380331</val><val>2.5588659e-004</val><val>2.7155785e-003</val><val>459.196798</val><val>0.000163</val><val>31.63</val><val>1.33</val><val>00:00:02.265</val></row>
+<row><val>32</val><val>5508385.140799</val><val>0.736971</val><val>2.4823838e-004</val><val>2.6349646e-003</val><val>375.791289</val><val>0.000222</val><val>33.72</val><val>1.42</val><val>00:00:02.326</val></row>
+<row><val>33</val><val>5508337.406676</val><val>1.000000</val><val>2.7347633e-004</val><val>2.9025933e-003</val><val>100.125422</val><val>0.000085</val><val>9.18</val><val>0.39</val><val>00:00:02.400</val></row>
+<row><val>34</val><val>5508315.281608</val><val>0.036754</val><val>2.0643359e-004</val><val>2.1910127e-003</val><val>346.850576</val><val>0.000008</val><val>19.93</val><val>0.84</val><val>00:00:02.468</val></row>
+<row><val>35</val><val>5508293.251799</val><val>0.064902</val><val>1.6538897e-004</val><val>1.7554369e-003</val><val>369.088558</val><val>0.000013</val><val>23.56</val><val>0.99</val><val>00:00:02.532</val></row>
+<row><val>36</val><val>5508269.450391</val><val>0.072194</val><val>1.4615502e-004</val><val>1.5510871e-003</val><val>182.373183</val><val>0.000140</val><val>19.37</val><val>0.82</val><val>00:00:02.597</val></row>
+<row><val>37</val><val>5508252.168381</val><val>0.091368</val><val>1.2284442e-004</val><val>1.3036876e-003</val><val>250.223871</val><val>0.000027</val><val>19.00</val><val>0.80</val><val>00:00:02.668</val></row>
+<row><val>38</val><val>5508238.067898</val><val>0.109905</val><val>1.1794515e-004</val><val>1.2516651e-003</val><val>250.240131</val><val>0.000026</val><val>16.49</val><val>0.70</val><val>00:00:02.732</val></row>
+<row><val>39</val><val>5508225.423754</val><val>0.124310</val><val>1.3105180e-004</val><val>1.3906759e-003</val><val>278.333394</val><val>0.000044</val><val>12.94</val><val>0.55</val><val>00:00:02.793</val></row>
+<row><val>40</val><val>5508216.549192</val><val>0.157892</val><val>9.9170480e-005</val><val>1.0523196e-003</val><val>237.175072</val><val>0.000035</val><val>20.27</val><val>0.86</val><val>00:00:02.866</val></row>
+<row><val>41</val><val>5508201.449368</val><val>0.164324</val><val>1.2422951e-004</val><val>1.3182061e-003</val><val>345.287175</val><val>0.000013</val><val>17.28</val><val>0.73</val><val>00:00:02.927</val></row>
+<row><val>42</val><val>5508188.673847</val><val>0.205856</val><val>1.2626495e-004</val><val>1.3397885e-003</val><val>173.175194</val><val>0.000010</val><val>14.46</val><val>0.61</val><val>00:00:02.988</val></row>
+<row><val>43</val><val>5508178.626541</val><val>0.191624</val><val>1.1801824e-004</val><val>1.2523085e-003</val><val>236.241683</val><val>0.000022</val><val>12.71</val><val>0.54</val><val>00:00:03.068</val></row>
+<row><val>44</val><val>5508171.756710</val><val>0.220034</val><val>1.0159881e-004</val><val>1.0781284e-003</val><val>276.289395</val><val>0.000040</val><val>12.79</val><val>0.54</val><val>00:00:03.140</val></row>
+<row><val>45</val><val>5508163.201711</val><val>0.169028</val><val>8.7007695e-005</val><val>9.2327758e-004</val><val>325.166650</val><val>0.000019</val><val>14.10</val><val>0.59</val><val>00:00:03.217</val></row>
+<row><val>46</val><val>5508155.180923</val><val>0.151888</val><val>9.3762902e-005</val><val>9.9496441e-004</val><val>132.848269</val><val>0.000009</val><val>11.06</val><val>0.47</val><val>00:00:03.294</val></row>
+<row><val>47</val><val>5508149.671176</val><val>0.182886</val><val>7.2131410e-005</val><val>7.6541118e-004</val><val>129.374915</val><val>0.000018</val><val>10.98</val><val>0.46</val><val>00:00:03.359</val></row>
+<row><val>48</val><val>5508144.558511</val><val>0.160853</val><val>7.8158284e-005</val><val>8.2939706e-004</val><val>108.012299</val><val>0.000038</val><val>10.44</val><val>0.44</val><val>00:00:03.435</val></row>
+<row><val>49</val><val>5508140.026029</val><val>0.163572</val><val>6.7522064e-005</val><val>7.1653955e-004</val><val>109.189535</val><val>0.000028</val><val>8.50</val><val>0.36</val><val>00:00:03.509</val></row>
+<row><val>50</val><val>5508136.567996</val><val>0.162589</val><val>6.1722951e-005</val><val>6.5499636e-004</val><val>203.465233</val><val>0.000003</val><val>10.09</val><val>0.43</val><val>00:00:03.587</val></row>
+<row><val>51</val><val>5508132.243110</val><val>0.105173</val><val>5.8575841e-005</val><val>6.2159898e-004</val><val>134.125637</val><val>0.000003</val><val>7.58</val><val>0.32</val><val>00:00:03.652</val></row>
+<row><val>52</val><val>5508128.901071</val><val>0.210918</val><val>6.1442585e-005</val><val>6.5203922e-004</val><val>164.087151</val><val>0.000026</val><val>8.69</val><val>0.37</val><val>00:00:03.714</val></row>
+<row><val>53</val><val>5508125.698248</val><val>0.078279</val><val>5.1824632e-005</val><val>5.4996974e-004</val><val>120.386586</val><val>0.000003</val><val>6.93</val><val>0.29</val><val>00:00:03.785</val></row>
+<row><val>54</val><val>5508123.653158</val><val>0.189757</val><val>5.2861040e-005</val><val>5.6097104e-004</val><val>96.565250</val><val>0.000000</val><val>9.68</val><val>0.41</val><val>00:00:03.871</val></row>
+<row><val>55</val><val>5508119.378922</val><val>0.262957</val><val>6.8770764e-005</val><val>7.2983410e-004</val><val>149.487580</val><val>0.000041</val><val>10.93</val><val>0.46</val><val>00:00:03.950</val></row>
+<row><val>56</val><val>5508114.735108</val><val>0.397683</val><val>6.7801876e-005</val><val>7.1955654e-004</val><val>157.753121</val><val>0.000016</val><val>10.67</val><val>0.45</val><val>00:00:04.036</val></row>
+<row><val>57</val><val>5508110.193572</val><val>0.562383</val><val>7.3703560e-005</val><val>7.8215289e-004</val><val>107.746686</val><val>0.000048</val><val>9.28</val><val>0.39</val><val>00:00:04.117</val></row>
+<row><val>58</val><val>5508106.053880</val><val>0.734952</val><val>5.1352710e-005</val><val>5.4495279e-004</val><val>96.697636</val><val>0.000019</val><val>6.15</val><val>0.26</val><val>00:00:04.190</val></row>
+<row><val>59</val><val>5508103.799286</val><val>1.000000</val><val>5.4521892e-005</val><val>5.7858140e-004</val><val>27.109234</val><val>0.000009</val><val>2.21</val><val>0.09</val><val>00:00:04.264</val></row>
+<row><val>60</val><val>5508102.646426</val><val>0.011154</val><val>4.4129775e-005</val><val>4.6830151e-004</val><val>52.024914</val><val>0.000001</val><val>4.92</val><val>0.21</val><val>00:00:04.326</val></row>
+<row><val>61</val><val>5508101.221203</val><val>0.013093</val><val>3.8100923e-005</val><val>4.0432853e-004</val><val>101.993086</val><val>0.000012</val><val>5.13</val><val>0.22</val><val>00:00:04.387</val></row>
+<row><val>62</val><val>5508100.174316</val><val>0.025668</val><val>3.5453872e-005</val><val>3.7624319e-004</val><val>95.384415</val><val>0.000010</val><val>5.86</val><val>0.25</val><val>00:00:04.448</val></row>
+<row><val>63</val><val>5508098.542142</val><val>0.025263</val><val>3.9119540e-005</val><val>4.1514435e-004</val><val>48.770927</val><val>0.000003</val><val>4.69</val><val>0.20</val><val>00:00:04.509</val></row>
+<row><val>64</val><val>5508097.364409</val><val>0.027476</val><val>2.9587583e-005</val><val>3.1399451e-004</val><val>118.502479</val><val>0.000014</val><val>5.78</val><val>0.24</val><val>00:00:04.570</val></row>
+<row><val>65</val><val>5508096.162907</val><val>0.035346</val><val>3.0841093e-005</val><val>3.2730225e-004</val><val>73.415557</val><val>0.000019</val><val>5.73</val><val>0.24</val><val>00:00:04.628</val></row>
+<row><val>66</val><val>5508094.862868</val><val>0.050411</val><val>3.4227875e-005</val><val>3.6324075e-004</val><val>67.094642</val><val>0.000008</val><val>6.03</val><val>0.25</val><val>00:00:04.692</val></row>
+<row><val>67</val><val>5508093.389840</val><val>0.095158</val><val>3.6059603e-005</val><val>3.8268746e-004</val><val>100.717298</val><val>0.000017</val><val>7.39</val><val>0.31</val><val>00:00:04.754</val></row>
+<row><val>68</val><val>5508091.365432</val><val>0.088613</val><val>3.9436595e-005</val><val>4.1853368e-004</val><val>85.515280</val><val>0.000021</val><val>6.08</val><val>0.26</val><val>00:00:04.828</val></row>
+<row><val>69</val><val>5508089.907760</val><val>0.162015</val><val>3.9418598e-005</val><val>4.1835561e-004</val><val>140.894211</val><val>0.000034</val><val>8.46</val><val>0.36</val><val>00:00:04.916</val></row>
+<row><val>70</val><val>5508087.528551</val><val>0.148879</val><val>4.8410569e-005</val><val>5.1378088e-004</val><val>74.052758</val><val>0.000019</val><val>6.06</val><val>0.26</val><val>00:00:04.987</val></row>
+<row><val>71</val><val>5508085.971241</val><val>0.127429</val><val>3.8613577e-005</val><val>4.0979836e-004</val><val>72.248678</val><val>0.000019</val><val>6.27</val><val>0.26</val><val>00:00:05.065</val></row>
+<row><val>72</val><val>5508084.415923</val><val>0.113741</val><val>3.3121641e-005</val><val>3.5151351e-004</val><val>149.483106</val><val>0.000001</val><val>5.83</val><val>0.25</val><val>00:00:05.144</val></row>
+<row><val>73</val><val>5508083.278938</val><val>0.097906</val><val>3.0793401e-005</val><val>3.2680646e-004</val><val>54.853152</val><val>0.000009</val><val>4.61</val><val>0.19</val><val>00:00:05.208</val></row>
+<row><val>74</val><val>5508082.294174</val><val>0.144842</val><val>3.1275273e-005</val><val>3.3192037e-004</val><val>87.846918</val><val>0.000003</val><val>6.31</val><val>0.27</val><val>00:00:05.283</val></row>
+<row><val>75</val><val>5508080.500532</val><val>0.125333</val><val>3.4122957e-005</val><val>3.6214332e-004</val><val>56.198734</val><val>0.000001</val><val>4.68</val><val>0.20</val><val>00:00:05.359</val></row>
+<row><val>76</val><val>5508079.506566</val><val>0.151162</val><val>3.2334307e-005</val><val>3.4316195e-004</val><val>84.266194</val><val>0.000002</val><val>4.90</val><val>0.21</val><val>00:00:05.442</val></row>
+<row><val>77</val><val>5508078.601913</val><val>0.093312</val><val>2.8386283e-005</val><val>3.0126049e-004</val><val>108.934142</val><val>0.000007</val><val>4.24</val><val>0.18</val><val>00:00:05.512</val></row>
+<row><val>78</val><val>5508077.869903</val><val>0.066421</val><val>2.2920407e-005</val><val>2.4325463e-004</val><val>61.003755</val><val>0.000011</val><val>4.39</val><val>0.19</val><val>00:00:05.583</val></row>
+<row><val>79</val><val>5508076.984010</val><val>0.050740</val><val>2.2104131e-005</val><val>2.3459574e-004</val><val>56.644191</val><val>0.000018</val><val>3.91</val><val>0.17</val><val>00:00:05.666</val></row>
+<row><val>80</val><val>5508076.422436</val><val>0.075093</val><val>2.7505477e-005</val><val>2.9192330e-004</val><val>49.877367</val><val>0.000009</val><val>4.21</val><val>0.18</val><val>00:00:05.730</val></row>
+<row><val>81</val><val>5508075.708249</val><val>0.057288</val><val>2.2171111e-005</val><val>2.3530462e-004</val><val>73.685181</val><val>0.000014</val><val>4.57</val><val>0.19</val><val>00:00:05.807</val></row>
+<row><val>82</val><val>5508074.805362</val><val>0.061204</val><val>2.5137449e-005</val><val>2.6678947e-004</val><val>45.863732</val><val>0.000011</val><val>4.35</val><val>0.18</val><val>00:00:05.871</val></row>
+<row><val>83</val><val>5508074.048037</val><val>0.048562</val><val>2.1785642e-005</val><val>2.3121088e-004</val><val>40.783129</val><val>0.000023</val><val>3.47</val><val>0.15</val><val>00:00:05.932</val></row>
+<row><val>84</val><val>5508073.555017</val><val>0.052532</val><val>2.2720272e-005</val><val>2.4112738e-004</val><val>61.286277</val><val>0.000010</val><val>3.19</val><val>0.13</val><val>00:00:06.004</val></row>
+<row><val>85</val><val>5508073.134818</val><val>0.036853</val><val>1.8530620e-005</val><val>1.9666104e-004</val><val>40.658661</val><val>0.000011</val><val>2.60</val><val>0.11</val><val>00:00:06.078</val></row>
+<row><val>86</val><val>5508072.827245</val><val>0.045386</val><val>1.4765654e-005</val><val>1.5670511e-004</val><val>53.931153</val><val>0.000004</val><val>3.40</val><val>0.14</val><val>00:00:06.150</val></row>
+<row><val>87</val><val>5508072.348160</val><val>0.053508</val><val>2.0914678e-005</val><val>2.2196310e-004</val><val>71.170700</val><val>0.000002</val><val>3.55</val><val>0.15</val><val>00:00:06.259</val></row>
+<row><val>88</val><val>5508071.860226</val><val>0.042426</val><val>2.0231633e-005</val><val>2.1471285e-004</val><val>40.750910</val><val>0.000007</val><val>2.15</val><val>0.09</val><val>00:00:06.344</val></row>
+<row><val>89</val><val>5508071.643464</val><val>0.062040</val><val>1.7964803e-005</val><val>1.9065678e-004</val><val>36.743229</val><val>0.000007</val><val>2.95</val><val>0.12</val><val>00:00:06.408</val></row>
+<row><val>90</val><val>5508071.276649</val><val>0.033866</val><val>1.3919798e-005</val><val>1.4773031e-004</val><val>34.831464</val><val>0.000015</val><val>2.48</val><val>0.10</val><val>00:00:06.480</val></row>
+<row><val>91</val><val>5508071.010839</val><val>0.065876</val><val>1.6247729e-005</val><val>1.7243721e-004</val><val>75.860686</val><val>0.000003</val><val>3.41</val><val>0.14</val><val>00:00:06.544</val></row>
+<row><val>92</val><val>5508070.579052</val><val>0.097511</val><val>1.8695561e-005</val><val>1.9841587e-004</val><val>75.929124</val><val>0.000000</val><val>4.34</val><val>0.18</val><val>00:00:06.607</val></row>
+<row><val>93</val><val>5508069.959288</val><val>0.116672</val><val>1.8882124e-005</val><val>2.0039223e-004</val><val>44.371015</val><val>0.000019</val><val>3.70</val><val>0.16</val><val>00:00:06.682</val></row>
+<row><val>94</val><val>5508069.496476</val><val>0.068583</val><val>1.6337717e-005</val><val>1.7339037e-004</val><val>58.104410</val><val>0.000012</val><val>2.73</val><val>0.12</val><val>00:00:06.762</val></row>
+<row><val>95</val><val>5508069.189399</val><val>0.098097</val><val>1.7093963e-005</val><val>1.8141451e-004</val><val>34.012673</val><val>0.000009</val><val>3.15</val><val>0.13</val><val>00:00:06.843</val></row>
+<row><val>96</val><val>5508068.813562</val><val>0.042796</val><val>1.6479534e-005</val><val>1.7489658e-004</val><val>29.130412</val><val>0.000016</val><val>1.98</val><val>0.08</val><val>00:00:06.929</val></row>
+<row><val>97</val><val>5508068.626710</val><val>0.054253</val><val>1.4840044e-005</val><val>1.5749755e-004</val><val>34.246441</val><val>0.000005</val><val>2.12</val><val>0.09</val><val>00:00:07.006</val></row>
+<row><val>98</val><val>5508068.411280</val><val>0.050055</val><val>1.4183333e-005</val><val>1.5052726e-004</val><val>31.262390</val><val>0.000004</val><val>2.52</val><val>0.11</val><val>00:00:07.070</val></row>
+<row><val>99</val><val>5508068.159427</val><val>0.030330</val><val>1.2333630e-005</val><val>1.3089569e-004</val><val>26.412021</val><val>0.000007</val><val>1.91</val><val>0.08</val><val>00:00:07.144</val></row>
+<row><val>100</val><val>5508068.019676</val><val>0.019217</val><val>1.0365493e-005</val><val>1.1000833e-004</val><val>21.759508</val><val>0.000002</val><val>1.79</val><val>0.08</val><val>00:00:07.219</val></row>
+<row><val>101</val><val>5508067.884610</val><val>0.018871</val><val>1.0301464e-005</val><val>1.0932967e-004</val><val>31.269232</val><val>0.000009</val><val>1.77</val><val>0.07</val><val>00:00:07.282</val></row>
+<row><val>102</val><val>5508067.745250</val><val>0.022155</val><val>1.0096491e-005</val><val>1.0715437e-004</val><val>28.749441</val><val>0.000000</val><val>2.48</val><val>0.10</val><val>00:00:07.347</val></row>
+<row><val>103</val><val>5508067.502816</val><val>0.017329</val><val>1.1499350e-005</val><val>1.2204376e-004</val><val>14.287005</val><val>0.000006</val><val>1.50</val><val>0.06</val><val>00:00:07.421</val></row>
+<row><val>104</val><val>5508067.392208</val><val>0.024089</val><val>1.0341037e-005</val><val>1.0975090e-004</val><val>22.901420</val><val>0.000004</val><val>1.84</val><val>0.08</val><val>00:00:07.492</val></row>
+<row><val>105</val><val>5508067.255284</val><val>0.012751</val><val>9.5179743e-006</val><val>1.0101525e-004</val><val>24.759201</val><val>0.000003</val><val>1.41</val><val>0.06</val><val>00:00:07.562</val></row>
+<table title="INPUT FILES" indent="2">
+<col align="right" width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Network</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\hwy\Highway_Network.net</val></row>
+<row><val>Preprocessed penalties:</val><val>False</val></row>
+<row><val>Demand Table</val><val>C:\PROJECTS\GIT_VERSIONS\TOPEKA\GUI_DESIGN\BASE\OUTPUT\TRIPGEN\PA2OD.MTX</val></row>
+<row><val>Cost Delay Function</val><val>bpr.vdf</val></row>
+<table title="OUTPUT FILES" indent="2">
+<col align="right" width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Flow Table</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\Asgn\ASN_LinkFlow.bin</val></row>
+<table title="LINK FIELDS" indent="2">
+<col align="right" width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Time</val><val>[Travel Time]</val></row>
+<row><val>Capacity</val><val>[[AB Capacity] / [BA Capacity]]</val></row>
+<row><val>Alpha</val><val>Alpha</val></row>
+<row><val>Beta</val><val>Beta</val></row>
+<row><val>Preload</val><val>None</val></row>
+<table title="OD DEMAND" indent="2">
+<col align="right" width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>OD Pairs</val><val>298116</val></row>
+<row><val>Non zero OD Pairs</val><val>255105</val></row>
+<row><val>Assigned Demand</val><val>547812.31</val></row>
+<row><val>Intranodal Demand</val><val>1944.28</val></row>
+<table title="PARAMETERS" indent="2">
+<col align="right" width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Assignment Method</val><val>N Conjugate UE (2 vectors) with Turn Penalties</val></row>
+<row><val>Max Assignment Iterations</val><val>500</val></row>
+<row><val>Convergence Criteria</val><val>1e-005</val></row>
+<row><val>Threads used</val><val>24</val></row>
+<table title="Running Results" indent="2">
+<col align="right" width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Relative Gap</val><val>9.51797432e-006</val></row>
+<row><val>RMSE</val><val>1.4102799</val></row>
+<row><val>% RMSE</val><val>0.0595134335</val></row>
+<row><val>Max Flow Change</val><val>24.7592012</val></row>
+<row><val>Assignment Iterations</val><val>106</val></row>
+<row><val>Equilibrium reached</val><val>Yes</val></row>
+<row><val>Total VHT</val><val>96037.00</val></row>
+<row><val>Total V_Dist_T</val><val>3688202.84</val></row>
+<row><val>Centroid VHT</val><val>11062.44</val></row>
+<row><val>Centroid V_Dist_T</val><val>276560.92</val></row>
+<row><val>VHT w/o Centroids</val><val>84974.56</val></row>
+<row><val>V_Dist_T w/o Centroids</val><val>3411641.92</val></row>
+<line indent="3" string=""/>
+<table indent="2">
+<col name="Total Running Time 00:00:07.589."/>
+</table>
+</section>
+<section name="Batch Routine Report  (6/28/2016 2:54:25 AM)" string="">
+<table title=" " indent="2">
+<col name="Loop" width="15%"/>
+<col name="Stage" width="20%"/>
+<col name="Step" width="45%"/>
+<col name="Time" width="20%"/>
+</table>
+<row><val>Loop 1</val><val>Assignment</val><val>Assignment Network Setting</val><val>00:00:00</val></row>
+<row><val> </val><val> </val><val>Assignment</val><val>00:00:08</val></row>
+<row><val> </val><val> </val><val>Add assignment fields to hwy</val><val>00:00:00</val></row>
+<line indent="2" string="Total Running Time: 00:00:09.00"/>
+</section>
+<section name="Batch Routine Report  (6/28/2016 3:11:38 AM)" string="">
+<table title=" " indent="2">
+<col name="Loop" width="15%"/>
+<col name="Stage" width="20%"/>
+<col name="Step" width="45%"/>
+<col name="Time" width="20%"/>
+</table>
+<row><val>Loop 1</val><val>Create Map</val><val>Creat FT Map</val><val>00:00:01</val></row>
+<line indent="2" string="Total Running Time: 00:00:01.00"/>
+</section>
+<section name="Batch Routine Report  (6/28/2016 3:12:00 AM)" string="">
+<table title=" " indent="2">
+<col name="Loop" width="15%"/>
+<col name="Stage" width="20%"/>
+<col name="Step" width="45%"/>
+<col name="Time" width="20%"/>
+</table>
+<row><val>Loop 1</val><val>Create Map</val><val>Creat FT Map</val><val>00:00:01</val></row>
+<line indent="2" string="Total Running Time: 00:00:01.00"/>
+</section>
+<section name="Batch Routine Report  (6/28/2016 3:13:56 AM)" string="">
+<table title=" " indent="2">
+<col name="Loop" width="15%"/>
+<col name="Stage" width="20%"/>
+<col name="Step" width="45%"/>
+<col name="Time" width="20%"/>
+</table>
+<row><val>Loop 1</val><val>Create Map</val><val>Creat FT Map</val><val>00:00:01</val></row>
+<line indent="2" string="Total Running Time: 00:00:01.00"/>
+</section>
+<section name="Batch Routine Report  (6/28/2016 3:15:05 AM)" string="">
+<table title=" " indent="2">
+<col name="Loop" width="15%"/>
+<col name="Stage" width="20%"/>
+<col name="Step" width="45%"/>
+<col name="Time" width="20%"/>
+</table>
+<row><val>Loop 1</val><val>Create Map</val><val>Creat FT Map</val><val>00:00:00</val></row>
+<line indent="2" string="Total Running Time: 00:00:01.00"/>
+</section>
+<section name="Batch Routine Report  (6/28/2016 3:24:16 AM)" string="">
+<table title=" " indent="2">
+<col name="Loop" width="15%"/>
+<col name="Stage" width="20%"/>
+<col name="Step" width="45%"/>
+<col name="Time" width="20%"/>
+</table>
+<row><val>Loop 1</val><val>Create Report</val><val>Run Reports</val><val>00:00:00</val></row>
+<line indent="2" string="Total Running Time: 00:00:00.00"/>
+</section>
+<section name="1 input file is missing" string="">
+<table title="Missing Input Files:">
+<col name="Scenario" bold="true"/>
+<col name="Stage" bold="true"/>
+<col name="Title" bold="true"/>
+<col name="Path" bold="true"/>
+<col name="Description" bold="true"/>
+</table>
+<row><val>Base</val><val>Network Preparation</val><val>ACCESS Capacity Lookup</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\input\LookupTables\LOOKUP.ACCDB</val><val>Capacity lookup</val></row>
+</section>
+<section string="Procedure TCSPMAT on June 28, 2016 (03:27 AM)">
+<table title="Shortest Path Matrix" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Matrix Name</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\skims\SPMAT.mtx</val></row>
+<row><val>Network</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\hwy\Highway_Network.net</val></row>
+<row><val>Minimize</val><val>[Travel Time]</val></row>
+<row><val># Origins</val><val>546</val></row>
+<row><val># Destinations</val><val>546</val></row>
+<row><val>Origin Set</val><val>Selection</val></row>
+<row><val>Destination Set</val><val>Selection</val></row>
+<table indent="2">
+<col name="Shortest Path Matrix in file C:\projects\git_versions\Topeka\Gui_design\Base\Output\skims\SPMAT.mtx. Execution Time was  00:00:00.266"/>
+</table>
+</section>
+<section string="Procedure Intrazonal on June 28, 2016 (03:27 AM)">
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Adjacent Zones</val><val>3</val></row>
+<row><val>Factor</val><val>  1.00</val></row>
+<table indent="2">
+<col name="Total Running Time 00:00:00.097."/>
+</table>
+</section>
+<section string="Procedure QRM All on June 28, 2016 (03:27 AM)">
+<table title="QRM -Trip Production and Attraction" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<table title="Inputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>View</val><val>SE_Data</val></row>
+<row><val>Selection</val><val>SE_Data</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Production Lookup</val><val>PROD_TGP</val></row>
+<row><val>Pop (thousands)</val><val> 100.00</val></row>
+<row><val>Classify by</val><val>Income per Households</val></row>
+<row><val>Inflation Index</val><val>   1.00</val></row>
+<row><val>Total HH</val><val>HH10</val></row>
+<row><val>Income/HH (000s)</val><val>INCOME10</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Attraction Lookup</val><val>ATTR_TGP</val></row>
+<row><val>Dwelling Units</val><val>HH10</val></row>
+<row><val>Retail Employment</val><val>RETAIL10</val></row>
+<row><val>Nonretail Emp.</val><val>NON_RETAIL10</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Balancing Method</val><val>Hold productions</val></row>
+<row><val>Use Special Zones</val><val>Yes</val></row>
+<row><val>Special Zone Code</val><val>0</val></row>
+<row><val>Zone Type Field</val><val>SPECIAL</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Number of purposes</val><val>4</val></row>
+<row><val>Purpose</val><val>HBW</val></row>
+<row><val>Special Production</val><val>HBW_P</val></row>
+<row><val>Special Attraction</val><val>HBW_A</val></row>
+<row><val>Purpose</val><val>HBNW</val></row>
+<row><val>Special Production</val><val>HBNW_P</val></row>
+<row><val>Special Attraction</val><val>HBNW_A</val></row>
+<row><val>Purpose</val><val>HBO</val></row>
+<row><val>Special Production</val><val>No</val></row>
+<row><val>Special Attraction</val><val>No</val></row>
+<row><val>Purpose</val><val>NHB</val></row>
+<row><val>Special Production</val><val>NHB_P</val></row>
+<row><val>Special Attraction</val><val>NHB_A</val></row>
+<table title="Outputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Output file</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\tripGen\QRM_ALL.bin</val></row>
+<table indent="2">
+<col name="Execution Time was  00:00:00.076"/>
+</table>
+</section>
+<section string="Procedure Gravity on June 28, 2016 (03:27 AM)">
+<table title="Inputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>View</val><val>EndpointsQRM_ALL</val></row>
+<row><val>Selection</val><val>Selection</val></row>
+<row><val>Number of Purposes</val><val>3</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Purpose</val><val>HBW</val></row>
+<row><val>Production Field</val><val>HBW_P</val></row>
+<row><val>Attraction Field</val><val>HBW_A</val></row>
+<row><val>Constraint</val><val>Doubly (Productions and Attractions)</val></row>
+<row><val>Iterations</val><val>10</val></row>
+<row><val>Convergence</val><val>1.00e-002</val></row>
+<row><val>Friction Factor Type</val><val>Negative Exponential = exp(-c.t)</val></row>
+<row><val> </val><val>c =  -0.100000</val></row>
+<row><val>Cost Matrix</val><val>C:\PROJECTS\GIT_VERSIONS\TOPEKA\GUI_DESIGN\BASE\OUTPUT\SKIMS\SPMAT.MTX([Travel Time] (Skim))</val></row>
+<row><val>K-Factor Matrix</val><val>C:\PROJECTS\GIT_VERSIONS\TOPEKA\GUI_DESIGN\BASE\OUTPUT\SKIMS\SPMAT.MTX([Travel Time])</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Purpose</val><val>HBNW</val></row>
+<row><val>Production Field</val><val>HBNW_P</val></row>
+<row><val>Attraction Field</val><val>HBNW_A</val></row>
+<row><val>Constraint</val><val>Doubly (Productions and Attractions)</val></row>
+<row><val>Iterations</val><val>10</val></row>
+<row><val>Convergence</val><val>1.00e-002</val></row>
+<row><val>Friction Factor Type</val><val>Negative Exponential = exp(-c.t)</val></row>
+<row><val> </val><val>c =   0.040000</val></row>
+<row><val>Cost Matrix</val><val>C:\PROJECTS\GIT_VERSIONS\TOPEKA\GUI_DESIGN\BASE\OUTPUT\SKIMS\SPMAT.MTX([Travel Time] (Skim))</val></row>
+<row><val>K-Factor Matrix</val><val>C:\PROJECTS\GIT_VERSIONS\TOPEKA\GUI_DESIGN\BASE\OUTPUT\SKIMS\SPMAT.MTX([Travel Time])</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Purpose</val><val>NHB</val></row>
+<row><val>Production Field</val><val>NHB_P</val></row>
+<row><val>Attraction Field</val><val>NHB_A</val></row>
+<row><val>Constraint</val><val>Doubly (Productions and Attractions)</val></row>
+<row><val>Iterations</val><val>10</val></row>
+<row><val>Convergence</val><val>1.00e-002</val></row>
+<row><val>Friction Factor Type</val><val>Negative Exponential = exp(-c.t)</val></row>
+<row><val> </val><val>c =   0.020000</val></row>
+<row><val>Cost Matrix</val><val>C:\PROJECTS\GIT_VERSIONS\TOPEKA\GUI_DESIGN\BASE\OUTPUT\SKIMS\SPMAT.MTX([Travel Time] (Skim))</val></row>
+<row><val>K-Factor Matrix</val><val>C:\PROJECTS\GIT_VERSIONS\TOPEKA\GUI_DESIGN\BASE\INPUT\LOOKUPTABLES\K_FACTORS.MTX(K-Factors)</val></row>
+<table title="Outputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Output matrix file</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\tripGen\cgrav.mtx</val></row>
+<row><val>Results</val><val>No models have failed.</val></row>
+<row><val>HBW</val><val>Converged after 3 iterations.</val></row>
+<row><val> </val><val>K-Factor applied</val></row>
+<row><val>HBNW</val><val>Converged after 3 iterations.</val></row>
+<row><val> </val><val>K-Factor applied</val></row>
+<row><val>NHB</val><val>Converged after 4 iterations.</val></row>
+<row><val> </val><val>K-Factor applied</val></row>
+<table indent="2">
+<col name="Execution Time was  00:00:00.987"/>
+</table>
+</section>
+<section string="Procedure PA2OD on June 28, 2016 (03:27 AM)">
+<table title="Inputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Start Hour</val><val>0</val></row>
+<row><val>End Hour</val><val>23</val></row>
+<row><val>Report By Hour</val><val>No</val></row>
+<row><val>PA Matrix File</val><val>C:\PROJECTS\GIT_VERSIONS\TOPEKA\GUI_DESIGN\BASE\OUTPUT\TRIPGEN\CGRAV.MTX</val></row>
+<row><val>Number of Models</val><val>3</val></row>
+<row><val>Matrix</val><val>0</val></row>
+<row><val>Vehicle Occupancy</val><val>  1.100</val></row>
+<row><val>Matrix</val><val>1</val></row>
+<row><val>Vehicle Occupancy</val><val>  1.800</val></row>
+<row><val>Matrix</val><val>2</val></row>
+<row><val>Vehicle Occupancy</val><val>  1.700</val></row>
+<table title="Outputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Output matrix file</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\tripGen\PA2OD.mtx</val></row>
+<table indent="2">
+<col name="Total Running Time 0.235 seconds."/>
+</table>
+</section>
+<section string="Procedure Assignment on June 28, 2016 (03:27 AM)">
+<table indent="2">
+<col name="Iteration" align="right"/>
+<col name="Obj. Func." align="right"/>
+<col name="Step" align="right"/>
+<col name="Relative Gap" align="right"/>
+<col name="AEC" align="right"/>
+<col name="Max. Flow Change" align="right"/>
+<col name="Relative VHT" align="right"/>
+<col name="RMSE" align="right"/>
+<col name="% RMSE" align="right"/>
+<col name="CPU Time" align="right"/>
+</table>
+<row><val>1</val><val>6186177.337917</val><val>0.268378</val><val>4.3343771e-001</val><val>8.3866507e+000</val><val>13477.853095</val><val></val><val>1571.25</val><val>65.11</val><val>00:00:00.280</val></row>
+<row><val>2</val><val>5665445.888158</val><val>0.322289</val><val>9.2945112e-002</val><val>1.0979324e+000</val><val>8467.805481</val><val>0.391046</val><val>864.81</val><val>35.85</val><val>00:00:00.362</val></row>
+<row><val>3</val><val>5588966.866868</val><val>0.285015</val><val>2.2475967e-002</val><val>2.4375263e-001</val><val>4253.123457</val><val>0.081925</val><val>345.01</val><val>14.31</val><val>00:00:00.437</val></row>
+<row><val>4</val><val>5577634.959834</val><val>1.000000</val><val>1.9693495e-002</val><val>2.1231645e-001</val><val>6037.187833</val><val>0.005932</val><val>572.77</val><val>23.95</val><val>00:00:00.506</val></row>
+<row><val>5</val><val>5547425.449290</val><val>0.169221</val><val>1.5546620e-002</val><val>1.6724296e-001</val><val>3482.320651</val><val>0.002025</val><val>318.84</val><val>13.35</val><val>00:00:00.573</val></row>
+<row><val>6</val><val>5539369.925607</val><val>0.457919</val><val>9.0482121e-003</val><val>9.6617088e-002</val><val>4456.710803</val><val>0.007331</val><val>411.24</val><val>17.27</val><val>00:00:00.638</val></row>
+<row><val>7</val><val>5530276.642358</val><val>1.000000</val><val>8.8586720e-003</val><val>9.4630583e-002</val><val>2640.724954</val><val>0.000203</val><val>286.36</val><val>12.05</val><val>00:00:00.714</val></row>
+<row><val>8</val><val>5522677.707378</val><val>0.116784</val><val>8.3367536e-003</val><val>8.9235035e-002</val><val>2176.594503</val><val>0.002007</val><val>187.37</val><val>7.88</val><val>00:00:00.792</val></row>
+<row><val>9</val><val>5519698.846165</val><val>0.186622</val><val>4.8077190e-003</val><val>5.1244960e-002</val><val>2801.176056</val><val>0.004166</val><val>200.31</val><val>8.42</val><val>00:00:00.863</val></row>
+<row><val>10</val><val>5517393.267361</val><val>0.337419</val><val>2.6088332e-003</val><val>2.7746941e-002</val><val>1916.914766</val><val>0.002166</val><val>182.72</val><val>7.69</val><val>00:00:00.937</val></row>
+<row><val>11</val><val>5515613.103558</val><val>1.000000</val><val>2.8559950e-003</val><val>3.0382777e-002</val><val>2152.012562</val><val>0.000294</val><val>205.74</val><val>8.68</val><val>00:00:01.016</val></row>
+<row><val>12</val><val>5512479.263060</val><val>0.076753</val><val>2.8563113e-003</val><val>3.0370938e-002</val><val>1341.338015</val><val>0.000554</val><val>97.57</val><val>4.11</val><val>00:00:01.094</val></row>
+<row><val>13</val><val>5511809.621329</val><val>0.163465</val><val>1.6251007e-003</val><val>1.7259122e-002</val><val>1345.861512</val><val>0.001132</val><val>126.17</val><val>5.32</val><val>00:00:01.165</val></row>
+<row><val>14</val><val>5511074.120158</val><val>0.210351</val><val>1.1640245e-003</val><val>1.2352385e-002</val><val>1203.694984</val><val>0.000852</val><val>88.15</val><val>3.71</val><val>00:00:01.234</val></row>
+<row><val>15</val><val>5510648.841632</val><val>0.236831</val><val>9.8202680e-004</val><val>1.0421761e-002</val><val>641.968257</val><val>0.000043</val><val>65.46</val><val>2.76</val><val>00:00:01.300</val></row>
+<row><val>16</val><val>5510380.409543</val><val>0.729504</val><val>1.0573630e-003</val><val>1.1222809e-002</val><val>2595.711636</val><val>0.000135</val><val>120.39</val><val>5.07</val><val>00:00:01.365</val></row>
+<row><val>17</val><val>5509903.347404</val><val>1.000000</val><val>1.1149375e-003</val><val>1.1833841e-002</val><val>468.076334</val><val>0.000060</val><val>34.37</val><val>1.45</val><val>00:00:01.435</val></row>
+<row><val>18</val><val>5509639.907511</val><val>0.082753</val><val>8.8128873e-004</val><val>9.3545308e-003</val><val>727.926126</val><val>0.000062</val><val>64.62</val><val>2.72</val><val>00:00:01.503</val></row>
+<row><val>19</val><val>5509430.032880</val><val>0.092599</val><val>5.8999150e-004</val><val>6.2627190e-003</val><val>805.474949</val><val>0.000012</val><val>50.02</val><val>2.11</val><val>00:00:01.569</val></row>
+<row><val>20</val><val>5509292.162281</val><val>0.146760</val><val>4.9297667e-004</val><val>5.2320613e-003</val><val>815.371081</val><val>0.000181</val><val>50.27</val><val>2.12</val><val>00:00:01.647</val></row>
+<row><val>21</val><val>5509164.001068</val><val>0.236078</val><val>4.8385126e-004</val><val>5.1349592e-003</val><val>590.458254</val><val>0.000047</val><val>57.88</val><val>2.44</val><val>00:00:01.722</val></row>
+<row><val>22</val><val>5509031.473882</val><val>0.403534</val><val>5.3826455e-004</val><val>5.7111649e-003</val><val>853.539235</val><val>0.000206</val><val>56.29</val><val>2.37</val><val>00:00:01.794</val></row>
+<row><val>23</val><val>5508896.690518</val><val>0.578763</val><val>5.3503110e-004</val><val>5.6773229e-003</val><val>654.238950</val><val>0.000085</val><val>44.49</val><val>1.88</val><val>00:00:01.885</val></row>
+<row><val>24</val><val>5508795.737017</val><val>1.000000</val><val>4.6687511e-004</val><val>4.9549186e-003</val><val>956.240633</val><val>0.000158</val><val>41.06</val><val>1.73</val><val>00:00:01.965</val></row>
+<row><val>25</val><val>5508688.813937</val><val>0.057170</val><val>3.8342477e-004</val><val>4.0682145e-003</val><val>713.538222</val><val>0.000271</val><val>39.23</val><val>1.66</val><val>00:00:02.039</val></row>
+<row><val>26</val><val>5508625.243181</val><val>0.089278</val><val>2.9105441e-004</val><val>3.0880711e-003</val><val>406.950116</val><val>0.000011</val><val>32.14</val><val>1.36</val><val>00:00:02.108</val></row>
+<row><val>27</val><val>5508570.175443</val><val>0.081554</val><val>2.9549491e-004</val><val>3.1353102e-003</val><val>397.166163</val><val>0.000049</val><val>23.57</val><val>0.99</val><val>00:00:02.177</val></row>
+<row><val>28</val><val>5508539.571083</val><val>0.150428</val><val>2.4626816e-004</val><val>2.6131033e-003</val><val>625.241436</val><val>0.000039</val><val>32.84</val><val>1.39</val><val>00:00:02.258</val></row>
+<row><val>29</val><val>5508494.410363</val><val>0.135578</val><val>2.5747539e-004</val><val>2.7320237e-003</val><val>246.177115</val><val>0.000019</val><val>23.37</val><val>0.99</val><val>00:00:02.325</val></row>
+<row><val>30</val><val>5508466.539981</val><val>0.273437</val><val>2.0982718e-004</val><val>2.2264654e-003</val><val>381.262938</val><val>0.000008</val><val>29.53</val><val>1.25</val><val>00:00:02.392</val></row>
+<row><val>31</val><val>5508427.957084</val><val>0.380331</val><val>2.5588659e-004</val><val>2.7155785e-003</val><val>459.196798</val><val>0.000163</val><val>31.63</val><val>1.33</val><val>00:00:02.476</val></row>
+<row><val>32</val><val>5508385.140799</val><val>0.736971</val><val>2.4823838e-004</val><val>2.6349646e-003</val><val>375.791289</val><val>0.000222</val><val>33.72</val><val>1.42</val><val>00:00:02.540</val></row>
+<row><val>33</val><val>5508337.406676</val><val>1.000000</val><val>2.7347633e-004</val><val>2.9025933e-003</val><val>100.125422</val><val>0.000085</val><val>9.18</val><val>0.39</val><val>00:00:02.615</val></row>
+<row><val>34</val><val>5508315.281608</val><val>0.036754</val><val>2.0643359e-004</val><val>2.1910127e-003</val><val>346.850576</val><val>0.000008</val><val>19.93</val><val>0.84</val><val>00:00:02.684</val></row>
+<row><val>35</val><val>5508293.251799</val><val>0.064902</val><val>1.6538897e-004</val><val>1.7554369e-003</val><val>369.088558</val><val>0.000013</val><val>23.56</val><val>0.99</val><val>00:00:02.751</val></row>
+<row><val>36</val><val>5508269.450391</val><val>0.072194</val><val>1.4615502e-004</val><val>1.5510871e-003</val><val>182.373183</val><val>0.000140</val><val>19.37</val><val>0.82</val><val>00:00:02.814</val></row>
+<row><val>37</val><val>5508252.168381</val><val>0.091368</val><val>1.2284442e-004</val><val>1.3036876e-003</val><val>250.223871</val><val>0.000027</val><val>19.00</val><val>0.80</val><val>00:00:02.879</val></row>
+<row><val>38</val><val>5508238.067898</val><val>0.109905</val><val>1.1794515e-004</val><val>1.2516651e-003</val><val>250.240131</val><val>0.000026</val><val>16.49</val><val>0.70</val><val>00:00:02.944</val></row>
+<row><val>39</val><val>5508225.423754</val><val>0.124310</val><val>1.3105180e-004</val><val>1.3906759e-003</val><val>278.333394</val><val>0.000044</val><val>12.94</val><val>0.55</val><val>00:00:03.007</val></row>
+<row><val>40</val><val>5508216.549192</val><val>0.157892</val><val>9.9170480e-005</val><val>1.0523196e-003</val><val>237.175072</val><val>0.000035</val><val>20.27</val><val>0.86</val><val>00:00:03.085</val></row>
+<row><val>41</val><val>5508201.449368</val><val>0.164324</val><val>1.2422951e-004</val><val>1.3182061e-003</val><val>345.287175</val><val>0.000013</val><val>17.28</val><val>0.73</val><val>00:00:03.152</val></row>
+<row><val>42</val><val>5508188.673847</val><val>0.205856</val><val>1.2626495e-004</val><val>1.3397885e-003</val><val>173.175194</val><val>0.000010</val><val>14.46</val><val>0.61</val><val>00:00:03.214</val></row>
+<row><val>43</val><val>5508178.626541</val><val>0.191624</val><val>1.1801824e-004</val><val>1.2523085e-003</val><val>236.241683</val><val>0.000022</val><val>12.71</val><val>0.54</val><val>00:00:03.291</val></row>
+<row><val>44</val><val>5508171.756710</val><val>0.220034</val><val>1.0159881e-004</val><val>1.0781284e-003</val><val>276.289395</val><val>0.000040</val><val>12.79</val><val>0.54</val><val>00:00:03.355</val></row>
+<row><val>45</val><val>5508163.201711</val><val>0.169028</val><val>8.7007695e-005</val><val>9.2327758e-004</val><val>325.166650</val><val>0.000019</val><val>14.10</val><val>0.59</val><val>00:00:03.432</val></row>
+<row><val>46</val><val>5508155.180923</val><val>0.151888</val><val>9.3762902e-005</val><val>9.9496441e-004</val><val>132.848269</val><val>0.000009</val><val>11.06</val><val>0.47</val><val>00:00:03.516</val></row>
+<row><val>47</val><val>5508149.671176</val><val>0.182886</val><val>7.2131410e-005</val><val>7.6541118e-004</val><val>129.374915</val><val>0.000018</val><val>10.98</val><val>0.46</val><val>00:00:03.579</val></row>
+<row><val>48</val><val>5508144.558511</val><val>0.160853</val><val>7.8158284e-005</val><val>8.2939706e-004</val><val>108.012299</val><val>0.000038</val><val>10.44</val><val>0.44</val><val>00:00:03.666</val></row>
+<row><val>49</val><val>5508140.026029</val><val>0.163572</val><val>6.7522064e-005</val><val>7.1653955e-004</val><val>109.189535</val><val>0.000028</val><val>8.50</val><val>0.36</val><val>00:00:03.751</val></row>
+<row><val>50</val><val>5508136.567996</val><val>0.162589</val><val>6.1722951e-005</val><val>6.5499636e-004</val><val>203.465233</val><val>0.000003</val><val>10.09</val><val>0.43</val><val>00:00:03.838</val></row>
+<row><val>51</val><val>5508132.243110</val><val>0.105173</val><val>5.8575841e-005</val><val>6.2159898e-004</val><val>134.125637</val><val>0.000003</val><val>7.58</val><val>0.32</val><val>00:00:03.900</val></row>
+<row><val>52</val><val>5508128.901071</val><val>0.210918</val><val>6.1442585e-005</val><val>6.5203922e-004</val><val>164.087151</val><val>0.000026</val><val>8.69</val><val>0.37</val><val>00:00:03.968</val></row>
+<row><val>53</val><val>5508125.698248</val><val>0.078279</val><val>5.1824632e-005</val><val>5.4996974e-004</val><val>120.386586</val><val>0.000003</val><val>6.93</val><val>0.29</val><val>00:00:04.038</val></row>
+<row><val>54</val><val>5508123.653158</val><val>0.189757</val><val>5.2861040e-005</val><val>5.6097104e-004</val><val>96.565250</val><val>0.000000</val><val>9.68</val><val>0.41</val><val>00:00:04.115</val></row>
+<row><val>55</val><val>5508119.378922</val><val>0.262957</val><val>6.8770764e-005</val><val>7.2983410e-004</val><val>149.487580</val><val>0.000041</val><val>10.93</val><val>0.46</val><val>00:00:04.192</val></row>
+<row><val>56</val><val>5508114.735108</val><val>0.397683</val><val>6.7801876e-005</val><val>7.1955654e-004</val><val>157.753121</val><val>0.000016</val><val>10.67</val><val>0.45</val><val>00:00:04.269</val></row>
+<row><val>57</val><val>5508110.193572</val><val>0.562383</val><val>7.3703560e-005</val><val>7.8215289e-004</val><val>107.746686</val><val>0.000048</val><val>9.28</val><val>0.39</val><val>00:00:04.346</val></row>
+<row><val>58</val><val>5508106.053880</val><val>0.734952</val><val>5.1352710e-005</val><val>5.4495279e-004</val><val>96.697636</val><val>0.000019</val><val>6.15</val><val>0.26</val><val>00:00:04.429</val></row>
+<row><val>59</val><val>5508103.799286</val><val>1.000000</val><val>5.4521892e-005</val><val>5.7858140e-004</val><val>27.109234</val><val>0.000009</val><val>2.21</val><val>0.09</val><val>00:00:04.519</val></row>
+<row><val>60</val><val>5508102.646426</val><val>0.011154</val><val>4.4129775e-005</val><val>4.6830151e-004</val><val>52.024914</val><val>0.000001</val><val>4.92</val><val>0.21</val><val>00:00:04.589</val></row>
+<row><val>61</val><val>5508101.221203</val><val>0.013093</val><val>3.8100923e-005</val><val>4.0432853e-004</val><val>101.993086</val><val>0.000012</val><val>5.13</val><val>0.22</val><val>00:00:04.657</val></row>
+<row><val>62</val><val>5508100.174316</val><val>0.025668</val><val>3.5453872e-005</val><val>3.7624319e-004</val><val>95.384415</val><val>0.000010</val><val>5.86</val><val>0.25</val><val>00:00:04.724</val></row>
+<row><val>63</val><val>5508098.542142</val><val>0.025263</val><val>3.9119540e-005</val><val>4.1514435e-004</val><val>48.770927</val><val>0.000003</val><val>4.69</val><val>0.20</val><val>00:00:04.786</val></row>
+<row><val>64</val><val>5508097.364409</val><val>0.027476</val><val>2.9587583e-005</val><val>3.1399451e-004</val><val>118.502479</val><val>0.000014</val><val>5.78</val><val>0.24</val><val>00:00:04.851</val></row>
+<row><val>65</val><val>5508096.162907</val><val>0.035346</val><val>3.0841093e-005</val><val>3.2730225e-004</val><val>73.415557</val><val>0.000019</val><val>5.73</val><val>0.24</val><val>00:00:04.913</val></row>
+<row><val>66</val><val>5508094.862868</val><val>0.050411</val><val>3.4227875e-005</val><val>3.6324075e-004</val><val>67.094642</val><val>0.000008</val><val>6.03</val><val>0.25</val><val>00:00:04.977</val></row>
+<row><val>67</val><val>5508093.389840</val><val>0.095158</val><val>3.6059603e-005</val><val>3.8268746e-004</val><val>100.717298</val><val>0.000017</val><val>7.39</val><val>0.31</val><val>00:00:05.040</val></row>
+<row><val>68</val><val>5508091.365432</val><val>0.088613</val><val>3.9436595e-005</val><val>4.1853368e-004</val><val>85.515280</val><val>0.000021</val><val>6.08</val><val>0.26</val><val>00:00:05.115</val></row>
+<row><val>69</val><val>5508089.907760</val><val>0.162015</val><val>3.9418598e-005</val><val>4.1835561e-004</val><val>140.894211</val><val>0.000034</val><val>8.46</val><val>0.36</val><val>00:00:05.205</val></row>
+<row><val>70</val><val>5508087.528551</val><val>0.148879</val><val>4.8410569e-005</val><val>5.1378088e-004</val><val>74.052758</val><val>0.000019</val><val>6.06</val><val>0.26</val><val>00:00:05.282</val></row>
+<row><val>71</val><val>5508085.971241</val><val>0.127429</val><val>3.8613577e-005</val><val>4.0979836e-004</val><val>72.248678</val><val>0.000019</val><val>6.27</val><val>0.26</val><val>00:00:05.365</val></row>
+<row><val>72</val><val>5508084.415923</val><val>0.113741</val><val>3.3121641e-005</val><val>3.5151351e-004</val><val>149.483106</val><val>0.000001</val><val>5.83</val><val>0.25</val><val>00:00:05.440</val></row>
+<row><val>73</val><val>5508083.278938</val><val>0.097906</val><val>3.0793401e-005</val><val>3.2680646e-004</val><val>54.853152</val><val>0.000009</val><val>4.61</val><val>0.19</val><val>00:00:05.506</val></row>
+<row><val>74</val><val>5508082.294174</val><val>0.144842</val><val>3.1275273e-005</val><val>3.3192037e-004</val><val>87.846918</val><val>0.000003</val><val>6.31</val><val>0.27</val><val>00:00:05.583</val></row>
+<row><val>75</val><val>5508080.500532</val><val>0.125333</val><val>3.4122957e-005</val><val>3.6214332e-004</val><val>56.198734</val><val>0.000001</val><val>4.68</val><val>0.20</val><val>00:00:05.658</val></row>
+<row><val>76</val><val>5508079.506566</val><val>0.151162</val><val>3.2334307e-005</val><val>3.4316195e-004</val><val>84.266194</val><val>0.000002</val><val>4.90</val><val>0.21</val><val>00:00:05.740</val></row>
+<row><val>77</val><val>5508078.601913</val><val>0.093312</val><val>2.8386283e-005</val><val>3.0126049e-004</val><val>108.934142</val><val>0.000007</val><val>4.24</val><val>0.18</val><val>00:00:05.823</val></row>
+<row><val>78</val><val>5508077.869903</val><val>0.066421</val><val>2.2920407e-005</val><val>2.4325463e-004</val><val>61.003755</val><val>0.000011</val><val>4.39</val><val>0.19</val><val>00:00:05.886</val></row>
+<row><val>79</val><val>5508076.984010</val><val>0.050740</val><val>2.2104131e-005</val><val>2.3459574e-004</val><val>56.644191</val><val>0.000018</val><val>3.91</val><val>0.17</val><val>00:00:05.966</val></row>
+<row><val>80</val><val>5508076.422436</val><val>0.075093</val><val>2.7505477e-005</val><val>2.9192330e-004</val><val>49.877367</val><val>0.000009</val><val>4.21</val><val>0.18</val><val>00:00:06.030</val></row>
+<row><val>81</val><val>5508075.708249</val><val>0.057288</val><val>2.2171111e-005</val><val>2.3530462e-004</val><val>73.685181</val><val>0.000014</val><val>4.57</val><val>0.19</val><val>00:00:06.105</val></row>
+<row><val>82</val><val>5508074.805362</val><val>0.061204</val><val>2.5137449e-005</val><val>2.6678947e-004</val><val>45.863732</val><val>0.000011</val><val>4.35</val><val>0.18</val><val>00:00:06.173</val></row>
+<row><val>83</val><val>5508074.048037</val><val>0.048562</val><val>2.1785642e-005</val><val>2.3121088e-004</val><val>40.783129</val><val>0.000023</val><val>3.47</val><val>0.15</val><val>00:00:06.237</val></row>
+<row><val>84</val><val>5508073.555017</val><val>0.052532</val><val>2.2720272e-005</val><val>2.4112738e-004</val><val>61.286277</val><val>0.000010</val><val>3.19</val><val>0.13</val><val>00:00:06.315</val></row>
+<row><val>85</val><val>5508073.134818</val><val>0.036853</val><val>1.8530620e-005</val><val>1.9666104e-004</val><val>40.658661</val><val>0.000011</val><val>2.60</val><val>0.11</val><val>00:00:06.389</val></row>
+<row><val>86</val><val>5508072.827245</val><val>0.045386</val><val>1.4765654e-005</val><val>1.5670511e-004</val><val>53.931153</val><val>0.000004</val><val>3.40</val><val>0.14</val><val>00:00:06.466</val></row>
+<row><val>87</val><val>5508072.348160</val><val>0.053508</val><val>2.0914678e-005</val><val>2.2196310e-004</val><val>71.170700</val><val>0.000002</val><val>3.55</val><val>0.15</val><val>00:00:06.548</val></row>
+<row><val>88</val><val>5508071.860226</val><val>0.042426</val><val>2.0231633e-005</val><val>2.1471285e-004</val><val>40.750910</val><val>0.000007</val><val>2.15</val><val>0.09</val><val>00:00:06.628</val></row>
+<row><val>89</val><val>5508071.643464</val><val>0.062040</val><val>1.7964803e-005</val><val>1.9065678e-004</val><val>36.743229</val><val>0.000007</val><val>2.95</val><val>0.12</val><val>00:00:06.695</val></row>
+<row><val>90</val><val>5508071.276649</val><val>0.033866</val><val>1.3919798e-005</val><val>1.4773031e-004</val><val>34.831464</val><val>0.000015</val><val>2.48</val><val>0.10</val><val>00:00:06.772</val></row>
+<row><val>91</val><val>5508071.010839</val><val>0.065876</val><val>1.6247729e-005</val><val>1.7243721e-004</val><val>75.860686</val><val>0.000003</val><val>3.41</val><val>0.14</val><val>00:00:06.836</val></row>
+<row><val>92</val><val>5508070.579052</val><val>0.097511</val><val>1.8695561e-005</val><val>1.9841587e-004</val><val>75.929124</val><val>0.000000</val><val>4.34</val><val>0.18</val><val>00:00:06.902</val></row>
+<row><val>93</val><val>5508069.959288</val><val>0.116672</val><val>1.8882124e-005</val><val>2.0039223e-004</val><val>44.371015</val><val>0.000019</val><val>3.70</val><val>0.16</val><val>00:00:06.977</val></row>
+<row><val>94</val><val>5508069.496476</val><val>0.068583</val><val>1.6337717e-005</val><val>1.7339037e-004</val><val>58.104410</val><val>0.000012</val><val>2.73</val><val>0.12</val><val>00:00:07.059</val></row>
+<row><val>95</val><val>5508069.189399</val><val>0.098097</val><val>1.7093963e-005</val><val>1.8141451e-004</val><val>34.012673</val><val>0.000009</val><val>3.15</val><val>0.13</val><val>00:00:07.144</val></row>
+<row><val>96</val><val>5508068.813562</val><val>0.042796</val><val>1.6479534e-005</val><val>1.7489658e-004</val><val>29.130412</val><val>0.000016</val><val>1.98</val><val>0.08</val><val>00:00:07.222</val></row>
+<row><val>97</val><val>5508068.626710</val><val>0.054253</val><val>1.4840044e-005</val><val>1.5749755e-004</val><val>34.246441</val><val>0.000005</val><val>2.12</val><val>0.09</val><val>00:00:07.301</val></row>
+<row><val>98</val><val>5508068.411280</val><val>0.050055</val><val>1.4183333e-005</val><val>1.5052726e-004</val><val>31.262390</val><val>0.000004</val><val>2.52</val><val>0.11</val><val>00:00:07.367</val></row>
+<row><val>99</val><val>5508068.159427</val><val>0.030330</val><val>1.2333630e-005</val><val>1.3089569e-004</val><val>26.412021</val><val>0.000007</val><val>1.91</val><val>0.08</val><val>00:00:07.448</val></row>
+<row><val>100</val><val>5508068.019676</val><val>0.019217</val><val>1.0365493e-005</val><val>1.1000833e-004</val><val>21.759508</val><val>0.000002</val><val>1.79</val><val>0.08</val><val>00:00:07.527</val></row>
+<row><val>101</val><val>5508067.884610</val><val>0.018871</val><val>1.0301464e-005</val><val>1.0932967e-004</val><val>31.269232</val><val>0.000009</val><val>1.77</val><val>0.07</val><val>00:00:07.589</val></row>
+<row><val>102</val><val>5508067.745250</val><val>0.022155</val><val>1.0096491e-005</val><val>1.0715437e-004</val><val>28.749441</val><val>0.000000</val><val>2.48</val><val>0.10</val><val>00:00:07.650</val></row>
+<row><val>103</val><val>5508067.502816</val><val>0.017329</val><val>1.1499350e-005</val><val>1.2204376e-004</val><val>14.287005</val><val>0.000006</val><val>1.50</val><val>0.06</val><val>00:00:07.711</val></row>
+<row><val>104</val><val>5508067.392208</val><val>0.024089</val><val>1.0341037e-005</val><val>1.0975090e-004</val><val>22.901420</val><val>0.000004</val><val>1.84</val><val>0.08</val><val>00:00:07.777</val></row>
+<row><val>105</val><val>5508067.255284</val><val>0.012751</val><val>9.5179743e-006</val><val>1.0101525e-004</val><val>24.759201</val><val>0.000003</val><val>1.41</val><val>0.06</val><val>00:00:07.860</val></row>
+<table title="INPUT FILES" indent="2">
+<col align="right" width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Network</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\hwy\Highway_Network.net</val></row>
+<row><val>Preprocessed penalties:</val><val>False</val></row>
+<row><val>Demand Table</val><val>C:\PROJECTS\GIT_VERSIONS\TOPEKA\GUI_DESIGN\BASE\OUTPUT\TRIPGEN\PA2OD.MTX</val></row>
+<row><val>Cost Delay Function</val><val>bpr.vdf</val></row>
+<table title="OUTPUT FILES" indent="2">
+<col align="right" width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Flow Table</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\Asgn\ASN_LinkFlow.bin</val></row>
+<table title="LINK FIELDS" indent="2">
+<col align="right" width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Time</val><val>[Travel Time]</val></row>
+<row><val>Capacity</val><val>[[AB Capacity] / [BA Capacity]]</val></row>
+<row><val>Alpha</val><val>Alpha</val></row>
+<row><val>Beta</val><val>Beta</val></row>
+<row><val>Preload</val><val>None</val></row>
+<table title="OD DEMAND" indent="2">
+<col align="right" width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>OD Pairs</val><val>298116</val></row>
+<row><val>Non zero OD Pairs</val><val>255105</val></row>
+<row><val>Assigned Demand</val><val>547812.31</val></row>
+<row><val>Intranodal Demand</val><val>1944.28</val></row>
+<table title="PARAMETERS" indent="2">
+<col align="right" width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Assignment Method</val><val>N Conjugate UE (2 vectors) with Turn Penalties</val></row>
+<row><val>Max Assignment Iterations</val><val>500</val></row>
+<row><val>Convergence Criteria</val><val>1e-005</val></row>
+<row><val>Threads used</val><val>24</val></row>
+<table title="Running Results" indent="2">
+<col align="right" width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Relative Gap</val><val>9.51797432e-006</val></row>
+<row><val>RMSE</val><val>1.4102799</val></row>
+<row><val>% RMSE</val><val>0.0595134335</val></row>
+<row><val>Max Flow Change</val><val>24.7592012</val></row>
+<row><val>Assignment Iterations</val><val>106</val></row>
+<row><val>Equilibrium reached</val><val>Yes</val></row>
+<row><val>Total VHT</val><val>96037.00</val></row>
+<row><val>Total V_Dist_T</val><val>3688202.84</val></row>
+<row><val>Centroid VHT</val><val>11062.44</val></row>
+<row><val>Centroid V_Dist_T</val><val>276560.92</val></row>
+<row><val>VHT w/o Centroids</val><val>84974.56</val></row>
+<row><val>V_Dist_T w/o Centroids</val><val>3411641.92</val></row>
+<line indent="3" string=""/>
+<table indent="2">
+<col name="Total Running Time 00:00:07.889."/>
+</table>
+</section>
+<section name="Batch Routine Report  (6/28/2016 3:27:09 AM)" string="">
+<table title=" " indent="2">
+<col name="Loop" width="15%"/>
+<col name="Stage" width="20%"/>
+<col name="Step" width="45%"/>
+<col name="Time" width="20%"/>
+</table>
+<row><val>Loop 1</val><val>Network Preparation</val><val>Setup Output Folder</val><val>00:00:01</val></row>
+<row><val> </val><val> </val><val>Compute Hwy Attributes</val><val>00:00:01</val></row>
+<row><val> </val><val>Build Network &amp; Skims</val><val>Build Highway Network</val><val>00:00:00</val></row>
+<row><val> </val><val> </val><val>Highway Network Setting</val><val>00:00:00</val></row>
+<row><val> </val><val> </val><val>Build Skims</val><val>00:00:00</val></row>
+<row><val> </val><val> </val><val>Intrazonal Times</val><val>00:00:00</val></row>
+<row><val> </val><val> </val><val>External Index</val><val>00:00:00</val></row>
+<row><val> </val><val> </val><val>Zero Out EE Skim Time</val><val>00:00:00</val></row>
+<row><val> </val><val>Trip Generation</val><val>Trip Generation QRM All</val><val>00:00:00</val></row>
+<row><val> </val><val> </val><val>NHB Adjust</val><val>00:00:00</val></row>
+<row><val> </val><val>Trip Distribution</val><val>Gravity Model</val><val>00:00:01</val></row>
+<row><val> </val><val>Pa To Od</val><val>PA2OD</val><val>00:00:00</val></row>
+<row><val> </val><val> </val><val>Daily Internal OD</val><val>00:00:00</val></row>
+<row><val> </val><val> </val><val>OD External Index</val><val>00:00:00</val></row>
+<row><val> </val><val> </val><val>Add EE Trips to OD</val><val>00:00:00</val></row>
+<row><val> </val><val>Assignment</val><val>Assignment Network Setting</val><val>00:00:00</val></row>
+<row><val> </val><val> </val><val>Assignment</val><val>00:00:08</val></row>
+<row><val> </val><val> </val><val>Add assignment fields to hwy</val><val>00:00:00</val></row>
+<row><val> </val><val>Create Map</val><val>Creat FT Map</val><val>00:00:01</val></row>
+<row><val> </val><val>Create Report</val><val>Run Reports</val><val>00:00:00</val></row>
+<line indent="2" string="Total Running Time: 00:00:17.00"/>
+</section>
+<section name="1 input file is missing" string="">
+<table title="Missing Input Files:">
+<col name="Scenario" bold="true"/>
+<col name="Stage" bold="true"/>
+<col name="Title" bold="true"/>
+<col name="Path" bold="true"/>
+<col name="Description" bold="true"/>
+</table>
+<row><val>Base</val><val>Network Preparation</val><val>ACCESS Capacity Lookup</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\input\LookupTables\LOOKUP.ACCDB</val><val>Capacity lookup</val></row>
+</section>
+<section name="1 input file is missing" string="">
+<table title="Missing Input Files:">
+<col name="Scenario" bold="true"/>
+<col name="Stage" bold="true"/>
+<col name="Title" bold="true"/>
+<col name="Path" bold="true"/>
+<col name="Description" bold="true"/>
+</table>
+<row><val>Base</val><val>Network Preparation</val><val>ACCESS Capacity Lookup</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\input\LookupTables\LOOKUP.ACCDB</val><val>Capacity lookup</val></row>
+</section>
+<section string="Procedure TCSPMAT on June 28, 2016 (03:28 AM)">
+<table title="Shortest Path Matrix" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Matrix Name</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\skims\SPMAT.mtx</val></row>
+<row><val>Network</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\hwy\Highway_Network.net</val></row>
+<row><val>Minimize</val><val>[Travel Time]</val></row>
+<row><val># Origins</val><val>546</val></row>
+<row><val># Destinations</val><val>546</val></row>
+<row><val>Origin Set</val><val>Selection</val></row>
+<row><val>Destination Set</val><val>Selection</val></row>
+<table indent="2">
+<col name="Shortest Path Matrix in file C:\projects\git_versions\Topeka\Gui_design\Base\Output\skims\SPMAT.mtx. Execution Time was  00:00:00.273"/>
+</table>
+</section>
+<section string="Procedure Intrazonal on June 28, 2016 (03:28 AM)">
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Adjacent Zones</val><val>3</val></row>
+<row><val>Factor</val><val>  1.00</val></row>
+<table indent="2">
+<col name="Total Running Time 00:00:00.087."/>
+</table>
+</section>
+<section string="Procedure QRM All on June 28, 2016 (03:28 AM)">
+<table title="QRM -Trip Production and Attraction" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<table title="Inputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>View</val><val>SE_Data</val></row>
+<row><val>Selection</val><val>SE_Data</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Production Lookup</val><val>PROD_TGP</val></row>
+<row><val>Pop (thousands)</val><val> 100.00</val></row>
+<row><val>Classify by</val><val>Income per Households</val></row>
+<row><val>Inflation Index</val><val>   1.00</val></row>
+<row><val>Total HH</val><val>HH10</val></row>
+<row><val>Income/HH (000s)</val><val>INCOME10</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Attraction Lookup</val><val>ATTR_TGP</val></row>
+<row><val>Dwelling Units</val><val>HH10</val></row>
+<row><val>Retail Employment</val><val>RETAIL10</val></row>
+<row><val>Nonretail Emp.</val><val>NON_RETAIL10</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Balancing Method</val><val>Hold productions</val></row>
+<row><val>Use Special Zones</val><val>Yes</val></row>
+<row><val>Special Zone Code</val><val>0</val></row>
+<row><val>Zone Type Field</val><val>SPECIAL</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Number of purposes</val><val>4</val></row>
+<row><val>Purpose</val><val>HBW</val></row>
+<row><val>Special Production</val><val>HBW_P</val></row>
+<row><val>Special Attraction</val><val>HBW_A</val></row>
+<row><val>Purpose</val><val>HBNW</val></row>
+<row><val>Special Production</val><val>HBNW_P</val></row>
+<row><val>Special Attraction</val><val>HBNW_A</val></row>
+<row><val>Purpose</val><val>HBO</val></row>
+<row><val>Special Production</val><val>No</val></row>
+<row><val>Special Attraction</val><val>No</val></row>
+<row><val>Purpose</val><val>NHB</val></row>
+<row><val>Special Production</val><val>NHB_P</val></row>
+<row><val>Special Attraction</val><val>NHB_A</val></row>
+<table title="Outputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Output file</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\tripGen\QRM_ALL.bin</val></row>
+<table indent="2">
+<col name="Execution Time was  00:00:00.087"/>
+</table>
+</section>
+<section string="Procedure Gravity on June 28, 2016 (03:28 AM)">
+<table title="Inputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>View</val><val>EndpointsQRM_ALL</val></row>
+<row><val>Selection</val><val>Selection</val></row>
+<row><val>Number of Purposes</val><val>3</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Purpose</val><val>HBW</val></row>
+<row><val>Production Field</val><val>HBW_P</val></row>
+<row><val>Attraction Field</val><val>HBW_A</val></row>
+<row><val>Constraint</val><val>Doubly (Productions and Attractions)</val></row>
+<row><val>Iterations</val><val>10</val></row>
+<row><val>Convergence</val><val>1.00e-002</val></row>
+<row><val>Friction Factor Type</val><val>Negative Exponential = exp(-c.t)</val></row>
+<row><val> </val><val>c =  -0.100000</val></row>
+<row><val>Cost Matrix</val><val>C:\PROJECTS\GIT_VERSIONS\TOPEKA\GUI_DESIGN\BASE\OUTPUT\SKIMS\SPMAT.MTX([Travel Time] (Skim))</val></row>
+<row><val>K-Factor Matrix</val><val>C:\PROJECTS\GIT_VERSIONS\TOPEKA\GUI_DESIGN\BASE\OUTPUT\SKIMS\SPMAT.MTX([Travel Time])</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Purpose</val><val>HBNW</val></row>
+<row><val>Production Field</val><val>HBNW_P</val></row>
+<row><val>Attraction Field</val><val>HBNW_A</val></row>
+<row><val>Constraint</val><val>Doubly (Productions and Attractions)</val></row>
+<row><val>Iterations</val><val>10</val></row>
+<row><val>Convergence</val><val>1.00e-002</val></row>
+<row><val>Friction Factor Type</val><val>Negative Exponential = exp(-c.t)</val></row>
+<row><val> </val><val>c =   0.040000</val></row>
+<row><val>Cost Matrix</val><val>C:\PROJECTS\GIT_VERSIONS\TOPEKA\GUI_DESIGN\BASE\OUTPUT\SKIMS\SPMAT.MTX([Travel Time] (Skim))</val></row>
+<row><val>K-Factor Matrix</val><val>C:\PROJECTS\GIT_VERSIONS\TOPEKA\GUI_DESIGN\BASE\OUTPUT\SKIMS\SPMAT.MTX([Travel Time])</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Purpose</val><val>NHB</val></row>
+<row><val>Production Field</val><val>NHB_P</val></row>
+<row><val>Attraction Field</val><val>NHB_A</val></row>
+<row><val>Constraint</val><val>Doubly (Productions and Attractions)</val></row>
+<row><val>Iterations</val><val>10</val></row>
+<row><val>Convergence</val><val>1.00e-002</val></row>
+<row><val>Friction Factor Type</val><val>Negative Exponential = exp(-c.t)</val></row>
+<row><val> </val><val>c =   0.020000</val></row>
+<row><val>Cost Matrix</val><val>C:\PROJECTS\GIT_VERSIONS\TOPEKA\GUI_DESIGN\BASE\OUTPUT\SKIMS\SPMAT.MTX([Travel Time] (Skim))</val></row>
+<row><val>K-Factor Matrix</val><val>C:\PROJECTS\GIT_VERSIONS\TOPEKA\GUI_DESIGN\BASE\INPUT\LOOKUPTABLES\K_FACTORS.MTX(K-Factors)</val></row>
+<table title="Outputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Output matrix file</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\tripGen\cgrav.mtx</val></row>
+<row><val>Results</val><val>No models have failed.</val></row>
+<row><val>HBW</val><val>Converged after 3 iterations.</val></row>
+<row><val> </val><val>K-Factor applied</val></row>
+<row><val>HBNW</val><val>Converged after 3 iterations.</val></row>
+<row><val> </val><val>K-Factor applied</val></row>
+<row><val>NHB</val><val>Converged after 4 iterations.</val></row>
+<row><val> </val><val>K-Factor applied</val></row>
+<table indent="2">
+<col name="Execution Time was  00:00:00.921"/>
+</table>
+</section>
+<section string="Procedure PA2OD on June 28, 2016 (03:28 AM)">
+<table title="Inputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Start Hour</val><val>0</val></row>
+<row><val>End Hour</val><val>23</val></row>
+<row><val>Report By Hour</val><val>No</val></row>
+<row><val>PA Matrix File</val><val>C:\PROJECTS\GIT_VERSIONS\TOPEKA\GUI_DESIGN\BASE\OUTPUT\TRIPGEN\CGRAV.MTX</val></row>
+<row><val>Number of Models</val><val>3</val></row>
+<row><val>Matrix</val><val>0</val></row>
+<row><val>Vehicle Occupancy</val><val>  1.100</val></row>
+<row><val>Matrix</val><val>1</val></row>
+<row><val>Vehicle Occupancy</val><val>  1.800</val></row>
+<row><val>Matrix</val><val>2</val></row>
+<row><val>Vehicle Occupancy</val><val>  1.700</val></row>
+<table title="Outputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Output matrix file</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\tripGen\PA2OD.mtx</val></row>
+<table indent="2">
+<col name="Total Running Time 0.239 seconds."/>
+</table>
+</section>
+<section string="Procedure Assignment on June 28, 2016 (03:28 AM)">
+<table indent="2">
+<col name="Iteration" align="right"/>
+<col name="Obj. Func." align="right"/>
+<col name="Step" align="right"/>
+<col name="Relative Gap" align="right"/>
+<col name="AEC" align="right"/>
+<col name="Max. Flow Change" align="right"/>
+<col name="Relative VHT" align="right"/>
+<col name="RMSE" align="right"/>
+<col name="% RMSE" align="right"/>
+<col name="CPU Time" align="right"/>
+</table>
+<row><val>1</val><val>6186177.337917</val><val>0.268378</val><val>4.3343771e-001</val><val>8.3866507e+000</val><val>13477.853095</val><val></val><val>1571.25</val><val>65.11</val><val>00:00:00.271</val></row>
+<row><val>2</val><val>5665445.888158</val><val>0.322289</val><val>9.2945112e-002</val><val>1.0979324e+000</val><val>8467.805481</val><val>0.391046</val><val>864.81</val><val>35.85</val><val>00:00:00.350</val></row>
+<row><val>3</val><val>5588966.866868</val><val>0.285015</val><val>2.2475967e-002</val><val>2.4375263e-001</val><val>4253.123457</val><val>0.081925</val><val>345.01</val><val>14.31</val><val>00:00:00.417</val></row>
+<row><val>4</val><val>5577634.959834</val><val>1.000000</val><val>1.9693495e-002</val><val>2.1231645e-001</val><val>6037.187833</val><val>0.005932</val><val>572.77</val><val>23.95</val><val>00:00:00.478</val></row>
+<row><val>5</val><val>5547425.449290</val><val>0.169221</val><val>1.5546620e-002</val><val>1.6724296e-001</val><val>3482.320651</val><val>0.002025</val><val>318.84</val><val>13.35</val><val>00:00:00.544</val></row>
+<row><val>6</val><val>5539369.925607</val><val>0.457919</val><val>9.0482121e-003</val><val>9.6617088e-002</val><val>4456.710803</val><val>0.007331</val><val>411.24</val><val>17.27</val><val>00:00:00.610</val></row>
+<row><val>7</val><val>5530276.642358</val><val>1.000000</val><val>8.8586720e-003</val><val>9.4630583e-002</val><val>2640.724954</val><val>0.000203</val><val>286.36</val><val>12.05</val><val>00:00:00.688</val></row>
+<row><val>8</val><val>5522677.707378</val><val>0.116784</val><val>8.3367536e-003</val><val>8.9235035e-002</val><val>2176.594503</val><val>0.002007</val><val>187.37</val><val>7.88</val><val>00:00:00.765</val></row>
+<row><val>9</val><val>5519698.846165</val><val>0.186622</val><val>4.8077190e-003</val><val>5.1244960e-002</val><val>2801.176056</val><val>0.004166</val><val>200.31</val><val>8.42</val><val>00:00:00.834</val></row>
+<row><val>10</val><val>5517393.267361</val><val>0.337419</val><val>2.6088332e-003</val><val>2.7746941e-002</val><val>1916.914766</val><val>0.002166</val><val>182.72</val><val>7.69</val><val>00:00:00.903</val></row>
+<row><val>11</val><val>5515613.103558</val><val>1.000000</val><val>2.8559950e-003</val><val>3.0382777e-002</val><val>2152.012562</val><val>0.000294</val><val>205.74</val><val>8.68</val><val>00:00:00.968</val></row>
+<row><val>12</val><val>5512479.263060</val><val>0.076753</val><val>2.8563113e-003</val><val>3.0370938e-002</val><val>1341.338015</val><val>0.000554</val><val>97.57</val><val>4.11</val><val>00:00:01.032</val></row>
+<row><val>13</val><val>5511809.621329</val><val>0.163465</val><val>1.6251007e-003</val><val>1.7259122e-002</val><val>1345.861512</val><val>0.001132</val><val>126.17</val><val>5.32</val><val>00:00:01.100</val></row>
+<row><val>14</val><val>5511074.120158</val><val>0.210351</val><val>1.1640245e-003</val><val>1.2352385e-002</val><val>1203.694984</val><val>0.000852</val><val>88.15</val><val>3.71</val><val>00:00:01.167</val></row>
+<row><val>15</val><val>5510648.841632</val><val>0.236831</val><val>9.8202680e-004</val><val>1.0421761e-002</val><val>641.968257</val><val>0.000043</val><val>65.46</val><val>2.76</val><val>00:00:01.230</val></row>
+<row><val>16</val><val>5510380.409543</val><val>0.729504</val><val>1.0573630e-003</val><val>1.1222809e-002</val><val>2595.711636</val><val>0.000135</val><val>120.39</val><val>5.07</val><val>00:00:01.294</val></row>
+<row><val>17</val><val>5509903.347404</val><val>1.000000</val><val>1.1149375e-003</val><val>1.1833841e-002</val><val>468.076334</val><val>0.000060</val><val>34.37</val><val>1.45</val><val>00:00:01.369</val></row>
+<row><val>18</val><val>5509639.907511</val><val>0.082753</val><val>8.8128873e-004</val><val>9.3545308e-003</val><val>727.926126</val><val>0.000062</val><val>64.62</val><val>2.72</val><val>00:00:01.437</val></row>
+<row><val>19</val><val>5509430.032880</val><val>0.092599</val><val>5.8999150e-004</val><val>6.2627190e-003</val><val>805.474949</val><val>0.000012</val><val>50.02</val><val>2.11</val><val>00:00:01.506</val></row>
+<row><val>20</val><val>5509292.162281</val><val>0.146760</val><val>4.9297667e-004</val><val>5.2320613e-003</val><val>815.371081</val><val>0.000181</val><val>50.27</val><val>2.12</val><val>00:00:01.576</val></row>
+<row><val>21</val><val>5509164.001068</val><val>0.236078</val><val>4.8385126e-004</val><val>5.1349592e-003</val><val>590.458254</val><val>0.000047</val><val>57.88</val><val>2.44</val><val>00:00:01.647</val></row>
+<row><val>22</val><val>5509031.473882</val><val>0.403534</val><val>5.3826455e-004</val><val>5.7111649e-003</val><val>853.539235</val><val>0.000206</val><val>56.29</val><val>2.37</val><val>00:00:01.713</val></row>
+<row><val>23</val><val>5508896.690518</val><val>0.578763</val><val>5.3503110e-004</val><val>5.6773229e-003</val><val>654.238950</val><val>0.000085</val><val>44.49</val><val>1.88</val><val>00:00:01.786</val></row>
+<row><val>24</val><val>5508795.737017</val><val>1.000000</val><val>4.6687511e-004</val><val>4.9549186e-003</val><val>956.240633</val><val>0.000158</val><val>41.06</val><val>1.73</val><val>00:00:01.853</val></row>
+<row><val>25</val><val>5508688.813937</val><val>0.057170</val><val>3.8342477e-004</val><val>4.0682145e-003</val><val>713.538222</val><val>0.000271</val><val>39.23</val><val>1.66</val><val>00:00:01.915</val></row>
+<row><val>26</val><val>5508625.243181</val><val>0.089278</val><val>2.9105441e-004</val><val>3.0880711e-003</val><val>406.950116</val><val>0.000011</val><val>32.14</val><val>1.36</val><val>00:00:01.979</val></row>
+<row><val>27</val><val>5508570.175443</val><val>0.081554</val><val>2.9549491e-004</val><val>3.1353102e-003</val><val>397.166163</val><val>0.000049</val><val>23.57</val><val>0.99</val><val>00:00:02.044</val></row>
+<row><val>28</val><val>5508539.571083</val><val>0.150428</val><val>2.4626816e-004</val><val>2.6131033e-003</val><val>625.241436</val><val>0.000039</val><val>32.84</val><val>1.39</val><val>00:00:02.129</val></row>
+<row><val>29</val><val>5508494.410363</val><val>0.135578</val><val>2.5747539e-004</val><val>2.7320237e-003</val><val>246.177115</val><val>0.000019</val><val>23.37</val><val>0.99</val><val>00:00:02.193</val></row>
+<row><val>30</val><val>5508466.539981</val><val>0.273437</val><val>2.0982718e-004</val><val>2.2264654e-003</val><val>381.262938</val><val>0.000008</val><val>29.53</val><val>1.25</val><val>00:00:02.258</val></row>
+<row><val>31</val><val>5508427.957084</val><val>0.380331</val><val>2.5588659e-004</val><val>2.7155785e-003</val><val>459.196798</val><val>0.000163</val><val>31.63</val><val>1.33</val><val>00:00:02.336</val></row>
+<row><val>32</val><val>5508385.140799</val><val>0.736971</val><val>2.4823838e-004</val><val>2.6349646e-003</val><val>375.791289</val><val>0.000222</val><val>33.72</val><val>1.42</val><val>00:00:02.399</val></row>
+<row><val>33</val><val>5508337.406676</val><val>1.000000</val><val>2.7347633e-004</val><val>2.9025933e-003</val><val>100.125422</val><val>0.000085</val><val>9.18</val><val>0.39</val><val>00:00:02.476</val></row>
+<row><val>34</val><val>5508315.281608</val><val>0.036754</val><val>2.0643359e-004</val><val>2.1910127e-003</val><val>346.850576</val><val>0.000008</val><val>19.93</val><val>0.84</val><val>00:00:02.548</val></row>
+<row><val>35</val><val>5508293.251799</val><val>0.064902</val><val>1.6538897e-004</val><val>1.7554369e-003</val><val>369.088558</val><val>0.000013</val><val>23.56</val><val>0.99</val><val>00:00:02.618</val></row>
+<row><val>36</val><val>5508269.450391</val><val>0.072194</val><val>1.4615502e-004</val><val>1.5510871e-003</val><val>182.373183</val><val>0.000140</val><val>19.37</val><val>0.82</val><val>00:00:02.682</val></row>
+<row><val>37</val><val>5508252.168381</val><val>0.091368</val><val>1.2284442e-004</val><val>1.3036876e-003</val><val>250.223871</val><val>0.000027</val><val>19.00</val><val>0.80</val><val>00:00:02.748</val></row>
+<row><val>38</val><val>5508238.067898</val><val>0.109905</val><val>1.1794515e-004</val><val>1.2516651e-003</val><val>250.240131</val><val>0.000026</val><val>16.49</val><val>0.70</val><val>00:00:02.813</val></row>
+<row><val>39</val><val>5508225.423754</val><val>0.124310</val><val>1.3105180e-004</val><val>1.3906759e-003</val><val>278.333394</val><val>0.000044</val><val>12.94</val><val>0.55</val><val>00:00:02.874</val></row>
+<row><val>40</val><val>5508216.549192</val><val>0.157892</val><val>9.9170480e-005</val><val>1.0523196e-003</val><val>237.175072</val><val>0.000035</val><val>20.27</val><val>0.86</val><val>00:00:02.951</val></row>
+<row><val>41</val><val>5508201.449368</val><val>0.164324</val><val>1.2422951e-004</val><val>1.3182061e-003</val><val>345.287175</val><val>0.000013</val><val>17.28</val><val>0.73</val><val>00:00:03.033</val></row>
+<row><val>42</val><val>5508188.673847</val><val>0.205856</val><val>1.2626495e-004</val><val>1.3397885e-003</val><val>173.175194</val><val>0.000010</val><val>14.46</val><val>0.61</val><val>00:00:03.111</val></row>
+<row><val>43</val><val>5508178.626541</val><val>0.191624</val><val>1.1801824e-004</val><val>1.2523085e-003</val><val>236.241683</val><val>0.000022</val><val>12.71</val><val>0.54</val><val>00:00:03.194</val></row>
+<row><val>44</val><val>5508171.756710</val><val>0.220034</val><val>1.0159881e-004</val><val>1.0781284e-003</val><val>276.289395</val><val>0.000040</val><val>12.79</val><val>0.54</val><val>00:00:03.264</val></row>
+<row><val>45</val><val>5508163.201711</val><val>0.169028</val><val>8.7007695e-005</val><val>9.2327758e-004</val><val>325.166650</val><val>0.000019</val><val>14.10</val><val>0.59</val><val>00:00:03.342</val></row>
+<row><val>46</val><val>5508155.180923</val><val>0.151888</val><val>9.3762902e-005</val><val>9.9496441e-004</val><val>132.848269</val><val>0.000009</val><val>11.06</val><val>0.47</val><val>00:00:03.419</val></row>
+<row><val>47</val><val>5508149.671176</val><val>0.182886</val><val>7.2131410e-005</val><val>7.6541118e-004</val><val>129.374915</val><val>0.000018</val><val>10.98</val><val>0.46</val><val>00:00:03.484</val></row>
+<row><val>48</val><val>5508144.558511</val><val>0.160853</val><val>7.8158284e-005</val><val>8.2939706e-004</val><val>108.012299</val><val>0.000038</val><val>10.44</val><val>0.44</val><val>00:00:03.561</val></row>
+<row><val>49</val><val>5508140.026029</val><val>0.163572</val><val>6.7522064e-005</val><val>7.1653955e-004</val><val>109.189535</val><val>0.000028</val><val>8.50</val><val>0.36</val><val>00:00:03.639</val></row>
+<row><val>50</val><val>5508136.567996</val><val>0.162589</val><val>6.1722951e-005</val><val>6.5499636e-004</val><val>203.465233</val><val>0.000003</val><val>10.09</val><val>0.43</val><val>00:00:03.721</val></row>
+<row><val>51</val><val>5508132.243110</val><val>0.105173</val><val>5.8575841e-005</val><val>6.2159898e-004</val><val>134.125637</val><val>0.000003</val><val>7.58</val><val>0.32</val><val>00:00:03.785</val></row>
+<row><val>52</val><val>5508128.901071</val><val>0.210918</val><val>6.1442585e-005</val><val>6.5203922e-004</val><val>164.087151</val><val>0.000026</val><val>8.69</val><val>0.37</val><val>00:00:03.855</val></row>
+<row><val>53</val><val>5508125.698248</val><val>0.078279</val><val>5.1824632e-005</val><val>5.4996974e-004</val><val>120.386586</val><val>0.000003</val><val>6.93</val><val>0.29</val><val>00:00:03.927</val></row>
+<row><val>54</val><val>5508123.653158</val><val>0.189757</val><val>5.2861040e-005</val><val>5.6097104e-004</val><val>96.565250</val><val>0.000000</val><val>9.68</val><val>0.41</val><val>00:00:04.014</val></row>
+<row><val>55</val><val>5508119.378922</val><val>0.262957</val><val>6.8770764e-005</val><val>7.2983410e-004</val><val>149.487580</val><val>0.000041</val><val>10.93</val><val>0.46</val><val>00:00:04.092</val></row>
+<row><val>56</val><val>5508114.735108</val><val>0.397683</val><val>6.7801876e-005</val><val>7.1955654e-004</val><val>157.753121</val><val>0.000016</val><val>10.67</val><val>0.45</val><val>00:00:04.181</val></row>
+<row><val>57</val><val>5508110.193572</val><val>0.562383</val><val>7.3703560e-005</val><val>7.8215289e-004</val><val>107.746686</val><val>0.000048</val><val>9.28</val><val>0.39</val><val>00:00:04.261</val></row>
+<row><val>58</val><val>5508106.053880</val><val>0.734952</val><val>5.1352710e-005</val><val>5.4495279e-004</val><val>96.697636</val><val>0.000019</val><val>6.15</val><val>0.26</val><val>00:00:04.339</val></row>
+<row><val>59</val><val>5508103.799286</val><val>1.000000</val><val>5.4521892e-005</val><val>5.7858140e-004</val><val>27.109234</val><val>0.000009</val><val>2.21</val><val>0.09</val><val>00:00:04.415</val></row>
+<row><val>60</val><val>5508102.646426</val><val>0.011154</val><val>4.4129775e-005</val><val>4.6830151e-004</val><val>52.024914</val><val>0.000001</val><val>4.92</val><val>0.21</val><val>00:00:04.493</val></row>
+<row><val>61</val><val>5508101.221203</val><val>0.013093</val><val>3.8100923e-005</val><val>4.0432853e-004</val><val>101.993086</val><val>0.000012</val><val>5.13</val><val>0.22</val><val>00:00:04.564</val></row>
+<row><val>62</val><val>5508100.174316</val><val>0.025668</val><val>3.5453872e-005</val><val>3.7624319e-004</val><val>95.384415</val><val>0.000010</val><val>5.86</val><val>0.25</val><val>00:00:04.642</val></row>
+<row><val>63</val><val>5508098.542142</val><val>0.025263</val><val>3.9119540e-005</val><val>4.1514435e-004</val><val>48.770927</val><val>0.000003</val><val>4.69</val><val>0.20</val><val>00:00:04.721</val></row>
+<row><val>64</val><val>5508097.364409</val><val>0.027476</val><val>2.9587583e-005</val><val>3.1399451e-004</val><val>118.502479</val><val>0.000014</val><val>5.78</val><val>0.24</val><val>00:00:04.788</val></row>
+<row><val>65</val><val>5508096.162907</val><val>0.035346</val><val>3.0841093e-005</val><val>3.2730225e-004</val><val>73.415557</val><val>0.000019</val><val>5.73</val><val>0.24</val><val>00:00:04.852</val></row>
+<row><val>66</val><val>5508094.862868</val><val>0.050411</val><val>3.4227875e-005</val><val>3.6324075e-004</val><val>67.094642</val><val>0.000008</val><val>6.03</val><val>0.25</val><val>00:00:04.923</val></row>
+<row><val>67</val><val>5508093.389840</val><val>0.095158</val><val>3.6059603e-005</val><val>3.8268746e-004</val><val>100.717298</val><val>0.000017</val><val>7.39</val><val>0.31</val><val>00:00:04.988</val></row>
+<row><val>68</val><val>5508091.365432</val><val>0.088613</val><val>3.9436595e-005</val><val>4.1853368e-004</val><val>85.515280</val><val>0.000021</val><val>6.08</val><val>0.26</val><val>00:00:05.062</val></row>
+<row><val>69</val><val>5508089.907760</val><val>0.162015</val><val>3.9418598e-005</val><val>4.1835561e-004</val><val>140.894211</val><val>0.000034</val><val>8.46</val><val>0.36</val><val>00:00:05.137</val></row>
+<row><val>70</val><val>5508087.528551</val><val>0.148879</val><val>4.8410569e-005</val><val>5.1378088e-004</val><val>74.052758</val><val>0.000019</val><val>6.06</val><val>0.26</val><val>00:00:05.205</val></row>
+<row><val>71</val><val>5508085.971241</val><val>0.127429</val><val>3.8613577e-005</val><val>4.0979836e-004</val><val>72.248678</val><val>0.000019</val><val>6.27</val><val>0.26</val><val>00:00:05.280</val></row>
+<row><val>72</val><val>5508084.415923</val><val>0.113741</val><val>3.3121641e-005</val><val>3.5151351e-004</val><val>149.483106</val><val>0.000001</val><val>5.83</val><val>0.25</val><val>00:00:05.362</val></row>
+<row><val>73</val><val>5508083.278938</val><val>0.097906</val><val>3.0793401e-005</val><val>3.2680646e-004</val><val>54.853152</val><val>0.000009</val><val>4.61</val><val>0.19</val><val>00:00:05.426</val></row>
+<row><val>74</val><val>5508082.294174</val><val>0.144842</val><val>3.1275273e-005</val><val>3.3192037e-004</val><val>87.846918</val><val>0.000003</val><val>6.31</val><val>0.27</val><val>00:00:05.501</val></row>
+<row><val>75</val><val>5508080.500532</val><val>0.125333</val><val>3.4122957e-005</val><val>3.6214332e-004</val><val>56.198734</val><val>0.000001</val><val>4.68</val><val>0.20</val><val>00:00:05.577</val></row>
+<row><val>76</val><val>5508079.506566</val><val>0.151162</val><val>3.2334307e-005</val><val>3.4316195e-004</val><val>84.266194</val><val>0.000002</val><val>4.90</val><val>0.21</val><val>00:00:05.653</val></row>
+<row><val>77</val><val>5508078.601913</val><val>0.093312</val><val>2.8386283e-005</val><val>3.0126049e-004</val><val>108.934142</val><val>0.000007</val><val>4.24</val><val>0.18</val><val>00:00:05.745</val></row>
+<row><val>78</val><val>5508077.869903</val><val>0.066421</val><val>2.2920407e-005</val><val>2.4325463e-004</val><val>61.003755</val><val>0.000011</val><val>4.39</val><val>0.19</val><val>00:00:05.819</val></row>
+<row><val>79</val><val>5508076.984010</val><val>0.050740</val><val>2.2104131e-005</val><val>2.3459574e-004</val><val>56.644191</val><val>0.000018</val><val>3.91</val><val>0.17</val><val>00:00:05.899</val></row>
+<row><val>80</val><val>5508076.422436</val><val>0.075093</val><val>2.7505477e-005</val><val>2.9192330e-004</val><val>49.877367</val><val>0.000009</val><val>4.21</val><val>0.18</val><val>00:00:05.964</val></row>
+<row><val>81</val><val>5508075.708249</val><val>0.057288</val><val>2.2171111e-005</val><val>2.3530462e-004</val><val>73.685181</val><val>0.000014</val><val>4.57</val><val>0.19</val><val>00:00:06.040</val></row>
+<row><val>82</val><val>5508074.805362</val><val>0.061204</val><val>2.5137449e-005</val><val>2.6678947e-004</val><val>45.863732</val><val>0.000011</val><val>4.35</val><val>0.18</val><val>00:00:06.102</val></row>
+<row><val>83</val><val>5508074.048037</val><val>0.048562</val><val>2.1785642e-005</val><val>2.3121088e-004</val><val>40.783129</val><val>0.000023</val><val>3.47</val><val>0.15</val><val>00:00:06.168</val></row>
+<row><val>84</val><val>5508073.555017</val><val>0.052532</val><val>2.2720272e-005</val><val>2.4112738e-004</val><val>61.286277</val><val>0.000010</val><val>3.19</val><val>0.13</val><val>00:00:06.246</val></row>
+<row><val>85</val><val>5508073.134818</val><val>0.036853</val><val>1.8530620e-005</val><val>1.9666104e-004</val><val>40.658661</val><val>0.000011</val><val>2.60</val><val>0.11</val><val>00:00:06.310</val></row>
+<row><val>86</val><val>5508072.827245</val><val>0.045386</val><val>1.4765654e-005</val><val>1.5670511e-004</val><val>53.931153</val><val>0.000004</val><val>3.40</val><val>0.14</val><val>00:00:06.383</val></row>
+<row><val>87</val><val>5508072.348160</val><val>0.053508</val><val>2.0914678e-005</val><val>2.2196310e-004</val><val>71.170700</val><val>0.000002</val><val>3.55</val><val>0.15</val><val>00:00:06.466</val></row>
+<row><val>88</val><val>5508071.860226</val><val>0.042426</val><val>2.0231633e-005</val><val>2.1471285e-004</val><val>40.750910</val><val>0.000007</val><val>2.15</val><val>0.09</val><val>00:00:06.549</val></row>
+<row><val>89</val><val>5508071.643464</val><val>0.062040</val><val>1.7964803e-005</val><val>1.9065678e-004</val><val>36.743229</val><val>0.000007</val><val>2.95</val><val>0.12</val><val>00:00:06.618</val></row>
+<row><val>90</val><val>5508071.276649</val><val>0.033866</val><val>1.3919798e-005</val><val>1.4773031e-004</val><val>34.831464</val><val>0.000015</val><val>2.48</val><val>0.10</val><val>00:00:06.692</val></row>
+<row><val>91</val><val>5508071.010839</val><val>0.065876</val><val>1.6247729e-005</val><val>1.7243721e-004</val><val>75.860686</val><val>0.000003</val><val>3.41</val><val>0.14</val><val>00:00:06.758</val></row>
+<row><val>92</val><val>5508070.579052</val><val>0.097511</val><val>1.8695561e-005</val><val>1.9841587e-004</val><val>75.929124</val><val>0.000000</val><val>4.34</val><val>0.18</val><val>00:00:06.823</val></row>
+<row><val>93</val><val>5508069.959288</val><val>0.116672</val><val>1.8882124e-005</val><val>2.0039223e-004</val><val>44.371015</val><val>0.000019</val><val>3.70</val><val>0.16</val><val>00:00:06.899</val></row>
+<row><val>94</val><val>5508069.496476</val><val>0.068583</val><val>1.6337717e-005</val><val>1.7339037e-004</val><val>58.104410</val><val>0.000012</val><val>2.73</val><val>0.12</val><val>00:00:06.982</val></row>
+<row><val>95</val><val>5508069.189399</val><val>0.098097</val><val>1.7093963e-005</val><val>1.8141451e-004</val><val>34.012673</val><val>0.000009</val><val>3.15</val><val>0.13</val><val>00:00:07.060</val></row>
+<row><val>96</val><val>5508068.813562</val><val>0.042796</val><val>1.6479534e-005</val><val>1.7489658e-004</val><val>29.130412</val><val>0.000016</val><val>1.98</val><val>0.08</val><val>00:00:07.149</val></row>
+<row><val>97</val><val>5508068.626710</val><val>0.054253</val><val>1.4840044e-005</val><val>1.5749755e-004</val><val>34.246441</val><val>0.000005</val><val>2.12</val><val>0.09</val><val>00:00:07.234</val></row>
+<row><val>98</val><val>5508068.411280</val><val>0.050055</val><val>1.4183333e-005</val><val>1.5052726e-004</val><val>31.262390</val><val>0.000004</val><val>2.52</val><val>0.11</val><val>00:00:07.301</val></row>
+<row><val>99</val><val>5508068.159427</val><val>0.030330</val><val>1.2333630e-005</val><val>1.3089569e-004</val><val>26.412021</val><val>0.000007</val><val>1.91</val><val>0.08</val><val>00:00:07.376</val></row>
+<row><val>100</val><val>5508068.019676</val><val>0.019217</val><val>1.0365493e-005</val><val>1.1000833e-004</val><val>21.759508</val><val>0.000002</val><val>1.79</val><val>0.08</val><val>00:00:07.455</val></row>
+<row><val>101</val><val>5508067.884610</val><val>0.018871</val><val>1.0301464e-005</val><val>1.0932967e-004</val><val>31.269232</val><val>0.000009</val><val>1.77</val><val>0.07</val><val>00:00:07.519</val></row>
+<row><val>102</val><val>5508067.745250</val><val>0.022155</val><val>1.0096491e-005</val><val>1.0715437e-004</val><val>28.749441</val><val>0.000000</val><val>2.48</val><val>0.10</val><val>00:00:07.581</val></row>
+<row><val>103</val><val>5508067.502816</val><val>0.017329</val><val>1.1499350e-005</val><val>1.2204376e-004</val><val>14.287005</val><val>0.000006</val><val>1.50</val><val>0.06</val><val>00:00:07.644</val></row>
+<row><val>104</val><val>5508067.392208</val><val>0.024089</val><val>1.0341037e-005</val><val>1.0975090e-004</val><val>22.901420</val><val>0.000004</val><val>1.84</val><val>0.08</val><val>00:00:07.708</val></row>
+<row><val>105</val><val>5508067.255284</val><val>0.012751</val><val>9.5179743e-006</val><val>1.0101525e-004</val><val>24.759201</val><val>0.000003</val><val>1.41</val><val>0.06</val><val>00:00:07.786</val></row>
+<table title="INPUT FILES" indent="2">
+<col align="right" width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Network</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\hwy\Highway_Network.net</val></row>
+<row><val>Preprocessed penalties:</val><val>False</val></row>
+<row><val>Demand Table</val><val>C:\PROJECTS\GIT_VERSIONS\TOPEKA\GUI_DESIGN\BASE\OUTPUT\TRIPGEN\PA2OD.MTX</val></row>
+<row><val>Cost Delay Function</val><val>bpr.vdf</val></row>
+<table title="OUTPUT FILES" indent="2">
+<col align="right" width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Flow Table</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\Asgn\ASN_LinkFlow.bin</val></row>
+<table title="LINK FIELDS" indent="2">
+<col align="right" width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Time</val><val>[Travel Time]</val></row>
+<row><val>Capacity</val><val>[[AB Capacity] / [BA Capacity]]</val></row>
+<row><val>Alpha</val><val>Alpha</val></row>
+<row><val>Beta</val><val>Beta</val></row>
+<row><val>Preload</val><val>None</val></row>
+<table title="OD DEMAND" indent="2">
+<col align="right" width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>OD Pairs</val><val>298116</val></row>
+<row><val>Non zero OD Pairs</val><val>255105</val></row>
+<row><val>Assigned Demand</val><val>547812.31</val></row>
+<row><val>Intranodal Demand</val><val>1944.28</val></row>
+<table title="PARAMETERS" indent="2">
+<col align="right" width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Assignment Method</val><val>N Conjugate UE (2 vectors) with Turn Penalties</val></row>
+<row><val>Max Assignment Iterations</val><val>500</val></row>
+<row><val>Convergence Criteria</val><val>1e-005</val></row>
+<row><val>Threads used</val><val>24</val></row>
+<table title="Running Results" indent="2">
+<col align="right" width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Relative Gap</val><val>9.51797432e-006</val></row>
+<row><val>RMSE</val><val>1.4102799</val></row>
+<row><val>% RMSE</val><val>0.0595134335</val></row>
+<row><val>Max Flow Change</val><val>24.7592012</val></row>
+<row><val>Assignment Iterations</val><val>106</val></row>
+<row><val>Equilibrium reached</val><val>Yes</val></row>
+<row><val>Total VHT</val><val>96037.00</val></row>
+<row><val>Total V_Dist_T</val><val>3688202.84</val></row>
+<row><val>Centroid VHT</val><val>11062.44</val></row>
+<row><val>Centroid V_Dist_T</val><val>276560.92</val></row>
+<row><val>VHT w/o Centroids</val><val>84974.56</val></row>
+<row><val>V_Dist_T w/o Centroids</val><val>3411641.92</val></row>
+<line indent="3" string=""/>
+<table indent="2">
+<col name="Total Running Time 00:00:07.815."/>
+</table>
+</section>
+<section string="Procedure TCSPMAT on June 28, 2016 (03:28 AM)">
+<table title="Shortest Path Matrix" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Matrix Name</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\skims\SPMAT.mtx</val></row>
+<row><val>Network</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\hwy\Highway_Network.net</val></row>
+<row><val>Minimize</val><val>[Travel Time]</val></row>
+<row><val># Origins</val><val>546</val></row>
+<row><val># Destinations</val><val>546</val></row>
+<row><val>Origin Set</val><val>Selection</val></row>
+<row><val>Destination Set</val><val>Selection</val></row>
+<table indent="2">
+<col name="Shortest Path Matrix in file C:\projects\git_versions\Topeka\Gui_design\Base\Output\skims\SPMAT.mtx. Execution Time was  00:00:00.278"/>
+</table>
+</section>
+<section string="Procedure TCSPMAT on June 28, 2016 (03:28 AM)">
+<table title="Shortest Path Matrix" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Matrix Name</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\skims\SPMAT.mtx</val></row>
+<row><val>Network</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\hwy\Highway_Network.net</val></row>
+<row><val>Minimize</val><val>[Travel Time]</val></row>
+<row><val># Origins</val><val>546</val></row>
+<row><val># Destinations</val><val>546</val></row>
+<row><val>Origin Set</val><val>Selection</val></row>
+<row><val>Destination Set</val><val>Selection</val></row>
+<table indent="2">
+<col name="Shortest Path Matrix in file C:\projects\git_versions\Topeka\Gui_design\Base\Output\skims\SPMAT.mtx. Execution Time was  00:00:00.273"/>
+</table>
+</section>
+<section string="Procedure TCSPMAT on June 28, 2016 (03:28 AM)">
+<table title="Shortest Path Matrix" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Matrix Name</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\skims\SPMAT.mtx</val></row>
+<row><val>Network</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\hwy\Highway_Network.net</val></row>
+<row><val>Minimize</val><val>[Travel Time]</val></row>
+<row><val># Origins</val><val>546</val></row>
+<row><val># Destinations</val><val>546</val></row>
+<row><val>Origin Set</val><val>Selection</val></row>
+<row><val>Destination Set</val><val>Selection</val></row>
+<table indent="2">
+<col name="Shortest Path Matrix in file C:\projects\git_versions\Topeka\Gui_design\Base\Output\skims\SPMAT.mtx. Execution Time was  00:00:00.277"/>
+</table>
+</section>
+<section string="Procedure TCSPMAT on June 28, 2016 (03:28 AM)">
+<table title="Shortest Path Matrix" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Matrix Name</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\skims\SPMAT.mtx</val></row>
+<row><val>Network</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\hwy\Highway_Network.net</val></row>
+<row><val>Minimize</val><val>[Travel Time]</val></row>
+<row><val># Origins</val><val>546</val></row>
+<row><val># Destinations</val><val>546</val></row>
+<row><val>Origin Set</val><val>Selection</val></row>
+<row><val>Destination Set</val><val>Selection</val></row>
+<table indent="2">
+<col name="Shortest Path Matrix in file C:\projects\git_versions\Topeka\Gui_design\Base\Output\skims\SPMAT.mtx. Execution Time was  00:00:00.272"/>
+</table>
+</section>
+<section string="Procedure TCSPMAT on June 28, 2016 (03:28 AM)">
+<table title="Shortest Path Matrix" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Matrix Name</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\skims\SPMAT.mtx</val></row>
+<row><val>Network</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\hwy\Highway_Network.net</val></row>
+<row><val>Minimize</val><val>[Travel Time]</val></row>
+<row><val># Origins</val><val>546</val></row>
+<row><val># Destinations</val><val>546</val></row>
+<row><val>Origin Set</val><val>Selection</val></row>
+<row><val>Destination Set</val><val>Selection</val></row>
+<table indent="2">
+<col name="Shortest Path Matrix in file C:\projects\git_versions\Topeka\Gui_design\Base\Output\skims\SPMAT.mtx. Execution Time was  00:00:00.277"/>
+</table>
+</section>
+<section name="Batch Routine Report  (6/28/2016 3:28:04 AM)" string="">
+<table title=" " indent="2">
+<col name="Loop" width="15%"/>
+<col name="Stage" width="20%"/>
+<col name="Step" width="45%"/>
+<col name="Time" width="20%"/>
+</table>
+<row><val>Loop 1</val><val>Network Preparation</val><val>Setup Output Folder</val><val>00:00:01</val></row>
+<row><val> </val><val> </val><val>Compute Hwy Attributes</val><val>00:00:01</val></row>
+<row><val> </val><val>Build Network &amp; Skims</val><val>Build Highway Network</val><val>00:00:00</val></row>
+<row><val> </val><val> </val><val>Highway Network Setting</val><val>00:00:00</val></row>
+<row><val> </val><val> </val><val>Build Skims</val><val>00:00:00</val></row>
+<row><val> </val><val> </val><val>Intrazonal Times</val><val>00:00:00</val></row>
+<row><val> </val><val> </val><val>External Index</val><val>00:00:00</val></row>
+<row><val> </val><val> </val><val>Zero Out EE Skim Time</val><val>00:00:00</val></row>
+<row><val> </val><val>Trip Generation</val><val>Trip Generation QRM All</val><val>00:00:00</val></row>
+<row><val> </val><val> </val><val>NHB Adjust</val><val>00:00:00</val></row>
+<row><val> </val><val>Trip Distribution</val><val>Gravity Model</val><val>00:00:01</val></row>
+<row><val> </val><val>Pa To Od</val><val>PA2OD</val><val>00:00:00</val></row>
+<row><val> </val><val> </val><val>Daily Internal OD</val><val>00:00:00</val></row>
+<row><val> </val><val> </val><val>OD External Index</val><val>00:00:00</val></row>
+<row><val> </val><val> </val><val>Add EE Trips to OD</val><val>00:00:00</val></row>
+<row><val> </val><val>Assignment</val><val>Assignment Network Setting</val><val>00:00:00</val></row>
+<row><val> </val><val> </val><val>Assignment</val><val>00:00:08</val></row>
+<row><val> </val><val> </val><val>Add assignment fields to hwy</val><val>00:00:00</val></row>
+<row><val> </val><val>Create Map</val><val>Creat FT Map</val><val>00:00:00</val></row>
+<row><val> </val><val>Create Report</val><val>Run Reports</val><val>00:00:00</val></row>
+<row><val>Loop 2</val><val>Build Network &amp; Skims</val><val>Build Highway Network</val><val>00:00:00</val></row>
+<row><val> </val><val> </val><val>Highway Network Setting</val><val>00:00:00</val></row>
+<row><val> </val><val> </val><val>Build Skims</val><val>00:00:00</val></row>
+<row><val>Loop 3</val><val>Build Network &amp; Skims</val><val>Build Highway Network</val><val>00:00:00</val></row>
+<row><val> </val><val> </val><val>Highway Network Setting</val><val>00:00:00</val></row>
+<row><val> </val><val> </val><val>Build Skims</val><val>00:00:00</val></row>
+<row><val>Loop 4</val><val>Build Network &amp; Skims</val><val>Build Highway Network</val><val>00:00:00</val></row>
+<row><val> </val><val> </val><val>Highway Network Setting</val><val>00:00:00</val></row>
+<row><val> </val><val> </val><val>Build Skims</val><val>00:00:00</val></row>
+<row><val>Loop 5</val><val>Build Network &amp; Skims</val><val>Build Highway Network</val><val>00:00:00</val></row>
+<row><val> </val><val> </val><val>Highway Network Setting</val><val>00:00:00</val></row>
+<row><val> </val><val> </val><val>Build Skims</val><val>00:00:00</val></row>
+<row><val>Final</val><val>Build Network &amp; Skims</val><val>Build Highway Network</val><val>00:00:00</val></row>
+<row><val> </val><val> </val><val>Highway Network Setting</val><val>00:00:00</val></row>
+<row><val> </val><val> </val><val>Build Skims</val><val>00:00:00</val></row>
+<line indent="2" string="Total Running Time: 00:00:22.00"/>
+</section>
+</TCLog>
