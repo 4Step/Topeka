@@ -792,4 +792,10 @@
 </section>
 <section string="Procedure Assignment on June 28, 2016 (02:54 AM)">
 </section>
+<section name="Batch Routine Errors  (6/28/2016 3:07:08 AM)" string="">
+<line indent="3" string="SetMap returned an error."/>
+</section>
+<section name="Batch Routine Errors  (6/28/2016 3:11:11 AM)" string="">
+<line indent="3" string="Cannot find resource Run Report."/>
+</section>
 </TCLog>

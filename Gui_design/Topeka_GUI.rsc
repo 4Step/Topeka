@@ -193,11 +193,12 @@ Dbox "Topeka Model"
        // if oldlogfile <> null then SetLogFileName(oldlogfile)
        // shared d_LogInfo
        // d_LogInfo.[Report File] = oldrepfile
-       // d_LogInfo.[Log File]    = oldlogfile
-       vws = GetViewNames()
-       for i = 1 to vws.length do
-          CloseView(vws[i])
-       end
+       // d_LogInfo.[Log File]    = oldlogfile 
+       
+       // vws = GetViewNames()
+       // for i = 1 to vws.length do
+       //    CloseView(vws[i])
+       // end
     enditem
 
     Macro "closing" do
