@@ -790,4 +790,80 @@
 <row><val> </val><val> </val><val>NHB Adjust</val><val>00:00:00</val></row>
 <line indent="2" string="Total Running Time: 00:00:00.00"/>
 </section>
+<section string="Procedure Gravity on June 28, 2016 (02:11 AM)">
+<table title="Inputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>View</val><val>EndpointsQRM_ALL</val></row>
+<row><val>Selection</val><val>Selection</val></row>
+<row><val>Number of Purposes</val><val>3</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Purpose</val><val>HBW</val></row>
+<row><val>Production Field</val><val>QRM_ALL.HBW_P</val></row>
+<row><val>Attraction Field</val><val>QRM_ALL.HBW_A</val></row>
+<row><val>Constraint</val><val>Doubly (Productions and Attractions)</val></row>
+<row><val>Iterations</val><val>10</val></row>
+<row><val>Convergence</val><val>1.00e-002</val></row>
+<row><val>Friction Factor Type</val><val>Negative Exponential = exp(-c.t)</val></row>
+<row><val> </val><val>c =  -0.100000</val></row>
+<row><val>Cost Matrix</val><val>C:\PROJECTS\GIT_VERSIONS\TOPEKA\GUI_DESIGN\BASE\OUTPUT\SKIMS\SPMAT.MTX([Travel Time] (Skim))</val></row>
+<row><val>K-Factor Matrix</val><val>C:\PROJECTS\GIT_VERSIONS\TOPEKA\GUI_DESIGN\BASE\OUTPUT\SKIMS\SPMAT.MTX([Travel Time])</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Purpose</val><val>HBNW</val></row>
+<row><val>Production Field</val><val>QRM_ALL.HBNW_P</val></row>
+<row><val>Attraction Field</val><val>QRM_ALL.HBNW_A</val></row>
+<row><val>Constraint</val><val>Doubly (Productions and Attractions)</val></row>
+<row><val>Iterations</val><val>10</val></row>
+<row><val>Convergence</val><val>1.00e-002</val></row>
+<row><val>Friction Factor Type</val><val>Negative Exponential = exp(-c.t)</val></row>
+<row><val> </val><val>c =   0.040000</val></row>
+<row><val>Cost Matrix</val><val>C:\PROJECTS\GIT_VERSIONS\TOPEKA\GUI_DESIGN\BASE\OUTPUT\SKIMS\SPMAT.MTX([Travel Time] (Skim))</val></row>
+<row><val>K-Factor Matrix</val><val>C:\PROJECTS\GIT_VERSIONS\TOPEKA\GUI_DESIGN\BASE\OUTPUT\SKIMS\SPMAT.MTX([Travel Time])</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Purpose</val><val>NHB</val></row>
+<row><val>Production Field</val><val>QRM_ALL.NHB_P</val></row>
+<row><val>Attraction Field</val><val>QRM_ALL.NHB_A</val></row>
+<row><val>Constraint</val><val>Doubly (Productions and Attractions)</val></row>
+<row><val>Iterations</val><val>10</val></row>
+<row><val>Convergence</val><val>1.00e-002</val></row>
+<row><val>Friction Factor Type</val><val>Negative Exponential = exp(-c.t)</val></row>
+<row><val> </val><val>c =   0.020000</val></row>
+<row><val>Cost Matrix</val><val>C:\PROJECTS\GIT_VERSIONS\TOPEKA\GUI_DESIGN\BASE\OUTPUT\SKIMS\SPMAT.MTX([Travel Time] (Skim))</val></row>
+<row><val>K-Factor Matrix</val><val>C:\PROJECTS\GIT_VERSIONS\TOPEKA\GUI_DESIGN\BASE\INPUT\LOOKUPTABLES\K_FACTORS.MTX(K-Factors)</val></row>
+<table title="Outputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Output matrix file</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\tripGen\cgrav.mtx</val></row>
+<row><val>Results</val><val>No models have failed.</val></row>
+<row><val>HBW</val><val>Converged after 3 iterations.</val></row>
+<row><val> </val><val>K-Factor applied</val></row>
+<row><val>HBNW</val><val>Converged after 3 iterations.</val></row>
+<row><val> </val><val>K-Factor applied</val></row>
+<row><val>NHB</val><val>Converged after 4 iterations.</val></row>
+<row><val> </val><val>K-Factor applied</val></row>
+<table indent="2">
+<col name="Execution Time was  00:00:00.958"/>
+</table>
+</section>
+<section name="Batch Routine Report  (6/28/2016 2:11:14 AM)" string="">
+<table title=" " indent="2">
+<col name="Loop" width="15%"/>
+<col name="Stage" width="20%"/>
+<col name="Step" width="45%"/>
+<col name="Time" width="20%"/>
+</table>
+<row><val>Loop 1</val><val>Trip Distribution</val><val>Gravity Model</val><val>00:00:01</val></row>
+<line indent="2" string="Total Running Time: 00:00:01.00"/>
+</section>
 </TCLog>

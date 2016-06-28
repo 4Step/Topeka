@@ -100,27 +100,27 @@ Dbox "Topeka Model"
        if cur_loop <= loop_n then StepFlag = StepFlagVec[cur_loop] else StepFlag = StepFlagVec[all_loops]
     enditem
     
-    // Skimming button
-    button "Topeka_A1" 1, 22 icons: "bmp\\planskim.bmp" do cur_stage = 1  RunMacro("set steps") enditem
+    // Network button
+    button "Topeka_A1" 1, 22 icons: "bmp\\plansetup.bmp" do cur_stage = 1  RunMacro("set steps") enditem
     button "Topeka_B1" after, same, 19.0, 1.6  prompt:StageName[1]  do cur_stage = 1  RunMacro("run stages") enditem
     button "Topeka_C1" after, same icons: "bmp\\ViewButton.bmp", "bmp\\ViewButton.bmp", "bmp\\ViewButton2.bmp" do RunMacro("TCP Model Show", ScenArr, 1) enditem
 
-    // Trip Generation button
-    button "Topeka_A2" 1, After icons: "bmp\\plantripgen.bmp" do cur_stage = 2  RunMacro("set steps") enditem
+    // Skimming button
+    button "Topeka_A2" 1, After icons: "bmp\\planskim.bmp" do cur_stage = 2  RunMacro("set steps") enditem
     button "Topeka_B2" after, same, 19.0, 1.6  prompt:StageName[2]  do cur_stage = 2  RunMacro("run stages") enditem
     button "Topeka_C2" after, same icons: "bmp\\ViewButton.bmp", "bmp\\ViewButton.bmp", "bmp\\ViewButton2.bmp" do RunMacro("TCP Model Show", ScenArr, 2) enditem
 
-    // Logsums button
-    button "Topeka_A3" 1, After icons: "bmp\\planmatrix.bmp" do cur_stage = 3  RunMacro("set steps") enditem
+    // Trip Generation button
+    button "Topeka_A3" 1, After icons: "bmp\\plantripgen.bmp" do cur_stage = 3  RunMacro("set steps") enditem
     button "Topeka_B3" after, same, 19.0, 1.6  prompt:StageName[3]  do cur_stage = 3  RunMacro("run stages") enditem
     button "Topeka_C3" after, same icons: "bmp\\ViewButton.bmp", "bmp\\ViewButton.bmp", "bmp\\ViewButton2.bmp" do RunMacro("TCP Model Show", ScenArr, 3) enditem
 
-    // Destination Choice button
+    // Distribution Choice button
     button "Topeka_A4" 1, After icons: "bmp\\plantripdist.bmp" do cur_stage = 4  RunMacro("set steps") enditem
     button "Topeka_B4" after, same, 19.0, 1.6  prompt:StageName[4]  do cur_stage = 4  RunMacro("run stages") enditem
     button "Topeka_C4" after, same icons: "bmp\\ViewButton.bmp", "bmp\\ViewButton.bmp", "bmp\\ViewButton2.bmp" do RunMacro("TCP Model Show", ScenArr, 4) enditem
 
-    // Mode Choice button
+    // PA to OD button
     button "Topeka_A5" 1, After icons: "bmp\\planmodesplit.bmp" do cur_stage = 5  RunMacro("set steps") enditem
     button "Topeka_B5" after, same, 19.0, 1.6  prompt:StageName[5]  do cur_stage = 5  RunMacro("run stages") enditem
     button "Topeka_C5" after, same icons: "bmp\\ViewButton.bmp", "bmp\\ViewButton.bmp", "bmp\\ViewButton2.bmp" do RunMacro("TCP Model Show", ScenArr, 5) enditem
@@ -130,12 +130,12 @@ Dbox "Topeka Model"
     button "Topeka_B6" after, same, 19.0, 1.6  prompt:StageName[6]  do cur_stage = 6  RunMacro("run stages") enditem
     button "Topeka_C6" after, same icons: "bmp\\ViewButton.bmp", "bmp\\ViewButton.bmp", "bmp\\ViewButton2.bmp" do RunMacro("TCP Model Show", ScenArr, 6) enditem
 
-    // Transit Assignment button
-    button "Topeka_A7" 1, After icons: "bmp\\plantransit.bmp" do cur_stage = 7  RunMacro("set steps") enditem
+    // Create Map button
+    button "Topeka_A7" 1, After icons: "bmp\\plannetwork.bmp" do cur_stage = 7  RunMacro("set steps") enditem
     button "Topeka_B7" after, same, 19.0, 1.6  prompt:StageName[7]  do cur_stage = 7  RunMacro("run stages") enditem
     button "Topeka_C7" after, same icons: "bmp\\ViewButton.bmp", "bmp\\ViewButton.bmp", "bmp\\ViewButton2.bmp" do RunMacro("TCP Model Show", ScenArr, 7) enditem
 
-    // Reporting and Mapping
+    // Reporting button
     button "Topeka_A8" 1, After icons: "bmp\\planmatrix.bmp" do cur_stage = 8  RunMacro("set steps") enditem
     button "Topeka_B8" after, same, 19.0, 1.6  prompt:StageName[8]  do cur_stage = 8  RunMacro("run stages") enditem
     button "Topeka_C8" after, same icons: "bmp\\ViewButton.bmp", "bmp\\ViewButton.bmp", "bmp\\ViewButton2.bmp" do RunMacro("TCP Model Show", ScenArr, 8) enditem

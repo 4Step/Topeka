@@ -726,4 +726,56 @@
 <line indent="3" string="Negative or missing value in view &apos;&apos; (RETAIL10) at ID 1031. Will be treated as zero."/>
 <line indent="3" string="Negative or missing value in view &apos;&apos; (NON_RETAIL10) at ID 1031. Will be treated as zero."/>
 </section>
+<section string="Procedure Gravity on June 28, 2016 (02:11 AM)">
+<line indent="3" string="Production for record 639 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1001 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1002 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1003 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1004 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1005 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1006 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1007 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1008 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1009 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1010 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1011 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1012 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1013 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1014 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1015 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1016 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1017 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1018 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1019 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1020 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1021 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1022 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1023 missing or negative for matrix HBW. Will be treated as zero."/>
+<line indent="3" string="Additional unlisted errors present (too numerous to list)."/>
+<line indent="3" string="Production for record 639 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1001 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1002 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1003 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1004 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1005 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1006 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1007 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1008 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1009 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1010 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1011 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1012 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1013 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1014 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1015 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1016 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1017 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1018 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1019 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1020 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1021 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1022 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Production for record 1023 missing or negative for matrix HBNW. Will be treated as zero."/>
+<line indent="3" string="Additional unlisted errors present (too numerous to list)."/>
+</section>
 </TCLog>
