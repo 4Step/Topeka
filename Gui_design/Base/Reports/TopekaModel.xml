@@ -271,4 +271,523 @@
 <row><val> </val><val> </val><val>Zero Out EE Skim Time</val><val>00:00:00</val></row>
 <line indent="2" string="Total Running Time: 00:00:01.00"/>
 </section>
+<section name="Batch Routine Report  (6/28/2016 12:40:21 AM)" string="">
+<table title=" " indent="2">
+<col name="Step" width="70%"/>
+<col name="Time" width="30%"/>
+</table>
+<row><val>Procedure QRM All</val><val>Failed</val></row>
+<line indent="2" string="Total Running Time: 00:00:00.00"/>
+</section>
+<section string="Procedure QRM All on June 28, 2016 (12:43 AM)">
+</section>
+<section name="Batch Routine Report  (6/28/2016 12:43:00 AM)" string="">
+<table title=" " indent="2">
+<col name="Step" width="70%"/>
+<col name="Time" width="30%"/>
+</table>
+<row><val>Procedure QRM All</val><val>Failed</val></row>
+<line indent="2" string="Total Running Time: 00:00:00.00"/>
+</section>
+<section string="Procedure QRM All on June 28, 2016 (12:46 AM)">
+</section>
+<section name="Batch Routine Report  (6/28/2016 12:46:37 AM)" string="">
+<table title=" " indent="2">
+<col name="Step" width="70%"/>
+<col name="Time" width="30%"/>
+</table>
+<row><val>Procedure QRM All</val><val>Failed</val></row>
+<line indent="2" string="Total Running Time: 00:00:00.00"/>
+</section>
+<section string="Procedure QRM All on June 28, 2016 (12:55 AM)">
+<table title="QRM -Trip Production and Attraction" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<table title="Inputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>View</val><val>SE_Data</val></row>
+<row><val>Selection</val><val>Selection</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Production Lookup</val><val>PROD_TGP</val></row>
+<row><val>Pop (thousands)</val><val> 100.00</val></row>
+<row><val>Classify by</val><val>Income per Households</val></row>
+<row><val>Inflation Index</val><val>   1.00</val></row>
+<row><val>Total HH</val><val>HH10</val></row>
+<row><val>Income/HH (000s)</val><val>INCOME10</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Attraction Lookup</val><val>ATTR_TGP</val></row>
+<row><val>Dwelling Units</val><val>HH10</val></row>
+<row><val>Retail Employment</val><val>RETAIL10</val></row>
+<row><val>Nonretail Emp.</val><val>NON_RETAIL10</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Balancing Method</val><val>Hold productions</val></row>
+<row><val>Use Special Zones</val><val>Yes</val></row>
+<row><val>Special Zone Code</val><val>0</val></row>
+<row><val>Zone Type Field</val><val>SPECIAL</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Number of purposes</val><val>4</val></row>
+<row><val>Purpose</val><val>HBW</val></row>
+<row><val>Special Production</val><val>HBW_P</val></row>
+<row><val>Special Attraction</val><val>HBW_A</val></row>
+<row><val>Purpose</val><val>HBNW</val></row>
+<row><val>Special Production</val><val>HBNW_P</val></row>
+<row><val>Special Attraction</val><val>HBNW_A</val></row>
+<row><val>Purpose</val><val>HBO</val></row>
+<row><val>Special Production</val><val>No</val></row>
+<row><val>Special Attraction</val><val>No</val></row>
+<row><val>Purpose</val><val>NHB</val></row>
+<row><val>Special Production</val><val>NHB_P</val></row>
+<row><val>Special Attraction</val><val>NHB_A</val></row>
+<table title="Outputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Output file</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\tripGen\QRM_ALL.bin</val></row>
+<table indent="2">
+<col name="Execution Time was  00:00:00.086"/>
+</table>
+</section>
+<section name="Batch Routine Report  (6/28/2016 12:55:42 AM)" string="">
+<table title=" " indent="2">
+<col name="Step" width="70%"/>
+<col name="Time" width="30%"/>
+</table>
+<row><val>Procedure QRM All</val><val>00:00:00.00</val></row>
+<line indent="2" string="Total Running Time: 00:00:00.00"/>
+</section>
+<section string="Procedure QRM All on June 28, 2016 (12:59 AM)">
+<table title="QRM -Trip Production and Attraction" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<table title="Inputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>View</val><val>SE_Data</val></row>
+<row><val>Selection</val><val>Selection</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Production Lookup</val><val>PROD_TGP</val></row>
+<row><val>Pop (thousands)</val><val> 100.00</val></row>
+<row><val>Classify by</val><val>Income per Households</val></row>
+<row><val>Inflation Index</val><val>   1.00</val></row>
+<row><val>Total HH</val><val>HH10</val></row>
+<row><val>Income/HH (000s)</val><val>INCOME10</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Attraction Lookup</val><val>ATTR_TGP</val></row>
+<row><val>Dwelling Units</val><val>HH10</val></row>
+<row><val>Retail Employment</val><val>RETAIL10</val></row>
+<row><val>Nonretail Emp.</val><val>NON_RETAIL10</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Balancing Method</val><val>Hold productions</val></row>
+<row><val>Use Special Zones</val><val>Yes</val></row>
+<row><val>Special Zone Code</val><val>0</val></row>
+<row><val>Zone Type Field</val><val>SPECIAL</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Number of purposes</val><val>4</val></row>
+<row><val>Purpose</val><val>HBW</val></row>
+<row><val>Special Production</val><val>HBW_P</val></row>
+<row><val>Special Attraction</val><val>HBW_A</val></row>
+<row><val>Purpose</val><val>HBNW</val></row>
+<row><val>Special Production</val><val>HBNW_P</val></row>
+<row><val>Special Attraction</val><val>HBNW_A</val></row>
+<row><val>Purpose</val><val>HBO</val></row>
+<row><val>Special Production</val><val>No</val></row>
+<row><val>Special Attraction</val><val>No</val></row>
+<row><val>Purpose</val><val>NHB</val></row>
+<row><val>Special Production</val><val>NHB_P</val></row>
+<row><val>Special Attraction</val><val>NHB_A</val></row>
+<table title="Outputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Output file</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\tripGen\QRM_ALL.bin</val></row>
+<table indent="2">
+<col name="Execution Time was  00:00:00.088"/>
+</table>
+</section>
+<section name="Batch Routine Report  (6/28/2016 12:59:22 AM)" string="">
+<table title=" " indent="2">
+<col name="Step" width="70%"/>
+<col name="Time" width="30%"/>
+</table>
+<row><val>Procedure QRM All</val><val>00:00:00.00</val></row>
+<line indent="2" string="Total Running Time: 00:00:00.00"/>
+</section>
+<section string="Procedure QRM All on June 28, 2016 (01:26 AM)">
+<table title="QRM -Trip Production and Attraction" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<table title="Inputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>View</val><val>SE_Data</val></row>
+<row><val>Selection</val><val>SE_Data</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Production Lookup</val><val>prod_tgp</val></row>
+<row><val>Pop (thousands)</val><val> 100.00</val></row>
+<row><val>Classify by</val><val>None (using average rates)</val></row>
+<row><val>Inflation Index</val><val>   1.00</val></row>
+<row><val>Total HH</val><val>HH10</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Attraction Lookup</val><val>attr_tgp</val></row>
+<row><val>Dwelling Units</val><val>HH10</val></row>
+<row><val>Retail Employment</val><val>RETAIL10</val></row>
+<row><val>Nonretail Emp.</val><val>TOT_EMPLOY10</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Balancing Method</val><val>Hold productions</val></row>
+<row><val>Use Special Zones</val><val>Yes</val></row>
+<row><val>Special Zone Code</val><val>0</val></row>
+<row><val>Zone Type Field</val><val>SPECIAL</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Number of purposes</val><val>4</val></row>
+<row><val>Purpose</val><val>HBW</val></row>
+<row><val>Special Production</val><val>HBW_P</val></row>
+<row><val>Special Attraction</val><val>HBW_A</val></row>
+<row><val>Purpose</val><val>HBNW</val></row>
+<row><val>Special Production</val><val>HBNW_P</val></row>
+<row><val>Special Attraction</val><val>HBNW_A</val></row>
+<row><val>Purpose</val><val>HBO</val></row>
+<row><val>Special Production</val><val>No</val></row>
+<row><val>Special Attraction</val><val>No</val></row>
+<row><val>Purpose</val><val>NHB</val></row>
+<row><val>Special Production</val><val>NHB_P</val></row>
+<row><val>Special Attraction</val><val>NHB_A</val></row>
+<table title="Outputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Output file</val><val>c:\projects\git_versions\topeka\gui_design\base\output\tripgen\QRM_All.bin</val></row>
+<table indent="2">
+<col name="Execution Time was  00:00:00.082"/>
+</table>
+</section>
+<section name="Batch Routine Report  (6/28/2016 1:26:55 AM)" string="">
+<table title=" " indent="2">
+<col name="Step" width="70%"/>
+<col name="Time" width="30%"/>
+</table>
+<row><val>Procedure QRM All</val><val>00:00:00.00</val></row>
+<line indent="2" string="Total Running Time: 00:00:00.00"/>
+</section>
+<section string="Procedure Procedure Quick Response Method on June 28, 2016 (01:42 AM)">
+<table title="QRM -Trip Production and Attraction" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<table title="Inputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>View</val><val>SE_Data</val></row>
+<row><val>Selection</val><val>SE_Data</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Production Lookup</val><val>PROD_TGP</val></row>
+<row><val>Pop (thousands)</val><val> 100.00</val></row>
+<row><val>Classify by</val><val>Income per Households</val></row>
+<row><val>Inflation Index</val><val>   1.00</val></row>
+<row><val>Total HH</val><val>HH10</val></row>
+<row><val>Income/HH (000s)</val><val>INCOME10</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Attraction Lookup</val><val>ATTR_TGP</val></row>
+<row><val>Dwelling Units</val><val>HH10</val></row>
+<row><val>Retail Employment</val><val>RETAIL10</val></row>
+<row><val>Nonretail Emp.</val><val>TOT_EMPLOY10</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Balancing Method</val><val>Hold productions</val></row>
+<row><val>Use Special Zones</val><val>Yes</val></row>
+<row><val>Special Zone Code</val><val>0</val></row>
+<row><val>Zone Type Field</val><val>SPECIAL</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Number of purposes</val><val>4</val></row>
+<row><val>Purpose</val><val>HBW</val></row>
+<row><val>Special Production</val><val>HBW_P</val></row>
+<row><val>Special Attraction</val><val>HBW_A</val></row>
+<row><val>Purpose</val><val>HBNW</val></row>
+<row><val>Special Production</val><val>HBNW_P</val></row>
+<row><val>Special Attraction</val><val>HBNW_A</val></row>
+<row><val>Purpose</val><val>HBO</val></row>
+<row><val>Special Production</val><val>No</val></row>
+<row><val>Special Attraction</val><val>No</val></row>
+<row><val>Purpose</val><val>NHB</val></row>
+<row><val>Special Production</val><val>NHB_P</val></row>
+<row><val>Special Attraction</val><val>NHB_A</val></row>
+<table title="Outputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Output file</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\tripgen\QRM_All.bin</val></row>
+<table indent="2">
+<col name="Execution Time was  00:00:00.096"/>
+</table>
+</section>
+<section string="Procedure QRM All on June 28, 2016 (01:52 AM)">
+<table title="QRM -Trip Production and Attraction" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<table title="Inputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>View</val><val>SE_Data</val></row>
+<row><val>Selection</val><val>SE_Data</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Production Lookup</val><val>PROD_TGP</val></row>
+<row><val>Pop (thousands)</val><val> 100.00</val></row>
+<row><val>Classify by</val><val>Income per Households</val></row>
+<row><val>Inflation Index</val><val>   1.00</val></row>
+<row><val>Total HH</val><val>HH10</val></row>
+<row><val>Income/HH (000s)</val><val>INCOME10</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Attraction Lookup</val><val>ATTR_TGP</val></row>
+<row><val>Dwelling Units</val><val>HH10</val></row>
+<row><val>Retail Employment</val><val>RETAIL10</val></row>
+<row><val>Nonretail Emp.</val><val>NON_RETAIL10</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Balancing Method</val><val>Hold productions</val></row>
+<row><val>Use Special Zones</val><val>Yes</val></row>
+<row><val>Special Zone Code</val><val>0</val></row>
+<row><val>Zone Type Field</val><val>SPECIAL</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Number of purposes</val><val>4</val></row>
+<row><val>Purpose</val><val>HBW</val></row>
+<row><val>Special Production</val><val>HBW_P</val></row>
+<row><val>Special Attraction</val><val>HBW_A</val></row>
+<row><val>Purpose</val><val>HBNW</val></row>
+<row><val>Special Production</val><val>HBNW_P</val></row>
+<row><val>Special Attraction</val><val>HBNW_A</val></row>
+<row><val>Purpose</val><val>HBO</val></row>
+<row><val>Special Production</val><val>No</val></row>
+<row><val>Special Attraction</val><val>No</val></row>
+<row><val>Purpose</val><val>NHB</val></row>
+<row><val>Special Production</val><val>NHB_P</val></row>
+<row><val>Special Attraction</val><val>NHB_A</val></row>
+<table title="Outputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Output file</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\tripGen\QRM_ALL.bin</val></row>
+<table indent="2">
+<col name="Execution Time was  00:00:00.085"/>
+</table>
+</section>
+<section name="Batch Routine Report  (6/28/2016 1:52:31 AM)" string="">
+<table title=" " indent="2">
+<col name="Step" width="70%"/>
+<col name="Time" width="30%"/>
+</table>
+<row><val>Procedure QRM All</val><val>00:00:00.00</val></row>
+<line indent="2" string="Total Running Time: 00:00:00.00"/>
+</section>
+<section string="Procedure QRM All on June 28, 2016 (01:53 AM)">
+<table title="QRM -Trip Production and Attraction" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<table title="Inputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>View</val><val>SE_Data</val></row>
+<row><val>Selection</val><val>SE_Data</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Production Lookup</val><val>PROD_TGP</val></row>
+<row><val>Pop (thousands)</val><val> 100.00</val></row>
+<row><val>Classify by</val><val>Income per Households</val></row>
+<row><val>Inflation Index</val><val>   1.00</val></row>
+<row><val>Total HH</val><val>HH10</val></row>
+<row><val>Income/HH (000s)</val><val>INCOME10</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Attraction Lookup</val><val>ATTR_TGP</val></row>
+<row><val>Dwelling Units</val><val>HH10</val></row>
+<row><val>Retail Employment</val><val>RETAIL10</val></row>
+<row><val>Nonretail Emp.</val><val>NON_RETAIL10</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Balancing Method</val><val>Hold productions</val></row>
+<row><val>Use Special Zones</val><val>Yes</val></row>
+<row><val>Special Zone Code</val><val>0</val></row>
+<row><val>Zone Type Field</val><val>SPECIAL</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Number of purposes</val><val>4</val></row>
+<row><val>Purpose</val><val>HBW</val></row>
+<row><val>Special Production</val><val>HBW_P</val></row>
+<row><val>Special Attraction</val><val>HBW_A</val></row>
+<row><val>Purpose</val><val>HBNW</val></row>
+<row><val>Special Production</val><val>HBNW_P</val></row>
+<row><val>Special Attraction</val><val>HBNW_A</val></row>
+<row><val>Purpose</val><val>HBO</val></row>
+<row><val>Special Production</val><val>No</val></row>
+<row><val>Special Attraction</val><val>No</val></row>
+<row><val>Purpose</val><val>NHB</val></row>
+<row><val>Special Production</val><val>NHB_P</val></row>
+<row><val>Special Attraction</val><val>NHB_A</val></row>
+<table title="Outputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Output file</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\tripGen\QRM_ALL.bin</val></row>
+<table indent="2">
+<col name="Execution Time was  00:00:00.088"/>
+</table>
+</section>
+<section name="Batch Routine Report  (6/28/2016 1:53:35 AM)" string="">
+<table title=" " indent="2">
+<col name="Step" width="70%"/>
+<col name="Time" width="30%"/>
+</table>
+<row><val>Procedure QRM All</val><val>00:00:00.00</val></row>
+<line indent="2" string="Total Running Time: 00:00:00.00"/>
+</section>
+<section string="Procedure QRM All on June 28, 2016 (01:55 AM)">
+<table title="QRM -Trip Production and Attraction" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<table title="Inputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>View</val><val>SE_Data</val></row>
+<row><val>Selection</val><val>SE_Data</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Production Lookup</val><val>PROD_TGP</val></row>
+<row><val>Pop (thousands)</val><val> 100.00</val></row>
+<row><val>Classify by</val><val>Income per Households</val></row>
+<row><val>Inflation Index</val><val>   1.00</val></row>
+<row><val>Total HH</val><val>HH10</val></row>
+<row><val>Income/HH (000s)</val><val>INCOME10</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Attraction Lookup</val><val>ATTR_TGP</val></row>
+<row><val>Dwelling Units</val><val>HH10</val></row>
+<row><val>Retail Employment</val><val>RETAIL10</val></row>
+<row><val>Nonretail Emp.</val><val>NON_RETAIL10</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Balancing Method</val><val>Hold productions</val></row>
+<row><val>Use Special Zones</val><val>Yes</val></row>
+<row><val>Special Zone Code</val><val>0</val></row>
+<row><val>Zone Type Field</val><val>SPECIAL</val></row>
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Number of purposes</val><val>4</val></row>
+<row><val>Purpose</val><val>HBW</val></row>
+<row><val>Special Production</val><val>HBW_P</val></row>
+<row><val>Special Attraction</val><val>HBW_A</val></row>
+<row><val>Purpose</val><val>HBNW</val></row>
+<row><val>Special Production</val><val>HBNW_P</val></row>
+<row><val>Special Attraction</val><val>HBNW_A</val></row>
+<row><val>Purpose</val><val>HBO</val></row>
+<row><val>Special Production</val><val>No</val></row>
+<row><val>Special Attraction</val><val>No</val></row>
+<row><val>Purpose</val><val>NHB</val></row>
+<row><val>Special Production</val><val>NHB_P</val></row>
+<row><val>Special Attraction</val><val>NHB_A</val></row>
+<table title="Outputs" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Output file</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\tripGen\QRM_ALL.bin</val></row>
+<table indent="2">
+<col name="Execution Time was  00:00:00.086"/>
+</table>
+</section>
+<section name="Batch Routine Report  (6/28/2016 1:55:28 AM)" string="">
+<table title=" " indent="2">
+<col name="Loop" width="15%"/>
+<col name="Stage" width="20%"/>
+<col name="Step" width="45%"/>
+<col name="Time" width="20%"/>
+</table>
+<row><val>Loop 1</val><val>Trip Generation</val><val>Trip Generation QRM All</val><val>00:00:00</val></row>
+<row><val> </val><val> </val><val>NHB Adjust</val><val>00:00:00</val></row>
+<line indent="2" string="Total Running Time: 00:00:00.00"/>
+</section>
 </TCLog>
