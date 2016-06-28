@@ -220,4 +220,55 @@
 <row><val> </val><val> </val><val>Compute Hwy Attributes</val><val>00:00:01</val></row>
 <line indent="2" string="Total Running Time: 00:00:02.00"/>
 </section>
+<section name="Batch Routine Report  (6/28/2016 12:24:47 AM)" string="">
+<table title=" " indent="2">
+<col name="Step" width="70%"/>
+<col name="Time" width="30%"/>
+</table>
+<row><val>Operation Build Highway Network</val><val>00:00:00.00</val></row>
+<row><val>Operation Highway Network Setting</val><val>Failed</val></row>
+<line indent="2" string="Total Running Time: 00:00:00.00"/>
+</section>
+<section string="Procedure TCSPMAT on June 28, 2016 (12:26 AM)">
+<table title="Shortest Path Matrix" indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Matrix Name</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\skims\SPMAT.mtx</val></row>
+<row><val>Network</val><val>C:\projects\git_versions\Topeka\Gui_design\Base\Output\hwy\Highway_Network.net</val></row>
+<row><val>Minimize</val><val>[Travel Time]</val></row>
+<row><val># Origins</val><val>546</val></row>
+<row><val># Destinations</val><val>546</val></row>
+<row><val>Origin Set</val><val>Selection</val></row>
+<row><val>Destination Set</val><val>Selection</val></row>
+<table indent="2">
+<col name="Shortest Path Matrix in file C:\projects\git_versions\Topeka\Gui_design\Base\Output\skims\SPMAT.mtx. Execution Time was  00:00:00.271"/>
+</table>
+</section>
+<section string="Procedure Intrazonal on June 28, 2016 (12:26 AM)">
+<table indent="2">
+<col width="20%" bold="true"/>
+<col/>
+</table>
+<row><val>Adjacent Zones</val><val>3</val></row>
+<row><val>Factor</val><val>  1.00</val></row>
+<table indent="2">
+<col name="Total Running Time 00:00:00.094."/>
+</table>
+</section>
+<section name="Batch Routine Report  (6/28/2016 12:26:18 AM)" string="">
+<table title=" " indent="2">
+<col name="Loop" width="15%"/>
+<col name="Stage" width="20%"/>
+<col name="Step" width="45%"/>
+<col name="Time" width="20%"/>
+</table>
+<row><val>Loop 1</val><val>Build Network &amp; Skims</val><val>Build Highway Network</val><val>00:00:00</val></row>
+<row><val> </val><val> </val><val>Highway Network Setting</val><val>00:00:00</val></row>
+<row><val> </val><val> </val><val>Build Skims</val><val>00:00:00</val></row>
+<row><val> </val><val> </val><val>Intrazonal Times</val><val>00:00:00</val></row>
+<row><val> </val><val> </val><val>External Index</val><val>00:00:00</val></row>
+<row><val> </val><val> </val><val>Zero Out EE Skim Time</val><val>00:00:00</val></row>
+<line indent="2" string="Total Running Time: 00:00:01.00"/>
+</section>
 </TCLog>

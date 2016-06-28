@@ -20,4 +20,12 @@
 <section name="Batch Routine Errors  (6/27/2016 11:42:46 PM)" string="">
 <line indent="3" string="Cannot find resource TCB Fill Dataview Defaults."/>
 </section>
+<section name="Batch Routine Errors  (6/28/2016 12:24:48 AM)" string="">
+<line indent="3" string="Error Opening Table: Cannot find file C:\projects\git_versions\Topeka\Gui_design\Base\input\hwy\turnpen.bin."/>
+<line indent="3" string="Incorrect Definition for option Value &apos;Spc Turn Pen Table&apos;"/>
+</section>
+<section string="Procedure TCSPMAT on June 28, 2016 (12:26 AM)">
+</section>
+<section string="Procedure Intrazonal on June 28, 2016 (12:26 AM)">
+</section>
 </TCLog>
