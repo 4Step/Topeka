@@ -1,0 +1,12 @@
+
+88
+"Iteration",I,1,4,0,10,0,,"","Iteration Number",,"Blank",
+"Objective Function",R,5,8,0,20,6,,"","Value of the Objective Function",,"Blank",
+"Step",R,13,8,0,20,6,,"","Step Size",,"Blank",
+"Relative Gap",R,21,8,0,20,8,,"","Relative Gap",,"Blank",
+"AEC",R,29,8,0,20,8,,"","Average Excess Cost",,"Blank",
+"Max Flow Change",R,37,8,0,20,2,,"","Maximum Flow Change",,"Blank",
+"Relative VHT",R,45,8,0,20,2,,"","Relative VHT",,"Blank",
+"RMSE",R,53,8,0,20,8,,"","RMSE Excess Cost",,"Blank",
+"%RMSE",R,61,8,0,20,8,,"","Relative RMSE",,"Blank",
+"CPU Time",C,69,20,0,20,0,,"","CPU Time",,"Blank",
