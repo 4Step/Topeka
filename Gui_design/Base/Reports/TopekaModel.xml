@@ -1200,4 +1200,14 @@
 <row><val>Loop 1</val><val>Create Map</val><val>Creat FT Map</val><val>00:00:00</val></row>
 <line indent="2" string="Total Running Time: 00:00:01.00"/>
 </section>
+<section name="Batch Routine Report  (6/28/2016 3:24:16 AM)" string="">
+<table title=" " indent="2">
+<col name="Loop" width="15%"/>
+<col name="Stage" width="20%"/>
+<col name="Step" width="45%"/>
+<col name="Time" width="20%"/>
+</table>
+<row><val>Loop 1</val><val>Create Report</val><val>Run Reports</val><val>00:00:00</val></row>
+<line indent="2" string="Total Running Time: 00:00:00.00"/>
+</section>
 </TCLog>

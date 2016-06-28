@@ -798,4 +798,16 @@
 <section name="Batch Routine Errors  (6/28/2016 3:11:11 AM)" string="">
 <line indent="3" string="Cannot find resource Run Report."/>
 </section>
+<section name="Batch Routine Errors  (6/28/2016 3:21:04 AM)" string="">
+<line indent="3" string="Cannot find resource Run Report."/>
+</section>
+<section name="Batch Routine Errors  (6/28/2016 3:22:01 AM)" string="">
+<line indent="3" string="Cannot find resource Run Report."/>
+</section>
+<section name="Batch Routine Errors  (6/28/2016 3:23:00 AM)" string="">
+<line indent="3" string="Cannot find resource Run Report."/>
+</section>
+<section name="Batch Routine Errors  (6/28/2016 3:23:42 AM)" string="">
+<line indent="3" string="Cannot create directory C:\projects\git_versions\Topeka\Gui_design\Base\Reports."/>
+</section>
 </TCLog>
