@@ -89,33 +89,67 @@ Macro "Create Output Folder" (Args)
 EndMacro
 
 
-Macro "AreaType and Facility Type"(Args)
+Macro "Compute Hwy Attributes"(Args)
 Shared scen_data_dir
 
-// STEP 0: Get node and line layer names
-   {node_layer, line_layer} = RunMacro("TCB Add DB Layers", Args.[Highway DB])
+    //  Get node and line layer names
+    {node_layer, line_layer} = RunMacro("TCB Add DB Layers", Args.[Highway DB])
+   
+    // Add network fields
+    newFields = {{"Lookup"	  , "Integer" 	, 10 ,	0 },
+                  {"FC"	      , "Character"	, 16 ,	0 },
+                  {"FF_SPEED"	, "Integer" 	,  8 ,	0 },
+                  {"PK_SPEED"	, "Integer" 	,  8 ,	0 },
+                  {"AB_CAP"	  , "Integer" 	,  8 ,	0 },
+                  {"BA_CAP"	  , "Integer" 	,  8 ,	0 },
+                  {"Alpha"	  , "Real" 	    , 10 ,	2 },
+                  {"Beta"	    , "Real" 	    , 10 ,	2 },
+                  {"FF_TT"	  , "Real" 	    , 10 ,	2 },
+                  {"PK_TT"	  , "Real" 	    , 10 ,	2 }}
 
-// STEP 1: Fill Dataview
+     RunMacro("TCB Add View Fields",{line_layer,newFields}) 
+
+     // Compute Lookup field
      Opts = null
      Opts.Input.[Dataview Set] = {Args.[Highway DB] + "|" + line_layer, line_layer}
      Opts.Global.Fields = {"Lookup"}
      Opts.Global.Method = "Formula"
      Opts.Global.Parameter = "(FT * 10) + AT"    
-     
      ret_value = RunMacro("TCB Run Operation", "Fill Dataview", Opts, &Ret)
 
-// STEP 2: Fill Dataview
+     //  Extract DBF lookup table from Access database
      // tb = OpenTable("tab", "ACCESS", {Args.[ACCESS Lookup Capacity], "Lookup", "Lookup"})
      // ExportView(tb+"|", "DBASE", Args.[Lookup Capacity], , )
      
+     // Join lookup table to highway network
      tb = OpenTable("tab", "DBASE", {Args.[Capacity Lookup]})
      jv = JoinViews("jv", line_layer + ".LookUp", tb + ".LookUp",)
-     v = GetDataVector(jv + "|", tb + ".FC",)
-     SetDataVector(jv + "|", line_layer+".FC", v,)
+     
+     // Copy data from lookup table to highway network
+     lookup_fields    = {"FC", "FF_SPEED", "PK_SPEED", "AB_CAP", "BA_CAP", "Alpha", "Beta"}
+     linelayer_fields = {"FC", "FF_SPEED", "PK_SPEED", "AB_CAP", "BA_CAP", "Alpha", "Beta"}
+      
+     for f = 1 to lookup_fields.length do
+       vec = GetDataVector(jv + "|", tb + "." + lookup_fields[f],)
+       SetDataVector(jv + "|", line_layer + "." + lookup_fields[f], vec,)
+     end
      CloseView(jv)
      CloseView(tb)
-    // ret_value = RunMacro("TCB Run Operation", "Fill Dataview", Opts, &Ret)
+     
+     
+     // Compute capacity and travel time
+     linelayer_fields = {"AB_CAP", "BA_CAP", "FF_TT", "PK_TT"}
+     formulae = {"AB_CAP * AB_Lanes", "BA_CAP * BA_Lanes",  "(Length*60)/FF_SPEED",  "(Length*60)/PK_SPEED" }
+     
+     Opts = null
+     Opts.Input.[Dataview Set] = {Args.[Highway DB] + "|" + line_layer, line_layer}
+     Opts.Global.Fields = linelayer_fields
+     Opts.Global.Method = "Formula"
+     Opts.Global.Parameter = formulae    
+     ret_value = RunMacro("TCB Run Operation", "Fill Dataview", Opts)
+     Return(1)
 
+/*
 // STEP 3: Fill Dataview
      Opts = null
      Opts.Input.[Dataview Set] = {{Args.[Highway DB] + "|" + line_layer, Args.[Capacity Lookup], {"Lookup"}, {"Lookup"}}, line_layer+"LookUp"}
@@ -192,5 +226,5 @@ Shared scen_data_dir
      Opts.Global.Parameter = "(Length*60)/PK_SPEED"
 
      ret_value = RunMacro("TCB Run Operation", "Fill Dataview", Opts, &Ret)
-
+*/
 EndMacro
