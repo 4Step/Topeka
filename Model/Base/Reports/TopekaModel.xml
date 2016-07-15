@@ -7107,4 +7107,15 @@
 <row><val> </val><val>Create Report</val><val>Run Reports</val><val>00:00:00</val></row>
 <line indent="2" string="Total Running Time: 00:01:15.00"/>
 </section>
+<section name="Batch Routine Report  (7/15/2016 12:36:02 PM)" string="">
+<table title=" " indent="2">
+<col name="Loop" width="15%"/>
+<col name="Stage" width="20%"/>
+<col name="Step" width="45%"/>
+<col name="Time" width="20%"/>
+</table>
+<row><val>Loop 1</val><val>Network Preparation</val><val>Setup Output Folder</val><val>00:00:01</val></row>
+<row><val> </val><val> </val><val>Compute Hwy Attributes</val><val>00:00:01</val></row>
+<line indent="2" string="Total Running Time: 00:00:02.00"/>
+</section>
 </TCLog>
